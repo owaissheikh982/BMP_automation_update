@@ -1,0 +1,3666 @@
+Timestamp,Test Case,Step,Status,Message
+9/30/2025 17:00,Affiliate Creation,Select Country & City,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter Driving License,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter Driving License Expiry,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter CNIC No.,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter CNIC Expiry,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter Business Address,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter Mailing Address,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter Type Of Affiliate,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter Comission Type,PASS,
+9/30/2025 17:00,Affiliate Creation,Select Currency,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter Bank Name,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter Account Title,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter IBAN No.,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter Payment Method,PASS,
+9/30/2025 17:00,Affiliate Creation,Enter Payment Terms,PASS,
+9/30/2025 17:00,Affiliate Creation,Select Contract Start Date,PASS,
+9/30/2025 17:00,Affiliate Creation,Select Contract End Date,PASS,
+9/30/2025 17:00,Affiliate Creation,Note / Special Instruction,PASS,
+9/30/2025 17:00,Affiliate Creation,Submit Form,PASS,
+9/30/2025 17:03,Affiliate Creation,Open Website,PASS,
+9/30/2025 17:03,Affiliate Creation,Login,PASS,
+9/30/2025 17:03,Affiliate Creation,Navigate to Affiliate,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 56, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, constent.AFFILIATE_BUTT0N))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 17:09,Affiliate Creation,Open Website,PASS,
+9/30/2025 17:09,Affiliate Creation,Login,PASS,
+9/30/2025 17:09,Affiliate Creation,Navigate to Affiliate,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 60, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, constent.AFFILIATE_BUTT0N))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 17:09,Affiliate Creation,Open Website,PASS,
+9/30/2025 17:09,Affiliate Creation,Login,FAIL,
+9/30/2025 17:10,Affiliate Creation,Navigate to Affiliate,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 60, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, constent.AFFILIATE_BUTT0N))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 17:12,Affiliate Creation,Open Website,PASS,
+9/30/2025 17:12,Affiliate Creation,Login,PASS,
+9/30/2025 17:12,Affiliate Creation,Navigate to Affiliate,PASS,
+9/30/2025 17:12,Affiliate Creation,Upload Profile Image,PASS,
+9/30/2025 17:12,Affiliate Creation,Upload Address,PASS,
+9/30/2025 17:12,Affiliate Creation,Upload Insurance Certificate,PASS,
+9/30/2025 17:12,Affiliate Creation,Upload Bank Verification,PASS,
+9/30/2025 17:12,Affiliate Creation,Enter First Name,PASS,
+9/30/2025 17:12,Affiliate Creation,Enter Last Name,PASS,
+9/30/2025 17:12,Affiliate Creation,Enter Phone Number,PASS,
+9/30/2025 17:12,Affiliate Creation,Enter Email,PASS,
+9/30/2025 17:13,Affiliate Creation,Select Country & City,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 153, in test_login_valid
+    wait.until(EC.presence_of_element_located(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, ""//div[text()='Abu Dhabi']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 17:13,Affiliate Creation,Enter Driving License,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter Driving License Expiry,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 172, in test_login_valid
+    calendar_driv.click()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input placeholder="" "" readonly="""" class=""text-sm focus:outline-none bg-transparent w-full placeholder:text-gray-dark "" type=""text"" value=""""> is not clickable at point (1387, 524). Other element would receive the click: <div class=""absolute z-20 mt-1 w-full bg-white shadow-lg rounded-md py-1 max-h-60 overflow-auto"" role=""listbox"">...</div>
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb97fe69]
+	(No symbol) [0x0x7ff7cb97d7ee]
+	(No symbol) [0x0x7ff7cb97a731]
+	(No symbol) [0x0x7ff7cb979620]
+	(No symbol) [0x0x7ff7cb96abc8]
+	(No symbol) [0x0x7ff7cb9a037a]
+	(No symbol) [0x0x7ff7cb96a456]
+	(No symbol) [0x0x7ff7cb9a0590]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 17:13,Affiliate Creation,Enter CNIC No.,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter CNIC Expiry,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter Business Address,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter Mailing Address,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter Type Of Affiliate,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter Comission Type,PASS,
+9/30/2025 17:13,Affiliate Creation,Select Currency,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter Bank Name,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter Account Title,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter IBAN No.,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter Payment Method,PASS,
+9/30/2025 17:13,Affiliate Creation,Enter Payment Terms,PASS,
+9/30/2025 17:13,Affiliate Creation,Select Contract Start Date,PASS,
+9/30/2025 17:13,Affiliate Creation,Select Contract End Date,PASS,
+9/30/2025 17:13,Affiliate Creation,Note / Special Instruction,PASS,
+9/30/2025 17:13,Affiliate Creation,Submit Form,PASS,
+9/30/2025 17:25,Affiliate Creation,Open Website,PASS,
+9/30/2025 17:25,Affiliate Creation,Login,PASS,
+9/30/2025 17:25,Affiliate Creation,Navigate to Affiliate,PASS,
+9/30/2025 17:25,Affiliate Creation,Upload Profile Image,PASS,
+9/30/2025 17:25,Affiliate Creation,Upload Address,PASS,
+9/30/2025 17:25,Affiliate Creation,Upload Insurance Certificate,PASS,
+9/30/2025 17:25,Affiliate Creation,Upload Bank Verification,PASS,
+9/30/2025 17:25,Affiliate Creation,Enter First Name,PASS,
+9/30/2025 17:25,Affiliate Creation,Enter Last Name,PASS,
+9/30/2025 17:25,Affiliate Creation,Enter Phone Number,PASS,
+9/30/2025 17:25,Affiliate Creation,Enter Email,PASS,
+9/30/2025 17:25,Affiliate Creation,Select Country & City,PASS,
+9/30/2025 17:25,Affiliate Creation,Enter Driving License,PASS,
+9/30/2025 17:25,Affiliate Creation,Enter Driving License Expiry,PASS,
+9/30/2025 17:25,Affiliate Creation,Enter CNIC No.,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter CNIC Expiry,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter Business Address,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter Mailing Address,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter Type Of Affiliate,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter Comission Type,PASS,
+9/30/2025 17:26,Affiliate Creation,Select Currency,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter Bank Name,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter Account Title,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter IBAN No.,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter Payment Method,PASS,
+9/30/2025 17:26,Affiliate Creation,Enter Payment Terms,PASS,
+9/30/2025 17:26,Affiliate Creation,Select Contract Start Date,PASS,
+9/30/2025 17:26,Affiliate Creation,Select Contract End Date,PASS,
+9/30/2025 17:26,Affiliate Creation,Note / Special Instruction,PASS,
+9/30/2025 17:26,Affiliate Creation,Submit Form,PASS,
+9/30/2025 17:26,Toast Message,PASS,,
+9/30/2025 17:30,Affiliate Creation,Open Website,PASS,
+9/30/2025 17:30,Affiliate Creation,Login,PASS,
+9/30/2025 17:30,Affiliate Creation,Navigate to Affiliate,PASS,
+9/30/2025 17:30,Affiliate Creation,Upload Profile Image,PASS,
+9/30/2025 17:30,Affiliate Creation,Upload Address,PASS,
+9/30/2025 17:30,Affiliate Creation,Upload Insurance Certificate,PASS,
+9/30/2025 17:30,Affiliate Creation,Upload Bank Verification,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter First Name,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Last Name,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Phone Number,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Email,PASS,
+9/30/2025 17:30,Affiliate Creation,Select Country & City,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Driving License,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Driving License Expiry,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter CNIC No.,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter CNIC Expiry,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Business Address,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Mailing Address,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Type Of Affiliate,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Comission Type,PASS,
+9/30/2025 17:30,Affiliate Creation,Select Currency,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Bank Name,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Account Title,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter IBAN No.,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Payment Method,PASS,
+9/30/2025 17:30,Affiliate Creation,Enter Payment Terms,PASS,
+9/30/2025 17:30,Affiliate Creation,Select Contract Start Date,PASS,
+9/30/2025 17:30,Affiliate Creation,Select Contract End Date,PASS,
+9/30/2025 17:30,Affiliate Creation,Note / Special Instruction,PASS,
+9/30/2025 17:30,Affiliate Creation,Submit Form,PASS,
+9/30/2025 17:30,Toast Message,PASS,Record Saved,
+9/30/2025 17:32,Affiliate Creation,Open Website,PASS,
+9/30/2025 17:32,Affiliate Creation,Login,PASS,
+9/30/2025 17:32,Affiliate Creation,Navigate to Affiliate,PASS,
+9/30/2025 17:32,Affiliate Creation,Upload Profile Image,PASS,
+9/30/2025 17:32,Affiliate Creation,Upload Address,PASS,
+9/30/2025 17:32,Affiliate Creation,Upload Insurance Certificate,PASS,
+9/30/2025 17:32,Affiliate Creation,Upload Bank Verification,PASS,
+9/30/2025 17:32,Affiliate Creation,Enter First Name,PASS,
+9/30/2025 17:32,Affiliate Creation,Enter Last Name,PASS,
+9/30/2025 17:32,Affiliate Creation,Enter Phone Number,PASS,
+9/30/2025 17:32,Affiliate Creation,Enter Email,PASS,
+9/30/2025 17:33,Affiliate Creation,Select Country & City,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 153, in test_login_valid
+    wait.until(EC.presence_of_element_located(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, ""//div[text()='Abu Dhabi']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 17:33,Affiliate Creation,Enter Driving License,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter Driving License Expiry,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 172, in test_login_valid
+    calendar_driv.click()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input placeholder="" "" readonly="""" class=""text-sm focus:outline-none bg-transparent w-full placeholder:text-gray-dark "" type=""text"" value=""""> is not clickable at point (1387, 524). Other element would receive the click: <div class=""absolute z-20 mt-1 w-full bg-white shadow-lg rounded-md py-1 max-h-60 overflow-auto"" role=""listbox"">...</div>
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb97fe69]
+	(No symbol) [0x0x7ff7cb97d7ee]
+	(No symbol) [0x0x7ff7cb97a731]
+	(No symbol) [0x0x7ff7cb979620]
+	(No symbol) [0x0x7ff7cb96abc8]
+	(No symbol) [0x0x7ff7cb9a037a]
+	(No symbol) [0x0x7ff7cb96a456]
+	(No symbol) [0x0x7ff7cb9a0590]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 17:33,Affiliate Creation,Enter CNIC No.,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter CNIC Expiry,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter Business Address,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter Mailing Address,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter Type Of Affiliate,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter Comission Type,PASS,
+9/30/2025 17:33,Affiliate Creation,Select Currency,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter Bank Name,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter Account Title,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter IBAN No.,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter Payment Method,PASS,
+9/30/2025 17:33,Affiliate Creation,Enter Payment Terms,PASS,
+9/30/2025 17:33,Affiliate Creation,Select Contract Start Date,PASS,
+9/30/2025 17:33,Affiliate Creation,Select Contract End Date,PASS,
+9/30/2025 17:33,Affiliate Creation,Note / Special Instruction,PASS,
+9/30/2025 17:33,Affiliate Creation,Submit Form,PASS,
+9/30/2025 17:33,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+",
+9/30/2025 17:34,Affiliate Creation,Open Website,PASS,
+9/30/2025 17:34,Affiliate Creation,Login,PASS,
+9/30/2025 17:35,Affiliate Creation,Navigate to Affiliate,PASS,
+9/30/2025 17:35,Affiliate Creation,Upload Profile Image,PASS,
+9/30/2025 17:35,Affiliate Creation,Upload Address,PASS,
+9/30/2025 17:35,Affiliate Creation,Upload Insurance Certificate,PASS,
+9/30/2025 17:35,Affiliate Creation,Upload Bank Verification,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter First Name,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Last Name,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Phone Number,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Email,PASS,
+9/30/2025 17:35,Affiliate Creation,Select Country & City,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 153, in test_login_valid
+    wait.until(EC.presence_of_element_located(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, ""//div[text()='Abu Dhabi']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 17:35,Affiliate Creation,Enter Driving License,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Driving License Expiry,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter CNIC No.,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter CNIC Expiry,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Business Address,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Mailing Address,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Type Of Affiliate,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 219, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.XPATH, ""//div[text()='2-5 Cars']""))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 623, in _predicate
+    element = visibility_of(target)(driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 252, in _predicate
+    return _element_if_visible(element)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 272, in _element_if_visible
+    return element if element.is_displayed() == visibility else False
+                      ~~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 342, in is_displayed
+    return self.parent.execute_script(f""/* isDisplayed */return ({isDisplayed_js}).apply(null, arguments);"", self)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 544, in execute_script
+    return self.execute(command, {""script"": script, ""args"": converted_args})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb927e5a]
+	(No symbol) [0x0x7ff7cb92b2b1]
+	(No symbol) [0x0x7ff7cb9c9b7b]
+	(No symbol) [0x0x7ff7cb9a037a]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 17:35,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Comission Type,PASS,
+9/30/2025 17:35,Affiliate Creation,Select Currency,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Bank Name,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Account Title,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter IBAN No.,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Payment Method,PASS,
+9/30/2025 17:35,Affiliate Creation,Enter Payment Terms,PASS,
+9/30/2025 17:35,Affiliate Creation,Select Contract Start Date,PASS,
+9/30/2025 17:35,Affiliate Creation,Select Contract End Date,PASS,
+9/30/2025 17:35,Affiliate Creation,Note / Special Instruction,PASS,
+9/30/2025 17:35,Affiliate Creation,Submit Form,PASS,
+9/30/2025 17:35,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+",
+9/30/2025 17:36,Affiliate Creation,Open Website,PASS,
+9/30/2025 17:36,Affiliate Creation,Login,PASS,
+9/30/2025 17:36,Affiliate Creation,Navigate to Affiliate,PASS,
+9/30/2025 17:36,Affiliate Creation,Upload Profile Image,PASS,
+9/30/2025 17:36,Affiliate Creation,Upload Address,PASS,
+9/30/2025 17:36,Affiliate Creation,Upload Insurance Certificate,PASS,
+9/30/2025 17:36,Affiliate Creation,Upload Bank Verification,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter First Name,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Last Name,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Phone Number,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Email,PASS,
+9/30/2025 17:36,Affiliate Creation,Select Country & City,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Driving License,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Driving License Expiry,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter CNIC No.,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter CNIC Expiry,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Business Address,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Mailing Address,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Type Of Affiliate,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Comission Type,PASS,
+9/30/2025 17:36,Affiliate Creation,Select Currency,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Bank Name,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Account Title,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter IBAN No.,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Payment Method,PASS,
+9/30/2025 17:36,Affiliate Creation,Enter Payment Terms,PASS,
+9/30/2025 17:36,Affiliate Creation,Select Contract Start Date,PASS,
+9/30/2025 17:36,Affiliate Creation,Select Contract End Date,PASS,
+9/30/2025 17:36,Affiliate Creation,Note / Special Instruction,PASS,
+9/30/2025 17:36,Affiliate Creation,Submit Form,PASS,
+9/30/2025 17:36,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+",
+9/30/2025 18:18,Affiliate Creation,Open Website,PASS,
+9/30/2025 18:18,Affiliate Creation,Login,PASS,
+9/30/2025 18:18,Affiliate Creation,Navigate to Affiliate,PASS,
+9/30/2025 18:18,Affiliate Creation,Upload Profile Image,PASS,
+9/30/2025 18:18,Affiliate Creation,Upload Address,PASS,
+9/30/2025 18:18,Affiliate Creation,Upload Insurance Certificate,PASS,
+9/30/2025 18:18,Affiliate Creation,Upload Bank Verification,PASS,
+9/30/2025 18:18,Affiliate Creation,Enter First Name,PASS,
+9/30/2025 18:18,Affiliate Creation,Enter Last Name,PASS,
+9/30/2025 18:18,Affiliate Creation,Enter Phone Number,PASS,
+9/30/2025 18:18,Affiliate Creation,Enter Email,PASS,
+9/30/2025 18:19,Affiliate Creation,Select Country & City,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 153, in test_login_valid
+    wait.until(EC.presence_of_element_located(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, ""//div[text()='Abu Dhabi']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 18:19,Affiliate Creation,Enter Driving License,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter Driving License Expiry,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter CNIC No.,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter CNIC Expiry,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter Business Address,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter Mailing Address,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter Type Of Affiliate,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter Comission Type,PASS,
+9/30/2025 18:19,Affiliate Creation,Select Currency,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter Bank Name,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter Account Title,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter IBAN No.,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter Payment Method,PASS,
+9/30/2025 18:19,Affiliate Creation,Enter Payment Terms,PASS,
+9/30/2025 18:19,Affiliate Creation,Select Contract Start Date,PASS,
+9/30/2025 18:19,Affiliate Creation,Select Contract End Date,PASS,
+9/30/2025 18:19,Affiliate Creation,Note / Special Instruction,PASS,
+9/30/2025 18:19,Affiliate Creation,Submit Form,PASS,
+9/30/2025 18:19,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+",
+9/30/2025 18:20,Affiliate Creation,Open Website,PASS,
+9/30/2025 18:20,Affiliate Creation,Login,PASS,
+9/30/2025 18:20,Affiliate Creation,Navigate to Affiliate,PASS,
+9/30/2025 18:20,Affiliate Creation,Upload Profile Image,PASS,
+9/30/2025 18:20,Affiliate Creation,Upload Address,PASS,
+9/30/2025 18:20,Affiliate Creation,Upload Insurance Certificate,PASS,
+9/30/2025 18:20,Affiliate Creation,Upload Bank Verification,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter First Name,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Last Name,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Phone Number,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Email,PASS,
+9/30/2025 18:20,Affiliate Creation,Select Country & City,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 153, in test_login_valid
+    wait.until(EC.presence_of_element_located(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, ""//div[text()='Abu Dhabi']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 18:20,Affiliate Creation,Enter Driving License,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Driving License Expiry,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 172, in test_login_valid
+    calendar_driv.click()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input placeholder="" "" readonly="""" class=""text-sm focus:outline-none bg-transparent w-full placeholder:text-gray-dark "" type=""text"" value=""""> is not clickable at point (1387, 524). Other element would receive the click: <div class=""absolute z-20 mt-1 w-full bg-white shadow-lg rounded-md py-1 max-h-60 overflow-auto"" role=""listbox"">...</div>
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb97fe69]
+	(No symbol) [0x0x7ff7cb97d7ee]
+	(No symbol) [0x0x7ff7cb97a731]
+	(No symbol) [0x0x7ff7cb979620]
+	(No symbol) [0x0x7ff7cb96abc8]
+	(No symbol) [0x0x7ff7cb9a037a]
+	(No symbol) [0x0x7ff7cb96a456]
+	(No symbol) [0x0x7ff7cb9a0590]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+9/30/2025 18:20,Affiliate Creation,Enter CNIC No.,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter CNIC Expiry,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Business Address,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Mailing Address,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Type Of Affiliate,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Comission Type,PASS,
+9/30/2025 18:20,Affiliate Creation,Select Currency,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Bank Name,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Account Title,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter IBAN No.,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Payment Method,PASS,
+9/30/2025 18:20,Affiliate Creation,Enter Payment Terms,PASS,
+9/30/2025 18:20,Affiliate Creation,Select Contract Start Date,PASS,
+9/30/2025 18:20,Affiliate Creation,Select Contract End Date,PASS,
+9/30/2025 18:20,Affiliate Creation,Note / Special Instruction,PASS,
+9/30/2025 18:20,Affiliate Creation,Submit Form,PASS,
+9/30/2025 18:20,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7cbba1eb5+80197]
+	GetHandleVerifier [0x0x7ff7cbba1f10+80288]
+	(No symbol) [0x0x7ff7cb9202fa]
+	(No symbol) [0x0x7ff7cb977cd7]
+	(No symbol) [0x0x7ff7cb977f9c]
+	(No symbol) [0x0x7ff7cb9cba87]
+	(No symbol) [0x0x7ff7cb9a03bf]
+	(No symbol) [0x0x7ff7cb9c87fb]
+	(No symbol) [0x0x7ff7cb9a0153]
+	(No symbol) [0x0x7ff7cb968b02]
+	(No symbol) [0x0x7ff7cb9698d3]
+	GetHandleVerifier [0x0x7ff7cbe5e83d+2949837]
+	GetHandleVerifier [0x0x7ff7cbe58c6a+2926330]
+	GetHandleVerifier [0x0x7ff7cbe786c7+3055959]
+	GetHandleVerifier [0x0x7ff7cbbbcfee+191102]
+	GetHandleVerifier [0x0x7ff7cbbc50af+224063]
+	GetHandleVerifier [0x0x7ff7cbbaaf64+117236]
+	GetHandleVerifier [0x0x7ff7cbbab119+117673]
+	GetHandleVerifier [0x0x7ff7cbb910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+",
+10/1/2025 11:35,Affiliate Creation,Open Website,PASS,
+10/1/2025 11:35,Affiliate Creation,Login,PASS,
+10/1/2025 11:35,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 11:35,Affiliate Creation,Upload Profile Image,PASS,
+10/1/2025 11:35,Affiliate Creation,Upload Address,PASS,
+10/1/2025 11:35,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/1/2025 11:35,Affiliate Creation,Upload Bank Verification,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter First Name,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Last Name,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Phone Number,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Email,PASS,
+10/1/2025 11:35,Affiliate Creation,Select Country & City,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Driving License,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Driving License Expiry,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter CNIC No.,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Business Address,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Mailing Address,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Comission Type,PASS,
+10/1/2025 11:35,Affiliate Creation,Select Currency,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Bank Name,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Account Title,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter IBAN No.,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Payment Method,PASS,
+10/1/2025 11:35,Affiliate Creation,Enter Payment Terms,PASS,
+10/1/2025 11:35,Affiliate Creation,Select Contract Start Date,PASS,
+10/1/2025 11:35,Affiliate Creation,Select Contract End Date,PASS,
+10/1/2025 11:35,Affiliate Creation,Note / Special Instruction,PASS,
+10/1/2025 11:35,Affiliate Creation,Submit Form,PASS,
+10/1/2025 11:35,Toast Message,PASS,Affiliate with this email already exists,
+10/1/2025 11:38,Affiliate Creation,Open Website,PASS,
+10/1/2025 11:38,Affiliate Creation,Login,PASS,
+10/1/2025 11:38,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 11:38,Affiliate Creation,Upload Profile Image,PASS,
+10/1/2025 11:38,Affiliate Creation,Upload Address,PASS,
+10/1/2025 11:38,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/1/2025 11:38,Affiliate Creation,Upload Bank Verification,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter First Name,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Last Name,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Phone Number,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Email,PASS,
+10/1/2025 11:38,Affiliate Creation,Select Country & City,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Driving License,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Driving License Expiry,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter CNIC No.,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Business Address,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Mailing Address,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Comission Type,PASS,
+10/1/2025 11:38,Affiliate Creation,Select Currency,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Bank Name,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Account Title,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter IBAN No.,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Payment Method,PASS,
+10/1/2025 11:38,Affiliate Creation,Enter Payment Terms,PASS,
+10/1/2025 11:38,Affiliate Creation,Select Contract Start Date,PASS,
+10/1/2025 11:38,Affiliate Creation,Select Contract End Date,PASS,
+10/1/2025 11:38,Affiliate Creation,Note / Special Instruction,PASS,
+10/1/2025 11:38,Affiliate Creation,Submit Form,PASS,
+10/1/2025 11:38,Toast Message,PASS,Record Saved,
+10/1/2025 11:38,Affiliate Creation,Open Website,PASS,
+10/1/2025 11:38,Affiliate Creation,Login,PASS,
+10/1/2025 11:39,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 11:39,Affiliate Creation,Upload Profile Image,PASS,
+10/1/2025 11:39,Affiliate Creation,Upload Address,PASS,
+10/1/2025 11:39,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/1/2025 11:39,Affiliate Creation,Upload Bank Verification,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter First Name,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Last Name,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Phone Number,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Email,PASS,
+10/1/2025 11:39,Affiliate Creation,Select Country & City,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 153, in test_login_valid
+    wait.until(EC.presence_of_element_located(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, ""//div[text()='Abu Dhabi']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6b0261eb5+80197]
+	GetHandleVerifier [0x0x7ff6b0261f10+80288]
+	(No symbol) [0x0x7ff6affe02fa]
+	(No symbol) [0x0x7ff6b0037cd7]
+	(No symbol) [0x0x7ff6b0037f9c]
+	(No symbol) [0x0x7ff6b008ba87]
+	(No symbol) [0x0x7ff6b00603bf]
+	(No symbol) [0x0x7ff6b00887fb]
+	(No symbol) [0x0x7ff6b0060153]
+	(No symbol) [0x0x7ff6b0028b02]
+	(No symbol) [0x0x7ff6b00298d3]
+	GetHandleVerifier [0x0x7ff6b051e83d+2949837]
+	GetHandleVerifier [0x0x7ff6b0518c6a+2926330]
+	GetHandleVerifier [0x0x7ff6b05386c7+3055959]
+	GetHandleVerifier [0x0x7ff6b027cfee+191102]
+	GetHandleVerifier [0x0x7ff6b02850af+224063]
+	GetHandleVerifier [0x0x7ff6b026af64+117236]
+	GetHandleVerifier [0x0x7ff6b026b119+117673]
+	GetHandleVerifier [0x0x7ff6b02510a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/1/2025 11:39,Affiliate Creation,Enter Driving License,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Driving License Expiry,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 172, in test_login_valid
+    calendar_driv.click()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input placeholder="" "" readonly="""" class=""text-sm focus:outline-none bg-transparent w-full placeholder:text-gray-dark "" type=""text"" value=""""> is not clickable at point (1387, 524). Other element would receive the click: <div class=""absolute z-20 mt-1 w-full bg-white shadow-lg rounded-md py-1 max-h-60 overflow-auto"" role=""listbox"">...</div>
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6b0261eb5+80197]
+	GetHandleVerifier [0x0x7ff6b0261f10+80288]
+	(No symbol) [0x0x7ff6affe02fa]
+	(No symbol) [0x0x7ff6b003fe69]
+	(No symbol) [0x0x7ff6b003d7ee]
+	(No symbol) [0x0x7ff6b003a731]
+	(No symbol) [0x0x7ff6b0039620]
+	(No symbol) [0x0x7ff6b002abc8]
+	(No symbol) [0x0x7ff6b006037a]
+	(No symbol) [0x0x7ff6b002a456]
+	(No symbol) [0x0x7ff6b0060590]
+	(No symbol) [0x0x7ff6b00887fb]
+	(No symbol) [0x0x7ff6b0060153]
+	(No symbol) [0x0x7ff6b0028b02]
+	(No symbol) [0x0x7ff6b00298d3]
+	GetHandleVerifier [0x0x7ff6b051e83d+2949837]
+	GetHandleVerifier [0x0x7ff6b0518c6a+2926330]
+	GetHandleVerifier [0x0x7ff6b05386c7+3055959]
+	GetHandleVerifier [0x0x7ff6b027cfee+191102]
+	GetHandleVerifier [0x0x7ff6b02850af+224063]
+	GetHandleVerifier [0x0x7ff6b026af64+117236]
+	GetHandleVerifier [0x0x7ff6b026b119+117673]
+	GetHandleVerifier [0x0x7ff6b02510a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/1/2025 11:39,Affiliate Creation,Enter CNIC No.,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Business Address,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Mailing Address,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Comission Type,PASS,
+10/1/2025 11:39,Affiliate Creation,Select Currency,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Bank Name,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Account Title,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter IBAN No.,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Payment Method,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Payment Terms,PASS,
+10/1/2025 11:39,Affiliate Creation,Select Contract Start Date,PASS,
+10/1/2025 11:39,Affiliate Creation,Select Contract End Date,PASS,
+10/1/2025 11:39,Affiliate Creation,Note / Special Instruction,PASS,
+10/1/2025 11:39,Affiliate Creation,Submit Form,PASS,
+10/1/2025 11:39,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6b0261eb5+80197]
+	GetHandleVerifier [0x0x7ff6b0261f10+80288]
+	(No symbol) [0x0x7ff6affe02fa]
+	(No symbol) [0x0x7ff6b0037cd7]
+	(No symbol) [0x0x7ff6b0037f9c]
+	(No symbol) [0x0x7ff6b008ba87]
+	(No symbol) [0x0x7ff6b00603bf]
+	(No symbol) [0x0x7ff6b00887fb]
+	(No symbol) [0x0x7ff6b0060153]
+	(No symbol) [0x0x7ff6b0028b02]
+	(No symbol) [0x0x7ff6b00298d3]
+	GetHandleVerifier [0x0x7ff6b051e83d+2949837]
+	GetHandleVerifier [0x0x7ff6b0518c6a+2926330]
+	GetHandleVerifier [0x0x7ff6b05386c7+3055959]
+	GetHandleVerifier [0x0x7ff6b027cfee+191102]
+	GetHandleVerifier [0x0x7ff6b02850af+224063]
+	GetHandleVerifier [0x0x7ff6b026af64+117236]
+	GetHandleVerifier [0x0x7ff6b026b119+117673]
+	GetHandleVerifier [0x0x7ff6b02510a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+",
+10/1/2025 11:39,Affiliate Creation,Open Website,PASS,
+10/1/2025 11:39,Affiliate Creation,Login,PASS,
+10/1/2025 11:39,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 11:39,Affiliate Creation,Upload Profile Image,PASS,
+10/1/2025 11:39,Affiliate Creation,Upload Address,PASS,
+10/1/2025 11:39,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/1/2025 11:39,Affiliate Creation,Upload Bank Verification,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter First Name,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Last Name,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Phone Number,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Email,PASS,
+10/1/2025 11:39,Affiliate Creation,Select Country & City,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Driving License,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Driving License Expiry,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter CNIC No.,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Business Address,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Mailing Address,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Comission Type,PASS,
+10/1/2025 11:39,Affiliate Creation,Select Currency,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Bank Name,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Account Title,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter IBAN No.,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Payment Method,PASS,
+10/1/2025 11:39,Affiliate Creation,Enter Payment Terms,PASS,
+10/1/2025 11:39,Affiliate Creation,Select Contract Start Date,PASS,
+10/1/2025 11:39,Affiliate Creation,Select Contract End Date,PASS,
+10/1/2025 11:39,Affiliate Creation,Note / Special Instruction,PASS,
+10/1/2025 11:39,Affiliate Creation,Submit Form,PASS,
+10/1/2025 11:40,Toast Message,PASS,Record Saved,
+10/1/2025 14:00,Affiliate Creation,Open Website,PASS,
+10/1/2025 14:00,Affiliate Creation,Login,PASS,
+10/1/2025 14:00,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 14:00,Affiliate Creation,Upload Profile Image,PASS,
+10/1/2025 14:00,Affiliate Creation,Upload Address,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 95, in test_login_valid
+    uploadaddress.send_keys("""")
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'text' is empty
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a9361eb5+80197]
+	GetHandleVerifier [0x0x7ff6a9361f10+80288]
+	(No symbol) [0x0x7ff6a90e02fa]
+	(No symbol) [0x0x7ff6a912f3b3]
+	(No symbol) [0x0x7ff6a916037a]
+	(No symbol) [0x0x7ff6a912a456]
+	(No symbol) [0x0x7ff6a9160590]
+	(No symbol) [0x0x7ff6a91887fb]
+	(No symbol) [0x0x7ff6a9160153]
+	(No symbol) [0x0x7ff6a9128b02]
+	(No symbol) [0x0x7ff6a91298d3]
+	GetHandleVerifier [0x0x7ff6a961e83d+2949837]
+	GetHandleVerifier [0x0x7ff6a9618c6a+2926330]
+	GetHandleVerifier [0x0x7ff6a96386c7+3055959]
+	GetHandleVerifier [0x0x7ff6a937cfee+191102]
+	GetHandleVerifier [0x0x7ff6a93850af+224063]
+	GetHandleVerifier [0x0x7ff6a936af64+117236]
+	GetHandleVerifier [0x0x7ff6a936b119+117673]
+	GetHandleVerifier [0x0x7ff6a93510a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/1/2025 14:04,Affiliate Creation,Open Website,PASS,
+10/1/2025 14:04,Affiliate Creation,Login,PASS,
+10/1/2025 14:05,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 14:05,Affiliate Creation,Upload Profile Image,PASS,
+10/1/2025 14:05,Affiliate Creation,Upload Address,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 95, in test_login_valid
+    uploadaddress.send_keys("""")
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidArgumentException: Message: invalid argument: 'text' is empty
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a9361eb5+80197]
+	GetHandleVerifier [0x0x7ff6a9361f10+80288]
+	(No symbol) [0x0x7ff6a90e02fa]
+	(No symbol) [0x0x7ff6a912f3b3]
+	(No symbol) [0x0x7ff6a916037a]
+	(No symbol) [0x0x7ff6a912a456]
+	(No symbol) [0x0x7ff6a9160590]
+	(No symbol) [0x0x7ff6a91887fb]
+	(No symbol) [0x0x7ff6a9160153]
+	(No symbol) [0x0x7ff6a9128b02]
+	(No symbol) [0x0x7ff6a91298d3]
+	GetHandleVerifier [0x0x7ff6a961e83d+2949837]
+	GetHandleVerifier [0x0x7ff6a9618c6a+2926330]
+	GetHandleVerifier [0x0x7ff6a96386c7+3055959]
+	GetHandleVerifier [0x0x7ff6a937cfee+191102]
+	GetHandleVerifier [0x0x7ff6a93850af+224063]
+	GetHandleVerifier [0x0x7ff6a936af64+117236]
+	GetHandleVerifier [0x0x7ff6a936b119+117673]
+	GetHandleVerifier [0x0x7ff6a93510a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/1/2025 14:07,Affiliate Creation,Open Website,PASS,
+10/1/2025 14:07,Affiliate Creation,Login,PASS,
+10/1/2025 14:07,Affiliate Creation,Navigate to Affiliate,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate.py"", line 73, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, constent.ADD_AFFILIATE_BUTTON))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a9361eb5+80197]
+	GetHandleVerifier [0x0x7ff6a9361f10+80288]
+	(No symbol) [0x0x7ff6a90e02fa]
+	(No symbol) [0x0x7ff6a9137cd7]
+	(No symbol) [0x0x7ff6a9137f9c]
+	(No symbol) [0x0x7ff6a918ba87]
+	(No symbol) [0x0x7ff6a91603bf]
+	(No symbol) [0x0x7ff6a91887fb]
+	(No symbol) [0x0x7ff6a9160153]
+	(No symbol) [0x0x7ff6a9128b02]
+	(No symbol) [0x0x7ff6a91298d3]
+	GetHandleVerifier [0x0x7ff6a961e83d+2949837]
+	GetHandleVerifier [0x0x7ff6a9618c6a+2926330]
+	GetHandleVerifier [0x0x7ff6a96386c7+3055959]
+	GetHandleVerifier [0x0x7ff6a937cfee+191102]
+	GetHandleVerifier [0x0x7ff6a93850af+224063]
+	GetHandleVerifier [0x0x7ff6a936af64+117236]
+	GetHandleVerifier [0x0x7ff6a936b119+117673]
+	GetHandleVerifier [0x0x7ff6a93510a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/1/2025 14:12,Affiliate Creation,Open Website,PASS,
+10/1/2025 14:12,Affiliate Creation,Login,PASS,
+10/1/2025 14:12,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 14:12,Affiliate Creation,Upload Profile Image,PASS,
+10/1/2025 14:12,Affiliate Creation,Upload Address,PASS,
+10/1/2025 14:12,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/1/2025 14:12,Affiliate Creation,Upload Bank Verification,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter First Name,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Last Name,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Phone Number,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Email,PASS,
+10/1/2025 14:12,Affiliate Creation,Select Country & City,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Driving License,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Driving License Expiry,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter CNIC No.,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Business Address,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Mailing Address,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Comission Type,PASS,
+10/1/2025 14:12,Affiliate Creation,Select Currency,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Bank Name,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Account Title,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter IBAN No.,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Payment Method,PASS,
+10/1/2025 14:12,Affiliate Creation,Enter Payment Terms,PASS,
+10/1/2025 14:12,Affiliate Creation,Select Contract Start Date,PASS,
+10/1/2025 14:12,Affiliate Creation,Select Contract End Date,PASS,
+10/1/2025 14:12,Affiliate Creation,Note / Special Instruction,PASS,
+10/1/2025 14:12,Affiliate Creation,Submit Form,PASS,
+10/1/2025 14:12,Toast Message,PASS,Record Saved,
+10/1/2025 14:18,Affiliate Creation,Open Website,PASS,
+10/1/2025 14:18,Affiliate Creation,Login,PASS,
+10/1/2025 14:18,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 14:18,Affiliate Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty.py"", line 355, in test_login_valid
+    (By.XPATH, constent.FORM_SUBMIT))).click()
+                                       ~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (1880, 701)
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a9361eb5+80197]
+	GetHandleVerifier [0x0x7ff6a9361f10+80288]
+	(No symbol) [0x0x7ff6a90e02fa]
+	(No symbol) [0x0x7ff6a913fe69]
+	(No symbol) [0x0x7ff6a913d7ee]
+	(No symbol) [0x0x7ff6a913a731]
+	(No symbol) [0x0x7ff6a9139620]
+	(No symbol) [0x0x7ff6a912abc8]
+	(No symbol) [0x0x7ff6a916037a]
+	(No symbol) [0x0x7ff6a912a456]
+	(No symbol) [0x0x7ff6a9160590]
+	(No symbol) [0x0x7ff6a91887fb]
+	(No symbol) [0x0x7ff6a9160153]
+	(No symbol) [0x0x7ff6a9128b02]
+	(No symbol) [0x0x7ff6a91298d3]
+	GetHandleVerifier [0x0x7ff6a961e83d+2949837]
+	GetHandleVerifier [0x0x7ff6a9618c6a+2926330]
+	GetHandleVerifier [0x0x7ff6a96386c7+3055959]
+	GetHandleVerifier [0x0x7ff6a937cfee+191102]
+	GetHandleVerifier [0x0x7ff6a93850af+224063]
+	GetHandleVerifier [0x0x7ff6a936af64+117236]
+	GetHandleVerifier [0x0x7ff6a936b119+117673]
+	GetHandleVerifier [0x0x7ff6a93510a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/1/2025 14:20,Affiliate Creation,Open Website,PASS,
+10/1/2025 14:20,Affiliate Creation,Login,PASS,
+10/1/2025 14:20,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 14:20,Affiliate Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty.py"", line 355, in test_login_valid
+    (By.XPATH, constent.FORM_SUBMIT))).click()
+                                       ~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (1667, 701)
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a9361eb5+80197]
+	GetHandleVerifier [0x0x7ff6a9361f10+80288]
+	(No symbol) [0x0x7ff6a90e02fa]
+	(No symbol) [0x0x7ff6a913fe69]
+	(No symbol) [0x0x7ff6a913d7ee]
+	(No symbol) [0x0x7ff6a913a731]
+	(No symbol) [0x0x7ff6a9139620]
+	(No symbol) [0x0x7ff6a912abc8]
+	(No symbol) [0x0x7ff6a916037a]
+	(No symbol) [0x0x7ff6a912a456]
+	(No symbol) [0x0x7ff6a9160590]
+	(No symbol) [0x0x7ff6a91887fb]
+	(No symbol) [0x0x7ff6a9160153]
+	(No symbol) [0x0x7ff6a9128b02]
+	(No symbol) [0x0x7ff6a91298d3]
+	GetHandleVerifier [0x0x7ff6a961e83d+2949837]
+	GetHandleVerifier [0x0x7ff6a9618c6a+2926330]
+	GetHandleVerifier [0x0x7ff6a96386c7+3055959]
+	GetHandleVerifier [0x0x7ff6a937cfee+191102]
+	GetHandleVerifier [0x0x7ff6a93850af+224063]
+	GetHandleVerifier [0x0x7ff6a936af64+117236]
+	GetHandleVerifier [0x0x7ff6a936b119+117673]
+	GetHandleVerifier [0x0x7ff6a93510a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/1/2025 14:29,Affiliate Creation,Open Website,PASS,
+10/1/2025 14:29,Affiliate Creation,Login,PASS,
+10/1/2025 14:29,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 14:29,Affiliate Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty.py"", line 355, in test_login_valid
+    (By.XPATH, constent.FORM_SUBMIT))).click()
+                                       ~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (1733, 701)
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff762201eb5+80197]
+	GetHandleVerifier [0x0x7ff762201f10+80288]
+	(No symbol) [0x0x7ff761f802fa]
+	(No symbol) [0x0x7ff761fdfe69]
+	(No symbol) [0x0x7ff761fdd7ee]
+	(No symbol) [0x0x7ff761fda731]
+	(No symbol) [0x0x7ff761fd9620]
+	(No symbol) [0x0x7ff761fcabc8]
+	(No symbol) [0x0x7ff76200037a]
+	(No symbol) [0x0x7ff761fca456]
+	(No symbol) [0x0x7ff762000590]
+	(No symbol) [0x0x7ff7620287fb]
+	(No symbol) [0x0x7ff762000153]
+	(No symbol) [0x0x7ff761fc8b02]
+	(No symbol) [0x0x7ff761fc98d3]
+	GetHandleVerifier [0x0x7ff7624be83d+2949837]
+	GetHandleVerifier [0x0x7ff7624b8c6a+2926330]
+	GetHandleVerifier [0x0x7ff7624d86c7+3055959]
+	GetHandleVerifier [0x0x7ff76221cfee+191102]
+	GetHandleVerifier [0x0x7ff7622250af+224063]
+	GetHandleVerifier [0x0x7ff76220af64+117236]
+	GetHandleVerifier [0x0x7ff76220b119+117673]
+	GetHandleVerifier [0x0x7ff7621f10a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/1/2025 15:47,Affiliate Creation,Open Website,PASS,
+10/1/2025 15:47,Affiliate Creation,Login,PASS,
+10/1/2025 15:48,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 15:48,Affiliate Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty.py"", line 357, in test_login_valid
+    (By.XPATH, constent.FORM_SUBMIT))).click()
+                                       ~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (2001, 701)
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff646481eb5+80197]
+	GetHandleVerifier [0x0x7ff646481f10+80288]
+	(No symbol) [0x0x7ff6462002fa]
+	(No symbol) [0x0x7ff64625fe69]
+	(No symbol) [0x0x7ff64625d7ee]
+	(No symbol) [0x0x7ff64625a731]
+	(No symbol) [0x0x7ff646259620]
+	(No symbol) [0x0x7ff64624abc8]
+	(No symbol) [0x0x7ff64628037a]
+	(No symbol) [0x0x7ff64624a456]
+	(No symbol) [0x0x7ff646280590]
+	(No symbol) [0x0x7ff6462a87fb]
+	(No symbol) [0x0x7ff646280153]
+	(No symbol) [0x0x7ff646248b02]
+	(No symbol) [0x0x7ff6462498d3]
+	GetHandleVerifier [0x0x7ff64673e83d+2949837]
+	GetHandleVerifier [0x0x7ff646738c6a+2926330]
+	GetHandleVerifier [0x0x7ff6467586c7+3055959]
+	GetHandleVerifier [0x0x7ff64649cfee+191102]
+	GetHandleVerifier [0x0x7ff6464a50af+224063]
+	GetHandleVerifier [0x0x7ff64648af64+117236]
+	GetHandleVerifier [0x0x7ff64648b119+117673]
+	GetHandleVerifier [0x0x7ff6464710a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/1/2025 15:51,Affiliate Creation,Open Website,PASS,
+10/1/2025 15:52,Affiliate Creation,Login,PASS,
+10/1/2025 15:52,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 15:52,Affiliate Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty.py"", line 357, in test_login_valid
+    (By.XPATH, constent.FORM_SUBMIT))).click()
+                                       ~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (1880, 701)
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff646481eb5+80197]
+	GetHandleVerifier [0x0x7ff646481f10+80288]
+	(No symbol) [0x0x7ff6462002fa]
+	(No symbol) [0x0x7ff64625fe69]
+	(No symbol) [0x0x7ff64625d7ee]
+	(No symbol) [0x0x7ff64625a731]
+	(No symbol) [0x0x7ff646259620]
+	(No symbol) [0x0x7ff64624abc8]
+	(No symbol) [0x0x7ff64628037a]
+	(No symbol) [0x0x7ff64624a456]
+	(No symbol) [0x0x7ff646280590]
+	(No symbol) [0x0x7ff6462a87fb]
+	(No symbol) [0x0x7ff646280153]
+	(No symbol) [0x0x7ff646248b02]
+	(No symbol) [0x0x7ff6462498d3]
+	GetHandleVerifier [0x0x7ff64673e83d+2949837]
+	GetHandleVerifier [0x0x7ff646738c6a+2926330]
+	GetHandleVerifier [0x0x7ff6467586c7+3055959]
+	GetHandleVerifier [0x0x7ff64649cfee+191102]
+	GetHandleVerifier [0x0x7ff6464a50af+224063]
+	GetHandleVerifier [0x0x7ff64648af64+117236]
+	GetHandleVerifier [0x0x7ff64648b119+117673]
+	GetHandleVerifier [0x0x7ff6464710a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/1/2025 15:54,Affiliate Creation,Open Website,PASS,
+10/1/2025 15:54,Affiliate Creation,Login,PASS,
+10/1/2025 15:54,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 15:54,Affiliate Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty.py"", line 357, in test_login_valid
+    (By.XPATH, constent.FORM_SUBMIT))).click()
+                                       ~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (2000, 701)
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff646481eb5+80197]
+	GetHandleVerifier [0x0x7ff646481f10+80288]
+	(No symbol) [0x0x7ff6462002fa]
+	(No symbol) [0x0x7ff64625fe69]
+	(No symbol) [0x0x7ff64625d7ee]
+	(No symbol) [0x0x7ff64625a731]
+	(No symbol) [0x0x7ff646259620]
+	(No symbol) [0x0x7ff64624abc8]
+	(No symbol) [0x0x7ff64628037a]
+	(No symbol) [0x0x7ff64624a456]
+	(No symbol) [0x0x7ff646280590]
+	(No symbol) [0x0x7ff6462a87fb]
+	(No symbol) [0x0x7ff646280153]
+	(No symbol) [0x0x7ff646248b02]
+	(No symbol) [0x0x7ff6462498d3]
+	GetHandleVerifier [0x0x7ff64673e83d+2949837]
+	GetHandleVerifier [0x0x7ff646738c6a+2926330]
+	GetHandleVerifier [0x0x7ff6467586c7+3055959]
+	GetHandleVerifier [0x0x7ff64649cfee+191102]
+	GetHandleVerifier [0x0x7ff6464a50af+224063]
+	GetHandleVerifier [0x0x7ff64648af64+117236]
+	GetHandleVerifier [0x0x7ff64648b119+117673]
+	GetHandleVerifier [0x0x7ff6464710a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/1/2025 17:30,Affiliate Creation,Open Website,PASS,
+10/1/2025 17:30,Affiliate Creation,Login,PASS,
+10/1/2025 17:31,Affiliate Creation,Navigate to Affiliate,PASS,
+10/1/2025 17:31,Affiliate Creation,Upload Profile Image,PASS,
+10/1/2025 17:31,Affiliate Creation,Upload Address,PASS,
+10/1/2025 17:31,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/1/2025 17:31,Affiliate Creation,Upload Bank Verification,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter First Name,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Last Name,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Phone Number,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Email,PASS,
+10/1/2025 17:31,Affiliate Creation,Select Country & City,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Driving License,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Driving License Expiry,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter CNIC No.,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Business Address,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Mailing Address,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Comission Type,PASS,
+10/1/2025 17:31,Affiliate Creation,Select Currency,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Bank Name,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Account Title,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter IBAN No.,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Payment Method,PASS,
+10/1/2025 17:31,Affiliate Creation,Enter Payment Terms,PASS,
+10/1/2025 17:31,Affiliate Creation,Select Contract Start Date,PASS,
+10/1/2025 17:31,Affiliate Creation,Select Contract End Date,PASS,
+10/1/2025 17:31,Affiliate Creation,Note / Special Instruction,PASS,
+10/1/2025 17:31,Affiliate Creation,Submit Form,PASS,
+10/1/2025 17:31,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7546b1eb5+80197]
+	GetHandleVerifier [0x0x7ff7546b1f10+80288]
+	(No symbol) [0x0x7ff7544302fa]
+	(No symbol) [0x0x7ff754487cd7]
+	(No symbol) [0x0x7ff754487f9c]
+	(No symbol) [0x0x7ff7544dba87]
+	(No symbol) [0x0x7ff7544b03bf]
+	(No symbol) [0x0x7ff7544d87fb]
+	(No symbol) [0x0x7ff7544b0153]
+	(No symbol) [0x0x7ff754478b02]
+	(No symbol) [0x0x7ff7544798d3]
+	GetHandleVerifier [0x0x7ff75496e83d+2949837]
+	GetHandleVerifier [0x0x7ff754968c6a+2926330]
+	GetHandleVerifier [0x0x7ff7549886c7+3055959]
+	GetHandleVerifier [0x0x7ff7546ccfee+191102]
+	GetHandleVerifier [0x0x7ff7546d50af+224063]
+	GetHandleVerifier [0x0x7ff7546baf64+117236]
+	GetHandleVerifier [0x0x7ff7546bb119+117673]
+	GetHandleVerifier [0x0x7ff7546a10a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+",
+10/2/2025 15:58,Affiliate Creation,Open Website,PASS,
+10/2/2025 15:58,Affiliate Creation,Login,PASS,
+10/2/2025 15:58,Affiliate Creation,Navigate to Affiliate,PASS,
+10/2/2025 15:58,Affiliate Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty.py"", line 357, in test_login_valid
+    (By.XPATH, constent.FORM_SUBMIT))).click()
+                                       ~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element is not clickable at point (2098, 701)
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6061a1eb5+80197]
+	GetHandleVerifier [0x0x7ff6061a1f10+80288]
+	(No symbol) [0x0x7ff605f202fa]
+	(No symbol) [0x0x7ff605f7fe69]
+	(No symbol) [0x0x7ff605f7d7ee]
+	(No symbol) [0x0x7ff605f7a731]
+	(No symbol) [0x0x7ff605f79620]
+	(No symbol) [0x0x7ff605f6abc8]
+	(No symbol) [0x0x7ff605fa037a]
+	(No symbol) [0x0x7ff605f6a456]
+	(No symbol) [0x0x7ff605fa0590]
+	(No symbol) [0x0x7ff605fc87fb]
+	(No symbol) [0x0x7ff605fa0153]
+	(No symbol) [0x0x7ff605f68b02]
+	(No symbol) [0x0x7ff605f698d3]
+	GetHandleVerifier [0x0x7ff60645e83d+2949837]
+	GetHandleVerifier [0x0x7ff606458c6a+2926330]
+	GetHandleVerifier [0x0x7ff6064786c7+3055959]
+	GetHandleVerifier [0x0x7ff6061bcfee+191102]
+	GetHandleVerifier [0x0x7ff6061c50af+224063]
+	GetHandleVerifier [0x0x7ff6061aaf64+117236]
+	GetHandleVerifier [0x0x7ff6061ab119+117673]
+	GetHandleVerifier [0x0x7ff6061910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/2/2025 16:02,Affiliate Creation,Open Website,PASS,
+10/2/2025 16:02,Affiliate Creation,Login,PASS,
+10/2/2025 16:02,Affiliate Creation,Navigate to Affiliate,PASS,
+10/2/2025 16:02,Affiliate Creation,Submit Form,PASS,
+10/2/2025 16:02,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6061a1eb5+80197]
+	GetHandleVerifier [0x0x7ff6061a1f10+80288]
+	(No symbol) [0x0x7ff605f202fa]
+	(No symbol) [0x0x7ff605f77cd7]
+	(No symbol) [0x0x7ff605f77f9c]
+	(No symbol) [0x0x7ff605fcba87]
+	(No symbol) [0x0x7ff605fa03bf]
+	(No symbol) [0x0x7ff605fc87fb]
+	(No symbol) [0x0x7ff605fa0153]
+	(No symbol) [0x0x7ff605f68b02]
+	(No symbol) [0x0x7ff605f698d3]
+	GetHandleVerifier [0x0x7ff60645e83d+2949837]
+	GetHandleVerifier [0x0x7ff606458c6a+2926330]
+	GetHandleVerifier [0x0x7ff6064786c7+3055959]
+	GetHandleVerifier [0x0x7ff6061bcfee+191102]
+	GetHandleVerifier [0x0x7ff6061c50af+224063]
+	GetHandleVerifier [0x0x7ff6061aaf64+117236]
+	GetHandleVerifier [0x0x7ff6061ab119+117673]
+	GetHandleVerifier [0x0x7ff6061910a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+",
+10/2/2025 16:02,Validation,Proof of address,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty.py"", line 37, in check_validation
+    self.assertIn(expected_msg, error_msg)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\unittest\case.py"", line 1174, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\unittest\case.py"", line 732, in fail
+    raise self.failureException(msg)
+AssertionError: 'Proof of address is required is required' not found in 'Proof of address is required'
+"
+10/2/2025 16:02,Validation,Insurance certificate,PASS,Insurance certificate is required
+10/2/2025 16:02,Validation,Bank account verification,PASS,Bank account verification document is required
+10/2/2025 16:02,Validation,First name,PASS,First name is required
+10/2/2025 16:02,Validation,Last name,PASS,Last name is required
+10/2/2025 17:02,Affiliate Creation,Open Website,PASS,
+10/2/2025 17:02,Affiliate Creation,Login,PASS,
+10/2/2025 17:02,Affiliate Creation,Navigate to Affiliate,PASS,
+10/2/2025 17:02,Affiliate Creation,Upload Profile Image,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate copy.py"", line 25, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff79b271eb5+80197]
+	GetHandleVerifier [0x0x7ff79b271f10+80288]
+	(No symbol) [0x0x7ff79aff02fa]
+	(No symbol) [0x0x7ff79b047cd7]
+	(No symbol) [0x0x7ff79b047f9c]
+	(No symbol) [0x0x7ff79b09ba87]
+	(No symbol) [0x0x7ff79b0703bf]
+	(No symbol) [0x0x7ff79b0987fb]
+	(No symbol) [0x0x7ff79b070153]
+	(No symbol) [0x0x7ff79b038b02]
+	(No symbol) [0x0x7ff79b0398d3]
+	GetHandleVerifier [0x0x7ff79b52e83d+2949837]
+	GetHandleVerifier [0x0x7ff79b528c6a+2926330]
+	GetHandleVerifier [0x0x7ff79b5486c7+3055959]
+	GetHandleVerifier [0x0x7ff79b28cfee+191102]
+	GetHandleVerifier [0x0x7ff79b2950af+224063]
+	GetHandleVerifier [0x0x7ff79b27af64+117236]
+	GetHandleVerifier [0x0x7ff79b27b119+117673]
+	GetHandleVerifier [0x0x7ff79b2610a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/2/2025 17:02,Affiliate Creation,Upload Address,PASS,
+10/2/2025 17:02,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/2/2025 17:02,Affiliate Creation,Upload Bank Verification,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter First Name,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Last Name,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Phone Number,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Email,PASS,
+10/2/2025 17:02,Affiliate Creation,Select Country & City,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Driving License,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Driving License Expiry,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter CNIC No.,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Business Address,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Mailing Address,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Comission Type,PASS,
+10/2/2025 17:02,Affiliate Creation,Select Currency,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Bank Name,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Account Title,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter IBAN No.,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Payment Method,PASS,
+10/2/2025 17:02,Affiliate Creation,Enter Payment Terms,PASS,
+10/2/2025 17:02,Affiliate Creation,Select Contract Start Date,PASS,
+10/2/2025 17:02,Affiliate Creation,Select Contract End Date,PASS,
+10/2/2025 17:02,Affiliate Creation,Note / Special Instruction,PASS,
+10/2/2025 17:02,Affiliate Creation,Submit Form,PASS,
+10/2/2025 17:03,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff79b271eb5+80197]
+	GetHandleVerifier [0x0x7ff79b271f10+80288]
+	(No symbol) [0x0x7ff79aff02fa]
+	(No symbol) [0x0x7ff79b047cd7]
+	(No symbol) [0x0x7ff79b047f9c]
+	(No symbol) [0x0x7ff79b09ba87]
+	(No symbol) [0x0x7ff79b0703bf]
+	(No symbol) [0x0x7ff79b0987fb]
+	(No symbol) [0x0x7ff79b070153]
+	(No symbol) [0x0x7ff79b038b02]
+	(No symbol) [0x0x7ff79b0398d3]
+	GetHandleVerifier [0x0x7ff79b52e83d+2949837]
+	GetHandleVerifier [0x0x7ff79b528c6a+2926330]
+	GetHandleVerifier [0x0x7ff79b5486c7+3055959]
+	GetHandleVerifier [0x0x7ff79b28cfee+191102]
+	GetHandleVerifier [0x0x7ff79b2950af+224063]
+	GetHandleVerifier [0x0x7ff79b27af64+117236]
+	GetHandleVerifier [0x0x7ff79b27b119+117673]
+	GetHandleVerifier [0x0x7ff79b2610a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+",
+10/2/2025 17:19,Affiliate Creation,Open Website,PASS,
+10/2/2025 17:19,Affiliate Creation,Login,PASS,
+10/2/2025 17:19,Affiliate Creation,Navigate to Affiliate,PASS,
+10/2/2025 17:19,Affiliate Creation,Upload Profile Image,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate copy.py"", line 25, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff79b271eb5+80197]
+	GetHandleVerifier [0x0x7ff79b271f10+80288]
+	(No symbol) [0x0x7ff79aff02fa]
+	(No symbol) [0x0x7ff79b047cd7]
+	(No symbol) [0x0x7ff79b047f9c]
+	(No symbol) [0x0x7ff79b09ba87]
+	(No symbol) [0x0x7ff79b0703bf]
+	(No symbol) [0x0x7ff79b0987fb]
+	(No symbol) [0x0x7ff79b070153]
+	(No symbol) [0x0x7ff79b038b02]
+	(No symbol) [0x0x7ff79b0398d3]
+	GetHandleVerifier [0x0x7ff79b52e83d+2949837]
+	GetHandleVerifier [0x0x7ff79b528c6a+2926330]
+	GetHandleVerifier [0x0x7ff79b5486c7+3055959]
+	GetHandleVerifier [0x0x7ff79b28cfee+191102]
+	GetHandleVerifier [0x0x7ff79b2950af+224063]
+	GetHandleVerifier [0x0x7ff79b27af64+117236]
+	GetHandleVerifier [0x0x7ff79b27b119+117673]
+	GetHandleVerifier [0x0x7ff79b2610a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/2/2025 17:19,Affiliate Creation,Upload Address,PASS,
+10/2/2025 17:19,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/2/2025 17:19,Affiliate Creation,Upload Bank Verification,PASS,
+10/2/2025 17:19,Affiliate Creation,Enter First Name,PASS,
+10/2/2025 17:19,Affiliate Creation,Enter Last Name,PASS,
+10/2/2025 17:19,Affiliate Creation,Enter Phone Number,PASS,
+10/2/2025 17:19,Affiliate Creation,Enter Email,PASS,
+10/2/2025 17:20,Affiliate Creation,Select Country & City,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter Driving License,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter Driving License Expiry,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter CNIC No.,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter Business Address,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter Mailing Address,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter Comission Type,PASS,
+10/2/2025 17:20,Affiliate Creation,Select Currency,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter Bank Name,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter Account Title,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter IBAN No.,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter Payment Method,PASS,
+10/2/2025 17:20,Affiliate Creation,Enter Payment Terms,PASS,
+10/2/2025 17:20,Affiliate Creation,Select Contract Start Date,PASS,
+10/2/2025 17:20,Affiliate Creation,Select Contract End Date,PASS,
+10/2/2025 17:20,Affiliate Creation,Note / Special Instruction,PASS,
+10/2/2025 17:20,Affiliate Creation,Submit Form,PASS,
+10/2/2025 17:20,Toast Message,PASS,Record Saved,
+10/2/2025 18:34,Affiliate Creation,Open Website,PASS,
+10/2/2025 18:35,Affiliate Creation,Login,PASS,
+10/2/2025 18:35,Affiliate Creation,Navigate to Affiliate,PASS,
+10/2/2025 18:35,Affiliate Creation,Upload Profile Image,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate copy.py"", line 25, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff79b271eb5+80197]
+	GetHandleVerifier [0x0x7ff79b271f10+80288]
+	(No symbol) [0x0x7ff79aff02fa]
+	(No symbol) [0x0x7ff79b047cd7]
+	(No symbol) [0x0x7ff79b047f9c]
+	(No symbol) [0x0x7ff79b09ba87]
+	(No symbol) [0x0x7ff79b0703bf]
+	(No symbol) [0x0x7ff79b0987fb]
+	(No symbol) [0x0x7ff79b070153]
+	(No symbol) [0x0x7ff79b038b02]
+	(No symbol) [0x0x7ff79b0398d3]
+	GetHandleVerifier [0x0x7ff79b52e83d+2949837]
+	GetHandleVerifier [0x0x7ff79b528c6a+2926330]
+	GetHandleVerifier [0x0x7ff79b5486c7+3055959]
+	GetHandleVerifier [0x0x7ff79b28cfee+191102]
+	GetHandleVerifier [0x0x7ff79b2950af+224063]
+	GetHandleVerifier [0x0x7ff79b27af64+117236]
+	GetHandleVerifier [0x0x7ff79b27b119+117673]
+	GetHandleVerifier [0x0x7ff79b2610a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/2/2025 18:35,Affiliate Creation,Upload Address,PASS,
+10/2/2025 18:35,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/2/2025 18:35,Affiliate Creation,Upload Bank Verification,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter First Name,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Last Name,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Phone Number,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Email,PASS,
+10/2/2025 18:35,Affiliate Creation,Select Country & City,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Driving License,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Driving License Expiry,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter CNIC No.,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Business Address,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Mailing Address,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Comission Type,PASS,
+10/2/2025 18:35,Affiliate Creation,Select Currency,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Bank Name,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Account Title,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter IBAN No.,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Payment Method,PASS,
+10/2/2025 18:35,Affiliate Creation,Enter Payment Terms,PASS,
+10/2/2025 18:35,Affiliate Creation,Select Contract Start Date,PASS,
+10/2/2025 18:35,Affiliate Creation,Select Contract End Date,PASS,
+10/2/2025 18:35,Affiliate Creation,Note / Special Instruction,PASS,
+10/2/2025 18:35,Affiliate Creation,Submit Form,PASS,
+10/2/2025 18:35,Toast Message,PASS,Record Saved,
+10/2/2025 18:57,Affiliate Creation,Open Website,PASS,
+10/2/2025 18:57,Affiliate Creation,Login,PASS,
+10/2/2025 18:57,Affiliate Creation,Navigate to Affiliate,PASS,
+10/2/2025 18:57,Affiliate Creation,Upload Profile Image,PASS,
+10/2/2025 18:57,Affiliate Creation,Upload Address,PASS,
+10/2/2025 18:57,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/2/2025 18:57,Affiliate Creation,Upload Bank Verification,PASS,
+10/2/2025 18:57,Affiliate Creation,Enter First Name,PASS,
+10/2/2025 18:57,Affiliate Creation,Enter Last Name,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Phone Number,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Email,PASS,
+10/2/2025 18:58,Affiliate Creation,Select Country & City,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate copy.py"", line 156, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.NAME, ""city_id""))).click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <input placeholder="" "" class=""text-sm focus:outline-none bg-transparent w-full placeholder:text-gray-dark truncate "" aria-autocomplete=""list"" aria-haspopup=""listbox"" aria-expanded=""false"" autocomplete=""off"" type=""text"" value="""" name=""city_id""> is not clickable at point (1383, 373). Other element would receive the click: <div class=""grid grid-cols-2 gap-x-2 gap-y-8"">...</div>
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff60ba21eb5+80197]
+	GetHandleVerifier [0x0x7ff60ba21f10+80288]
+	(No symbol) [0x0x7ff60b7a02fa]
+	(No symbol) [0x0x7ff60b7ffe69]
+	(No symbol) [0x0x7ff60b7fd7ee]
+	(No symbol) [0x0x7ff60b7fa731]
+	(No symbol) [0x0x7ff60b7f9620]
+	(No symbol) [0x0x7ff60b7eabc8]
+	(No symbol) [0x0x7ff60b82037a]
+	(No symbol) [0x0x7ff60b7ea456]
+	(No symbol) [0x0x7ff60b820590]
+	(No symbol) [0x0x7ff60b8487fb]
+	(No symbol) [0x0x7ff60b820153]
+	(No symbol) [0x0x7ff60b7e8b02]
+	(No symbol) [0x0x7ff60b7e98d3]
+	GetHandleVerifier [0x0x7ff60bcde83d+2949837]
+	GetHandleVerifier [0x0x7ff60bcd8c6a+2926330]
+	GetHandleVerifier [0x0x7ff60bcf86c7+3055959]
+	GetHandleVerifier [0x0x7ff60ba3cfee+191102]
+	GetHandleVerifier [0x0x7ff60ba450af+224063]
+	GetHandleVerifier [0x0x7ff60ba2af64+117236]
+	GetHandleVerifier [0x0x7ff60ba2b119+117673]
+	GetHandleVerifier [0x0x7ff60ba110a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+
+"
+10/2/2025 18:58,Affiliate Creation,Enter Driving License,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Driving License Expiry,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter CNIC No.,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Business Address,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Mailing Address,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Comission Type,PASS,
+10/2/2025 18:58,Affiliate Creation,Select Currency,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Bank Name,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Account Title,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter IBAN No.,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Payment Method,PASS,
+10/2/2025 18:58,Affiliate Creation,Enter Payment Terms,PASS,
+10/2/2025 18:58,Affiliate Creation,Select Contract Start Date,PASS,
+10/2/2025 18:58,Affiliate Creation,Select Contract End Date,PASS,
+10/2/2025 18:58,Affiliate Creation,Note / Special Instruction,PASS,
+10/2/2025 18:58,Affiliate Creation,Submit Form,PASS,
+10/2/2025 18:58,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff60ba21eb5+80197]
+	GetHandleVerifier [0x0x7ff60ba21f10+80288]
+	(No symbol) [0x0x7ff60b7a02fa]
+	(No symbol) [0x0x7ff60b7f7cd7]
+	(No symbol) [0x0x7ff60b7f7f9c]
+	(No symbol) [0x0x7ff60b84ba87]
+	(No symbol) [0x0x7ff60b8203bf]
+	(No symbol) [0x0x7ff60b8487fb]
+	(No symbol) [0x0x7ff60b820153]
+	(No symbol) [0x0x7ff60b7e8b02]
+	(No symbol) [0x0x7ff60b7e98d3]
+	GetHandleVerifier [0x0x7ff60bcde83d+2949837]
+	GetHandleVerifier [0x0x7ff60bcd8c6a+2926330]
+	GetHandleVerifier [0x0x7ff60bcf86c7+3055959]
+	GetHandleVerifier [0x0x7ff60ba3cfee+191102]
+	GetHandleVerifier [0x0x7ff60ba450af+224063]
+	GetHandleVerifier [0x0x7ff60ba2af64+117236]
+	GetHandleVerifier [0x0x7ff60ba2b119+117673]
+	GetHandleVerifier [0x0x7ff60ba110a8+11064]
+	BaseThreadInitThunk [0x0x7ffd697e7374+20]
+	RtlUserThreadStart [0x0x7ffd6a91cc91+33]
+",
+10/2/2025 19:07,Affiliate Creation,Open Website,PASS,
+10/2/2025 19:07,Affiliate Creation,Login,PASS,
+10/2/2025 19:07,Affiliate Creation,Navigate to Affiliate,PASS,
+10/2/2025 19:07,Affiliate Creation,Upload Profile Image,PASS,
+10/2/2025 19:07,Affiliate Creation,Upload Address,PASS,
+10/2/2025 19:07,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/2/2025 19:07,Affiliate Creation,Upload Bank Verification,PASS,
+10/2/2025 19:07,Affiliate Creation,Enter First Name,PASS,
+10/2/2025 19:07,Affiliate Creation,Enter Last Name,PASS,
+10/2/2025 19:07,Affiliate Creation,Enter Phone Number,PASS,
+10/2/2025 19:08,Affiliate Creation,Open Website,PASS,
+10/2/2025 19:08,Affiliate Creation,Login,PASS,
+10/2/2025 19:08,Affiliate Creation,Navigate to Affiliate,PASS,
+10/2/2025 19:08,Affiliate Creation,Upload Profile Image,PASS,
+10/2/2025 19:08,Affiliate Creation,Upload Address,PASS,
+10/2/2025 19:08,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/2/2025 19:08,Affiliate Creation,Upload Bank Verification,PASS,
+10/2/2025 19:08,Affiliate Creation,Enter First Name,PASS,
+10/2/2025 19:08,Affiliate Creation,Enter Last Name,PASS,
+10/2/2025 19:11,Affiliate Creation,Open Website,PASS,
+10/2/2025 19:11,Affiliate Creation,Login,PASS,
+10/2/2025 19:11,Affiliate Creation,Navigate to Affiliate,PASS,
+10/2/2025 19:11,Affiliate Creation,Upload Profile Image,PASS,
+10/2/2025 19:11,Affiliate Creation,Upload Address,PASS,
+10/2/2025 19:11,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/2/2025 19:11,Affiliate Creation,Upload Bank Verification,PASS,
+10/2/2025 19:11,Affiliate Creation,Enter First Name,PASS,
+10/2/2025 19:11,Affiliate Creation,Enter Last Name,PASS,
+10/2/2025 19:13,Affiliate Creation,Open Website,PASS,
+10/2/2025 19:13,Affiliate Creation,Login,PASS,
+10/2/2025 19:13,Affiliate Creation,Navigate to Affiliate,PASS,
+10/2/2025 19:13,Affiliate Creation,Upload Profile Image,PASS,
+10/2/2025 19:13,Affiliate Creation,Upload Address,PASS,
+10/2/2025 19:13,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/2/2025 19:13,Affiliate Creation,Upload Bank Verification,PASS,
+10/2/2025 19:13,Affiliate Creation,Enter First Name,PASS,
+10/2/2025 19:13,Affiliate Creation,Enter Last Name,PASS,
+10/8/2025 17:49,Affiliate Creation,Open Website,PASS,
+10/8/2025 17:49,Affiliate Creation,Login,PASS,
+10/8/2025 17:50,Affiliate Creation,Navigate to Affiliate,PASS,
+10/8/2025 17:50,Affiliate Creation,Upload Profile Image,PASS,
+10/8/2025 17:50,Affiliate Creation,Upload Address,PASS,
+10/8/2025 17:50,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/8/2025 17:50,Affiliate Creation,Upload Bank Verification,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter First Name,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Last Name,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Phone Number,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Email,PASS,
+10/8/2025 17:50,Affiliate Creation,Select Country & City,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Driving License,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Driving License Expiry,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter CNIC No.,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Business Address,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Mailing Address,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Comission Type,PASS,
+10/8/2025 17:50,Affiliate Creation,Select Currency,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Bank Name,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Account Title,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter IBAN No.,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Payment Method,PASS,
+10/8/2025 17:50,Affiliate Creation,Enter Payment Terms,PASS,
+10/8/2025 17:50,Affiliate Creation,Select Contract Start Date,PASS,
+10/8/2025 17:50,Affiliate Creation,Select Contract End Date,PASS,
+10/8/2025 17:50,Affiliate Creation,Note / Special Instruction,PASS,
+10/8/2025 17:50,Affiliate Creation,Submit Form,PASS,
+10/8/2025 17:50,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff77e3d1eb5+80197]
+	GetHandleVerifier [0x0x7ff77e3d1f10+80288]
+	(No symbol) [0x0x7ff77e1502fa]
+	(No symbol) [0x0x7ff77e1a7cd7]
+	(No symbol) [0x0x7ff77e1a7f9c]
+	(No symbol) [0x0x7ff77e1fba87]
+	(No symbol) [0x0x7ff77e1d03bf]
+	(No symbol) [0x0x7ff77e1f87fb]
+	(No symbol) [0x0x7ff77e1d0153]
+	(No symbol) [0x0x7ff77e198b02]
+	(No symbol) [0x0x7ff77e1998d3]
+	GetHandleVerifier [0x0x7ff77e68e83d+2949837]
+	GetHandleVerifier [0x0x7ff77e688c6a+2926330]
+	GetHandleVerifier [0x0x7ff77e6a86c7+3055959]
+	GetHandleVerifier [0x0x7ff77e3ecfee+191102]
+	GetHandleVerifier [0x0x7ff77e3f50af+224063]
+	GetHandleVerifier [0x0x7ff77e3daf64+117236]
+	GetHandleVerifier [0x0x7ff77e3db119+117673]
+	GetHandleVerifier [0x0x7ff77e3c10a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+",
+10/9/2025 13:08,Affiliate Creation,Open Website,PASS,
+10/9/2025 13:08,Affiliate Creation,Login,PASS,
+10/9/2025 13:08,Affiliate Creation,Navigate to Affiliate,PASS,
+10/9/2025 13:08,Affiliate Creation,Upload Profile Image,PASS,
+10/9/2025 13:08,Affiliate Creation,Upload Address,PASS,
+10/9/2025 13:08,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/9/2025 13:08,Affiliate Creation,Upload Bank Verification,PASS,
+10/9/2025 13:08,Affiliate Creation,Enter First Name,PASS,
+10/9/2025 13:08,Affiliate Creation,Enter Last Name,PASS,
+10/9/2025 13:13,Affiliate Creation,Open Website,PASS,
+10/9/2025 13:13,Affiliate Creation,Login,PASS,
+10/9/2025 13:13,Affiliate Creation,Navigate to Affiliate,PASS,
+10/9/2025 13:13,Affiliate Creation,Upload Profile Image,PASS,
+10/9/2025 13:13,Affiliate Creation,Upload Address,PASS,
+10/9/2025 13:13,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/9/2025 13:13,Affiliate Creation,Upload Bank Verification,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter First Name,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Last Name,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Phone Number,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Email,PASS,
+10/9/2025 13:13,Affiliate Creation,Select Country & City,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Driving License,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Driving License Expiry,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter CNIC No.,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter CNIC Expiry,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Business Address,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Mailing Address,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Comission Type,PASS,
+10/9/2025 13:13,Affiliate Creation,Select Currency,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Bank Name,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Account Title,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter IBAN No.,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Payment Method,PASS,
+10/9/2025 13:13,Affiliate Creation,Enter Payment Terms,PASS,
+10/9/2025 13:13,Affiliate Creation,Select Contract Start Date,PASS,
+10/9/2025 13:13,Affiliate Creation,Select Contract End Date,PASS,
+10/9/2025 13:13,Affiliate Creation,Note / Special Instruction,PASS,
+10/9/2025 13:13,Affiliate Creation,Submit Form,PASS,
+10/9/2025 13:13,Toast Message,PASS,Record Saved,
+10/9/2025 15:23,Affiliate Creation,Open Website,PASS,
+10/9/2025 15:23,Affiliate Creation,Login,PASS,
+10/9/2025 15:23,Affiliate Creation,Navigate to Affiliate,PASS,
+10/9/2025 15:23,Affiliate Creation,Submit Form,PASS,
+10/9/2025 15:23,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff659221eb5+80197]
+	GetHandleVerifier [0x0x7ff659221f10+80288]
+	(No symbol) [0x0x7ff658fa02fa]
+	(No symbol) [0x0x7ff658ff7cd7]
+	(No symbol) [0x0x7ff658ff7f9c]
+	(No symbol) [0x0x7ff65904ba87]
+	(No symbol) [0x0x7ff6590203bf]
+	(No symbol) [0x0x7ff6590487fb]
+	(No symbol) [0x0x7ff659020153]
+	(No symbol) [0x0x7ff658fe8b02]
+	(No symbol) [0x0x7ff658fe98d3]
+	GetHandleVerifier [0x0x7ff6594de83d+2949837]
+	GetHandleVerifier [0x0x7ff6594d8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6594f86c7+3055959]
+	GetHandleVerifier [0x0x7ff65923cfee+191102]
+	GetHandleVerifier [0x0x7ff6592450af+224063]
+	GetHandleVerifier [0x0x7ff65922af64+117236]
+	GetHandleVerifier [0x0x7ff65922b119+117673]
+	GetHandleVerifier [0x0x7ff6592110a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+",
+10/9/2025 15:23,Validation,Proof of address,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty.py"", line 37, in check_validation
+    self.assertIn(expected_msg, error_msg)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\unittest\case.py"", line 1174, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\unittest\case.py"", line 732, in fail
+    raise self.failureException(msg)
+AssertionError: 'Proof of address is required is required' not found in 'Proof of address is required'
+"
+10/9/2025 15:23,Validation,Insurance certificate,PASS,Insurance certificate is required
+10/9/2025 15:23,Validation,Bank account verification,PASS,Bank account verification document is required
+10/9/2025 15:23,Validation,First name,PASS,First name is required
+10/9/2025 15:23,Validation,Last name,PASS,Last name is required
+10/9/2025 15:23,Validation,Phone number,PASS,Phone number is required
+10/9/2025 15:28,Affiliate Creation,Open Website,PASS,
+10/9/2025 15:28,Affiliate Creation,Login,PASS,
+10/9/2025 15:28,Affiliate Creation,Navigate to Affiliate,PASS,
+10/9/2025 15:28,Affiliate Creation,Submit Form,PASS,
+10/9/2025 15:28,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff659221eb5+80197]
+	GetHandleVerifier [0x0x7ff659221f10+80288]
+	(No symbol) [0x0x7ff658fa02fa]
+	(No symbol) [0x0x7ff658ff7cd7]
+	(No symbol) [0x0x7ff658ff7f9c]
+	(No symbol) [0x0x7ff65904ba87]
+	(No symbol) [0x0x7ff6590203bf]
+	(No symbol) [0x0x7ff6590487fb]
+	(No symbol) [0x0x7ff659020153]
+	(No symbol) [0x0x7ff658fe8b02]
+	(No symbol) [0x0x7ff658fe98d3]
+	GetHandleVerifier [0x0x7ff6594de83d+2949837]
+	GetHandleVerifier [0x0x7ff6594d8c6a+2926330]
+	GetHandleVerifier [0x0x7ff6594f86c7+3055959]
+	GetHandleVerifier [0x0x7ff65923cfee+191102]
+	GetHandleVerifier [0x0x7ff6592450af+224063]
+	GetHandleVerifier [0x0x7ff65922af64+117236]
+	GetHandleVerifier [0x0x7ff65922b119+117673]
+	GetHandleVerifier [0x0x7ff6592110a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+",
+10/9/2025 15:28,Validation,Proof of address,PASS,Proof of address is required
+10/9/2025 15:28,Validation,Insurance certificate,PASS,Insurance certificate is required
+10/9/2025 15:28,Validation,Bank account verification,PASS,Bank account verification document is required
+10/9/2025 15:28,Validation,First name,PASS,First name is required
+10/9/2025 15:28,Validation,Last name,PASS,Last name is required
+10/9/2025 15:28,Validation,Phone number,PASS,Phone number is required
+10/10/2025 16:38,Affiliate Creation,Open Website,PASS,
+10/10/2025 16:38,Affiliate Creation,Login,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_form.py"", line 46, in test_login_valid
+    wait.until(EC.presence_of_element_located((By.NAME, constent.EMAIL_NAME))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+            ).send_keys(constent.EMAIL)
+            ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0682a1]
+	(No symbol) [0x0x7ff63f11799e]
+	(No symbol) [0x0x7ff63f138132]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+
+"
+10/10/2025 16:39,Affiliate Creation,Open Website,PASS,
+10/10/2025 16:39,Affiliate Creation,Login,PASS,
+10/10/2025 16:39,Affiliate Creation,Navigate to Affiliate,PASS,
+10/10/2025 16:39,Affiliate Creation,Upload Address,PASS,
+10/10/2025 16:39,Affiliate Creation,Enter First Name,PASS,
+10/10/2025 16:39,Affiliate Creation,Submit Form,PASS,
+10/10/2025 16:39,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+",
+10/10/2025 16:39,Validation,Proof of address,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty_validation.py"", line 34, in check_validation
+    error_msg = self.wait.until(
+                ~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located((By.XPATH, xpath))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ).text
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+
+"
+10/10/2025 16:39,Validation,Insurance certificate,PASS,Insurance certificate is required
+10/10/2025 16:39,Validation,Bank account verification,PASS,Bank account verification document is required
+10/10/2025 16:39,Validation,First name,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty_validation.py"", line 34, in check_validation
+    error_msg = self.wait.until(
+                ~~~~~~~~~~~~~~~^
+        EC.presence_of_element_located((By.XPATH, xpath))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ).text
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+
+"
+10/10/2025 16:39,Validation,Last name,PASS,Last name is required
+10/10/2025 16:39,Validation,Phone number,PASS,Phone number is required
+10/10/2025 17:46,Affiliate Creation,Open Website,PASS,
+10/10/2025 17:46,Affiliate Creation,Login,PASS,
+10/10/2025 17:46,Affiliate Creation,Navigate to Affiliate,PASS,
+10/10/2025 17:46,Affiliate Creation,Upload Profile Image,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty_validation.py"", line 189, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+
+"
+10/10/2025 17:46,Affiliate Creation,Upload Address,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty_validation.py"", line 190, in fill_field
+    element.clear()
+    ~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 156, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f09011c]
+	(No symbol) [0x0x7ff63f0dcfe6]
+	(No symbol) [0x0x7ff63f11037a]
+	(No symbol) [0x0x7ff63f0da456]
+	(No symbol) [0x0x7ff63f110590]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+
+"
+10/10/2025 17:46,Affiliate Creation,Click Save,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty_validation.py"", line 271, in test_affiliate_form
+    save_btn = wait.until(EC.element_to_be_clickable((By.XPATH, constent.SAVE_BUTTON)))
+                                                                ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'constent' has no attribute 'SAVE_BUTTON'
+"
+10/10/2025 17:46,Validation,Proof of address,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Proof of address_20251010_174639.png"
+10/10/2025 17:46,Validation,Insurance certificate,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Insurance certificate_20251010_174650.png"
+10/10/2025 17:47,Validation,Bank account verification,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Bank account verification_20251010_174700.png"
+10/10/2025 17:47,Validation,First name,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/First name_20251010_174710.png"
+10/10/2025 17:47,Validation,Last name,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Last name_20251010_174720.png"
+10/10/2025 17:50,Affiliate Creation,Open Website,PASS,
+10/10/2025 17:50,Affiliate Creation,Login,PASS,
+10/10/2025 17:50,Affiliate Creation,Navigate to Affiliate,PASS,
+10/10/2025 17:50,Affiliate Creation,Upload Profile Image,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty_validation.py"", line 189, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+
+"
+10/10/2025 17:50,Affiliate Creation,Upload Address,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty_validation.py"", line 190, in fill_field
+    element.clear()
+    ~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 156, in clear
+    self._execute(Command.CLEAR_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f09011c]
+	(No symbol) [0x0x7ff63f0dcfe6]
+	(No symbol) [0x0x7ff63f11037a]
+	(No symbol) [0x0x7ff63f0da456]
+	(No symbol) [0x0x7ff63f110590]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+
+"
+10/10/2025 17:50,Affiliate Creation,Click Save,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty_validation.py"", line 271, in test_affiliate_form
+    save_btn = wait.until(EC.element_to_be_clickable((By.XPATH, constent.SAVE_BUTTON)))
+                                                                ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'constent' has no attribute 'SAVE_BUTTON'
+"
+10/10/2025 17:50,Validation,Proof of address,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Proof of address_20251010_175043.png"
+10/10/2025 17:50,Validation,Insurance certificate,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Insurance certificate_20251010_175053.png"
+10/10/2025 17:51,Validation,Bank account verification,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Bank account verification_20251010_175104.png"
+10/10/2025 17:51,Validation,First name,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/First name_20251010_175114.png"
+10/10/2025 17:51,Validation,Last name,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Last name_20251010_175125.png"
+10/10/2025 17:51,Validation,Phone number,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Phone number_20251010_175135.png"
+10/10/2025 17:56,Affiliate Creation,Open Website,PASS,
+10/10/2025 17:56,Affiliate Creation,Login,PASS,
+10/10/2025 17:57,Affiliate Creation,Navigate to Affiliate,PASS,
+10/10/2025 17:57,Affiliate Creation,Upload Profile Image,PASS,
+10/10/2025 17:57,Affiliate Creation,Upload Address,PASS,
+10/10/2025 17:57,Affiliate Creation,Click Save,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty_validation.py"", line 270, in test_affiliate_form
+    save_btn = wait.until(EC.element_to_be_clickable((By.XPATH, constent.SAVE_BUTTON)))
+                                                                ^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'constent' has no attribute 'SAVE_BUTTON'
+"
+10/10/2025 17:57,Validation,Proof of address,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Proof of address_20251010_175714.png"
+10/10/2025 17:57,Validation,Insurance certificate,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Insurance certificate_20251010_175725.png"
+10/10/2025 17:57,Validation,Bank account verification,PASS,Bank account verification document is required
+10/10/2025 17:57,Validation,First name,PASS,First name is required
+10/10/2025 17:57,Validation,Last name,PASS,Last name is required
+10/10/2025 17:57,Validation,Phone number,PASS,Phone number is required
+10/10/2025 18:00,Affiliate Creation,Open Website,PASS,
+10/10/2025 18:00,Affiliate Creation,Login,PASS,
+10/10/2025 18:01,Affiliate Creation,Navigate to Affiliate,PASS,
+10/10/2025 18:01,Affiliate Creation,Upload Profile Image,PASS,
+10/10/2025 18:01,Affiliate Creation,Upload Address,PASS,
+10/10/2025 18:01,Affiliate Creation,Submit Form,PASS,
+10/10/2025 18:01,Validation,Proof of address,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Proof of address_20251010_180112.png"
+10/10/2025 18:01,Validation,Insurance certificate,PASS,Insurance certificate is required
+10/10/2025 18:01,Validation,Bank account verification,PASS,Bank account verification document is required
+10/10/2025 18:01,Validation,First name,PASS,First name is required
+10/10/2025 18:01,Validation,Last name,PASS,Last name is required
+10/10/2025 18:01,Validation,Phone number,PASS,Phone number is required
+10/10/2025 18:04,Affiliate Creation,Open Website,PASS,
+10/10/2025 18:04,Affiliate Creation,Login,PASS,
+10/10/2025 18:04,Affiliate Creation,Navigate to Affiliate,PASS,
+10/10/2025 18:04,Affiliate Creation,Upload Profile Image,PASS,
+10/10/2025 18:04,Affiliate Creation,Upload Address,PASS,
+10/10/2025 18:04,Affiliate Creation,Click Save,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty_validation.py"", line 274, in test_affiliate_form
+    submit_btn.click()
+    ~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-slot=""button"" class=""inline-flex items-center justify-center gap-2 whitespace-nowrap disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 px-6 has-[&gt;svg]:px-4 text-sm rounded-md transition font-normal cursor-pointer"" type=""submit"">...</button> is not clickable at point (1452, 681). Other element would receive the click: <div class=""w-full h-32 flex flex-col items-center justify-center border-2 border-dashed rounded cursor-pointer hover:border-primary transition-all border-[#ABCCFB] gap-2"">...</div>
+  (Session info: chrome=140.0.7339.208)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0efe69]
+	(No symbol) [0x0x7ff63f0ed7ee]
+	(No symbol) [0x0x7ff63f0ea731]
+	(No symbol) [0x0x7ff63f0e9620]
+	(No symbol) [0x0x7ff63f0daf65]
+	(No symbol) [0x0x7ff63f11037a]
+	(No symbol) [0x0x7ff63f0da456]
+	(No symbol) [0x0x7ff63f110590]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+
+"
+10/10/2025 18:05,Validation,Proof of address,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Proof of address_20251010_180508.png"
+10/10/2025 18:05,Validation,Insurance certificate,PASS,Insurance certificate is required
+10/10/2025 18:05,Validation,Bank account verification,PASS,Bank account verification document is required
+10/10/2025 18:05,Validation,First name,PASS,First name is required
+10/10/2025 18:05,Validation,Last name,PASS,Last name is required
+10/10/2025 18:05,Validation,Phone number,PASS,Phone number is required
+10/10/2025 18:09,Affiliate Creation,Open Website,PASS,
+10/10/2025 18:09,Affiliate Creation,Login,PASS,
+10/10/2025 18:09,Affiliate Creation,Navigate to Affiliate,PASS,
+10/10/2025 18:09,Affiliate Creation,Upload Profile Image,PASS,
+10/10/2025 18:09,Affiliate Creation,Upload Address,PASS,
+10/10/2025 18:09,Affiliate Creation,Submit Form,PASS,
+10/10/2025 18:10,Affiliate Creation,Open Website,PASS,
+10/10/2025 18:10,Affiliate Creation,Login,PASS,
+10/10/2025 18:10,Affiliate Creation,Navigate to Affiliate,PASS,
+10/10/2025 18:10,Affiliate Creation,Upload Profile Image,PASS,
+10/10/2025 18:10,Affiliate Creation,Upload Address,PASS,
+10/10/2025 18:10,Affiliate Creation,Submit Form,PASS,
+10/10/2025 18:11,Validation,Proof of address,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Proof of address_20251010_181102.png"
+10/10/2025 18:11,Validation,Insurance certificate,PASS,Insurance certificate is required
+10/10/2025 18:11,Validation,Bank account verification,PASS,Bank account verification document is required
+10/10/2025 18:11,Validation,First name,PASS,First name is required
+10/10/2025 18:11,Validation,Last name,PASS,Last name is required
+10/10/2025 18:11,Validation,Phone number,PASS,Phone number is required
+10/10/2025 18:11,Validation,Email Address,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Email Address_20251010_181112.png"
+10/10/2025 18:11,Validation,Country,PASS,Country is required
+10/10/2025 18:11,Validation,City,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/City_20251010_181123.png"
+10/10/2025 18:15,Affiliate Creation,Open Website,PASS,
+10/10/2025 18:15,Affiliate Creation,Login,PASS,
+10/10/2025 18:15,Affiliate Creation,Navigate to Affiliate,PASS,
+10/10/2025 18:15,Affiliate Creation,Upload Profile Image,PASS,
+10/10/2025 18:15,Affiliate Creation,Upload Address,PASS,
+10/10/2025 18:15,Affiliate Creation,Submit Form,PASS,
+10/10/2025 18:15,Validation,Proof of address,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff63f311eb5+80197]
+	GetHandleVerifier [0x0x7ff63f311f10+80288]
+	(No symbol) [0x0x7ff63f0902fa]
+	(No symbol) [0x0x7ff63f0e7cd7]
+	(No symbol) [0x0x7ff63f0e7f9c]
+	(No symbol) [0x0x7ff63f13ba87]
+	(No symbol) [0x0x7ff63f1103bf]
+	(No symbol) [0x0x7ff63f1387fb]
+	(No symbol) [0x0x7ff63f110153]
+	(No symbol) [0x0x7ff63f0d8b02]
+	(No symbol) [0x0x7ff63f0d98d3]
+	GetHandleVerifier [0x0x7ff63f5ce83d+2949837]
+	GetHandleVerifier [0x0x7ff63f5c8c6a+2926330]
+	GetHandleVerifier [0x0x7ff63f5e86c7+3055959]
+	GetHandleVerifier [0x0x7ff63f32cfee+191102]
+	GetHandleVerifier [0x0x7ff63f3350af+224063]
+	GetHandleVerifier [0x0x7ff63f31af64+117236]
+	GetHandleVerifier [0x0x7ff63f31b119+117673]
+	GetHandleVerifier [0x0x7ff63f3010a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Proof of address_20251010_181524.png"
+10/10/2025 18:15,Validation,Insurance certificate,PASS,Insurance certificate is required
+10/10/2025 18:15,Validation,Bank account verification,PASS,Bank account verification document is required
+10/10/2025 18:15,Validation,First name,PASS,First name is required
+10/10/2025 18:15,Validation,Last name,PASS,Last name is required
+10/10/2025 18:15,Validation,Phone number,PASS,Phone number is required
+10/10/2025 18:15,Validation,Email Address,FAIL,"Expected 'Email Address is required', got 'Invalid email address' | Screenshot: screenshots/Email Address_20251010_181525.png"
+10/10/2025 18:15,Validation,Country,PASS,Country is required
+10/10/2025 18:15,Validation,City,FAIL,"Expected 'City is required', got 'City/State is required' | Screenshot: screenshots/City_20251010_181525.png"
+10/10/2025 18:22,Affiliate Creation,Open Website,PASS,
+10/10/2025 18:22,Affiliate Creation,Login,PASS,
+10/10/2025 18:22,Affiliate Creation,Navigate to Affiliate,PASS,
+10/10/2025 18:22,Affiliate Creation,Upload Profile Image,PASS,
+10/10/2025 18:22,Affiliate Creation,Submit Form,PASS,
+10/10/2025 18:22,Validation,Proof of address,PASS,Proof of address is required
+10/10/2025 18:22,Validation,Insurance certificate,PASS,Insurance certificate is required
+10/10/2025 18:22,Validation,Bank account verification,PASS,Bank account verification document is required
+10/10/2025 18:22,Validation,First name,PASS,First name is required
+10/10/2025 18:22,Validation,Last name,PASS,Last name is required
+10/10/2025 18:22,Validation,Phone number,PASS,Phone number is required
+10/10/2025 18:22,Validation,Email Address,PASS,Invalid email address
+10/10/2025 18:22,Validation,Country,PASS,Country is required
+10/10/2025 18:22,Validation,City,PASS,City/State is required
+10/10/2025 18:22,Validation,Driving license,PASS,Driving license number is required
+10/10/2025 18:22,Validation,License Expiry Date,PASS,"Expected date, received null"
+10/10/2025 18:22,Validation,National ID/Passport,PASS,National ID/Passport is required
+10/10/2025 18:22,Validation,ID Expiry Date,PASS,"Expected date, received null"
+10/12/2025 19:14,Affiliate Creation,Open Website,PASS,
+10/12/2025 19:15,Affiliate Creation,Login,PASS,
+10/12/2025 19:15,Affiliate Creation,Navigate to Affiliate,PASS,
+10/12/2025 19:15,Affiliate Creation,Upload Profile Image,PASS,
+10/12/2025 19:15,Affiliate Creation,Upload Address,PASS,
+10/12/2025 19:15,Affiliate Creation,Upload Insurance Certificate,PASS,
+10/12/2025 19:15,Affiliate Creation,Upload Bank Verification,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter First Name,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Last Name,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Phone Number,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Your Email,PASS,
+10/12/2025 19:15,Affiliate Creation,Select Country & City,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Driving License,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Driving License Expiry,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_update_code.py"", line 127, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.XPATH, ""//button[text()='5']""))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+"
+10/12/2025 19:15,Affiliate Creation,Enter CNIC No.,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter CNIC Expiry,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_update_code.py"", line 142, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.XPATH, ""//button[text()='5']""))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+"
+10/12/2025 19:15,Affiliate Creation,Enter Business Address,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Mailing Address,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Type Of Affiliate,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Comission Type,PASS,
+10/12/2025 19:15,Affiliate Creation,Select Currency,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Bank Name,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Account Title,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter IBAN No.,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Payment Method,PASS,
+10/12/2025 19:15,Affiliate Creation,Enter Payment Terms,PASS,
+10/12/2025 19:15,Affiliate Creation,Select Contract Start Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_update_code.py"", line 260, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.XPATH, ""//button[text()='5']""))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+"
+10/12/2025 19:15,Affiliate Creation,Select Contract End Date,PASS,
+10/12/2025 19:15,Affiliate Creation,Note / Special Instruction,PASS,
+10/12/2025 19:15,Affiliate Creation,Submit Form,PASS,
+10/12/2025 19:15,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2181eb5+80197]
+	GetHandleVerifier [0x0x7ff6a2181f10+80288]
+	(No symbol) [0x0x7ff6a1f002fa]
+	(No symbol) [0x0x7ff6a1f57cd7]
+	(No symbol) [0x0x7ff6a1f57f9c]
+	(No symbol) [0x0x7ff6a1faba87]
+	(No symbol) [0x0x7ff6a1f803bf]
+	(No symbol) [0x0x7ff6a1fa87fb]
+	(No symbol) [0x0x7ff6a1f80153]
+	(No symbol) [0x0x7ff6a1f48b02]
+	(No symbol) [0x0x7ff6a1f498d3]
+	GetHandleVerifier [0x0x7ff6a243e83d+2949837]
+	GetHandleVerifier [0x0x7ff6a2438c6a+2926330]
+	GetHandleVerifier [0x0x7ff6a24586c7+3055959]
+	GetHandleVerifier [0x0x7ff6a219cfee+191102]
+	GetHandleVerifier [0x0x7ff6a21a50af+224063]
+	GetHandleVerifier [0x0x7ff6a218af64+117236]
+	GetHandleVerifier [0x0x7ff6a218b119+117673]
+	GetHandleVerifier [0x0x7ff6a21710a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+",
+10/12/2025 19:18,Affiliate Creation,Open Website,PASS,
+10/12/2025 19:18,Affiliate Creation,Login,PASS,
+10/12/2025 19:18,Affiliate Creation,Navigate to Affiliate,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\affiliate_empty_validation.py"", line 94, in test_affiliate_form
+    wait.until(EC.element_to_be_clickable((By.XPATH, constent.ADD_AFFILIATE_BUTTON))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2181eb5+80197]
+	GetHandleVerifier [0x0x7ff6a2181f10+80288]
+	(No symbol) [0x0x7ff6a1f002fa]
+	(No symbol) [0x0x7ff6a1f57cd7]
+	(No symbol) [0x0x7ff6a1f57f9c]
+	(No symbol) [0x0x7ff6a1faba87]
+	(No symbol) [0x0x7ff6a1f803bf]
+	(No symbol) [0x0x7ff6a1fa87fb]
+	(No symbol) [0x0x7ff6a1f80153]
+	(No symbol) [0x0x7ff6a1f48b02]
+	(No symbol) [0x0x7ff6a1f498d3]
+	GetHandleVerifier [0x0x7ff6a243e83d+2949837]
+	GetHandleVerifier [0x0x7ff6a2438c6a+2926330]
+	GetHandleVerifier [0x0x7ff6a24586c7+3055959]
+	GetHandleVerifier [0x0x7ff6a219cfee+191102]
+	GetHandleVerifier [0x0x7ff6a21a50af+224063]
+	GetHandleVerifier [0x0x7ff6a218af64+117236]
+	GetHandleVerifier [0x0x7ff6a218b119+117673]
+	GetHandleVerifier [0x0x7ff6a21710a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+
+"
+10/12/2025 19:18,Affiliate Creation,Open Website,PASS,
+10/12/2025 19:18,Affiliate Creation,Login,PASS,
+10/12/2025 19:19,Affiliate Creation,Navigate to Affiliate,PASS,
+10/12/2025 19:19,Affiliate Creation,Upload Profile Image,PASS,
+10/12/2025 19:19,Affiliate Creation,Submit Form,PASS,
+10/12/2025 19:19,Validation,Proof of address,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2181eb5+80197]
+	GetHandleVerifier [0x0x7ff6a2181f10+80288]
+	(No symbol) [0x0x7ff6a1f002fa]
+	(No symbol) [0x0x7ff6a1f57cd7]
+	(No symbol) [0x0x7ff6a1f57f9c]
+	(No symbol) [0x0x7ff6a1faba87]
+	(No symbol) [0x0x7ff6a1f803bf]
+	(No symbol) [0x0x7ff6a1fa87fb]
+	(No symbol) [0x0x7ff6a1f80153]
+	(No symbol) [0x0x7ff6a1f48b02]
+	(No symbol) [0x0x7ff6a1f498d3]
+	GetHandleVerifier [0x0x7ff6a243e83d+2949837]
+	GetHandleVerifier [0x0x7ff6a2438c6a+2926330]
+	GetHandleVerifier [0x0x7ff6a24586c7+3055959]
+	GetHandleVerifier [0x0x7ff6a219cfee+191102]
+	GetHandleVerifier [0x0x7ff6a21a50af+224063]
+	GetHandleVerifier [0x0x7ff6a218af64+117236]
+	GetHandleVerifier [0x0x7ff6a218b119+117673]
+	GetHandleVerifier [0x0x7ff6a21710a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Proof of address_20251012_191914.png"
+10/12/2025 19:19,Validation,Insurance certificate,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2181eb5+80197]
+	GetHandleVerifier [0x0x7ff6a2181f10+80288]
+	(No symbol) [0x0x7ff6a1f002fa]
+	(No symbol) [0x0x7ff6a1f57cd7]
+	(No symbol) [0x0x7ff6a1f57f9c]
+	(No symbol) [0x0x7ff6a1faba87]
+	(No symbol) [0x0x7ff6a1f803bf]
+	(No symbol) [0x0x7ff6a1fa87fb]
+	(No symbol) [0x0x7ff6a1f80153]
+	(No symbol) [0x0x7ff6a1f48b02]
+	(No symbol) [0x0x7ff6a1f498d3]
+	GetHandleVerifier [0x0x7ff6a243e83d+2949837]
+	GetHandleVerifier [0x0x7ff6a2438c6a+2926330]
+	GetHandleVerifier [0x0x7ff6a24586c7+3055959]
+	GetHandleVerifier [0x0x7ff6a219cfee+191102]
+	GetHandleVerifier [0x0x7ff6a21a50af+224063]
+	GetHandleVerifier [0x0x7ff6a218af64+117236]
+	GetHandleVerifier [0x0x7ff6a218b119+117673]
+	GetHandleVerifier [0x0x7ff6a21710a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Insurance certificate_20251012_191924.png"
+10/12/2025 19:19,Validation,Bank account verification,FAIL,"Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a2181eb5+80197]
+	GetHandleVerifier [0x0x7ff6a2181f10+80288]
+	(No symbol) [0x0x7ff6a1f002fa]
+	(No symbol) [0x0x7ff6a1f57cd7]
+	(No symbol) [0x0x7ff6a1f57f9c]
+	(No symbol) [0x0x7ff6a1faba87]
+	(No symbol) [0x0x7ff6a1f803bf]
+	(No symbol) [0x0x7ff6a1fa87fb]
+	(No symbol) [0x0x7ff6a1f80153]
+	(No symbol) [0x0x7ff6a1f48b02]
+	(No symbol) [0x0x7ff6a1f498d3]
+	GetHandleVerifier [0x0x7ff6a243e83d+2949837]
+	GetHandleVerifier [0x0x7ff6a2438c6a+2926330]
+	GetHandleVerifier [0x0x7ff6a24586c7+3055959]
+	GetHandleVerifier [0x0x7ff6a219cfee+191102]
+	GetHandleVerifier [0x0x7ff6a21a50af+224063]
+	GetHandleVerifier [0x0x7ff6a218af64+117236]
+	GetHandleVerifier [0x0x7ff6a218b119+117673]
+	GetHandleVerifier [0x0x7ff6a21710a8+11064]
+	BaseThreadInitThunk [0x0x7ffc13cd7374+20]
+	RtlUserThreadStart [0x0x7ffc14f7cc91+33]
+ | Screenshot: screenshots/Bank account verification_20251012_191935.png"
+2025-11-04 11:17:26,Affiliate Creation,Open Website,PASS,
+2025-11-04 11:17:26,Affiliate Creation,Login,FAIL,
+2025-11-04 11:17:36,Affiliate Creation,Navigate to Affiliate,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\BMP_automation\affiliate_update_code.py"", line 69, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, constent.AFFILIATE_BUTT0N))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff73ee2e8e5+80021]
+	GetHandleVerifier [0x0x7ff73ee2e940+80112]
+	(No symbol) [0x0x7ff73ebb060f]
+	(No symbol) [0x0x7ff73ec08854]
+	(No symbol) [0x0x7ff73ec08b1c]
+	(No symbol) [0x0x7ff73ec5c927]
+	(No symbol) [0x0x7ff73ec3126f]
+	(No symbol) [0x0x7ff73ec5968a]
+	(No symbol) [0x0x7ff73ec31003]
+	(No symbol) [0x0x7ff73ebf95d1]
+	(No symbol) [0x0x7ff73ebfa3f3]
+	GetHandleVerifier [0x0x7ff73f0edc7d+2960429]
+	GetHandleVerifier [0x0x7ff73f0e7f3a+2936554]
+	GetHandleVerifier [0x0x7ff73f108977+3070247]
+	GetHandleVerifier [0x0x7ff73ee483ce+185214]
+	GetHandleVerifier [0x0x7ff73ee4fe1f+216527]
+	GetHandleVerifier [0x0x7ff73ee37b24+117460]
+	GetHandleVerifier [0x0x7ff73ee37cdf+117903]
+	GetHandleVerifier [0x0x7ff73ee1dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+
+"
+2025-11-04 11:21:03,Affiliate Creation,Open Website,PASS,
+2025-11-04 11:21:05,Affiliate Creation,Login,PASS,
+2025-11-04 11:21:09,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-04 11:21:10,Affiliate Creation,Upload Profile Image,PASS,
+2025-11-04 11:21:10,Affiliate Creation,Upload Address,PASS,
+2025-11-04 11:21:10,Affiliate Creation,Upload Insurance Certificate,PASS,
+2025-11-04 11:21:10,Affiliate Creation,Upload Bank Verification,PASS,
+2025-11-04 11:21:10,Affiliate Creation,Enter First Name,PASS,
+2025-11-04 11:21:11,Affiliate Creation,Enter Last Name,PASS,
+2025-11-04 11:21:11,Affiliate Creation,Enter Phone Number,PASS,
+2025-11-04 11:21:12,Affiliate Creation,Enter Your Email,PASS,
+2025-11-04 11:21:23,Affiliate Creation,Select Country & City,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\BMP_automation\affiliate_update_code.py"", line 108, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, ""//div[text()='United Arab Emirates']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff73ee2e8e5+80021]
+	GetHandleVerifier [0x0x7ff73ee2e940+80112]
+	(No symbol) [0x0x7ff73ebb060f]
+	(No symbol) [0x0x7ff73ec08854]
+	(No symbol) [0x0x7ff73ec08b1c]
+	(No symbol) [0x0x7ff73ec5c927]
+	(No symbol) [0x0x7ff73ec3126f]
+	(No symbol) [0x0x7ff73ec5968a]
+	(No symbol) [0x0x7ff73ec31003]
+	(No symbol) [0x0x7ff73ebf95d1]
+	(No symbol) [0x0x7ff73ebfa3f3]
+	GetHandleVerifier [0x0x7ff73f0edc7d+2960429]
+	GetHandleVerifier [0x0x7ff73f0e7f3a+2936554]
+	GetHandleVerifier [0x0x7ff73f108977+3070247]
+	GetHandleVerifier [0x0x7ff73ee483ce+185214]
+	GetHandleVerifier [0x0x7ff73ee4fe1f+216527]
+	GetHandleVerifier [0x0x7ff73ee37b24+117460]
+	GetHandleVerifier [0x0x7ff73ee37cdf+117903]
+	GetHandleVerifier [0x0x7ff73ee1dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+
+"
+2025-11-04 11:21:23,Affiliate Creation,Enter Driving License,PASS,
+2025-11-04 11:21:24,Affiliate Creation,Enter Driving License Expiry,PASS,
+2025-11-04 11:21:25,Affiliate Creation,Enter CNIC No.,PASS,
+2025-11-04 11:21:25,Affiliate Creation,Enter CNIC Expiry,PASS,
+2025-11-04 11:21:25,Affiliate Creation,Enter Business Address,PASS,
+2025-11-04 11:21:25,Affiliate Creation,Enter Mailing Address,PASS,
+2025-11-04 11:21:26,Affiliate Creation,Enter Type Of Affiliate,PASS,
+2025-11-04 11:21:26,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+2025-11-04 11:21:26,Affiliate Creation,Enter Comission Type,PASS,
+2025-11-04 11:21:27,Affiliate Creation,Select Currency,PASS,
+2025-11-04 11:21:27,Affiliate Creation,Enter Bank Name,PASS,
+2025-11-04 11:21:27,Affiliate Creation,Enter Account Title,PASS,
+2025-11-04 11:21:27,Affiliate Creation,Enter IBAN No.,PASS,
+2025-11-04 11:21:28,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+2025-11-04 11:21:28,Affiliate Creation,Enter Payment Method,PASS,
+2025-11-04 11:21:28,Affiliate Creation,Enter Payment Terms,PASS,
+2025-11-04 11:21:29,Affiliate Creation,Select Contract Start Date,PASS,
+2025-11-04 11:21:29,Affiliate Creation,Select Contract End Date,PASS,
+2025-11-04 11:21:29,Affiliate Creation,Note / Special Instruction,PASS,
+2025-11-04 11:21:29,Affiliate Creation,Submit Form,PASS,
+2025-11-04 11:21:35,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff73ee2e8e5+80021]
+	GetHandleVerifier [0x0x7ff73ee2e940+80112]
+	(No symbol) [0x0x7ff73ebb060f]
+	(No symbol) [0x0x7ff73ec08854]
+	(No symbol) [0x0x7ff73ec08b1c]
+	(No symbol) [0x0x7ff73ec5c927]
+	(No symbol) [0x0x7ff73ec3126f]
+	(No symbol) [0x0x7ff73ec5968a]
+	(No symbol) [0x0x7ff73ec31003]
+	(No symbol) [0x0x7ff73ebf95d1]
+	(No symbol) [0x0x7ff73ebfa3f3]
+	GetHandleVerifier [0x0x7ff73f0edc7d+2960429]
+	GetHandleVerifier [0x0x7ff73f0e7f3a+2936554]
+	GetHandleVerifier [0x0x7ff73f108977+3070247]
+	GetHandleVerifier [0x0x7ff73ee483ce+185214]
+	GetHandleVerifier [0x0x7ff73ee4fe1f+216527]
+	GetHandleVerifier [0x0x7ff73ee37b24+117460]
+	GetHandleVerifier [0x0x7ff73ee37cdf+117903]
+	GetHandleVerifier [0x0x7ff73ee1dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+",
+2025-11-04 11:21:50,Affiliate Creation,Open Website,PASS,
+2025-11-04 11:21:51,Affiliate Creation,Login,PASS,
+2025-11-04 11:21:55,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-04 11:21:55,Affiliate Creation,Upload Profile Image,PASS,
+2025-11-04 11:21:55,Affiliate Creation,Upload Address,PASS,
+2025-11-04 11:21:55,Affiliate Creation,Upload Insurance Certificate,PASS,
+2025-11-04 11:21:56,Affiliate Creation,Upload Bank Verification,PASS,
+2025-11-04 11:21:56,Affiliate Creation,Enter First Name,PASS,
+2025-11-04 11:21:56,Affiliate Creation,Enter Last Name,PASS,
+2025-11-04 11:21:56,Affiliate Creation,Enter Phone Number,PASS,
+2025-11-04 11:21:57,Affiliate Creation,Enter Your Email,PASS,
+2025-11-04 11:22:03,Affiliate Creation,Select Country & City,PASS,
+2025-11-04 11:22:04,Affiliate Creation,Enter Driving License,PASS,
+2025-11-04 11:22:04,Affiliate Creation,Enter Driving License Expiry,PASS,
+2025-11-04 11:22:04,Affiliate Creation,Enter CNIC No.,PASS,
+2025-11-04 11:22:05,Affiliate Creation,Enter CNIC Expiry,PASS,
+2025-11-04 11:22:05,Affiliate Creation,Enter Business Address,PASS,
+2025-11-04 11:22:05,Affiliate Creation,Enter Mailing Address,PASS,
+2025-11-04 11:22:06,Affiliate Creation,Enter Type Of Affiliate,PASS,
+2025-11-04 11:22:06,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+2025-11-04 11:22:06,Affiliate Creation,Enter Comission Type,PASS,
+2025-11-04 11:22:06,Affiliate Creation,Select Currency,PASS,
+2025-11-04 11:22:06,Affiliate Creation,Enter Bank Name,PASS,
+2025-11-04 11:22:07,Affiliate Creation,Enter Account Title,PASS,
+2025-11-04 11:22:07,Affiliate Creation,Enter IBAN No.,PASS,
+2025-11-04 11:22:07,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+2025-11-04 11:22:07,Affiliate Creation,Enter Payment Method,PASS,
+2025-11-04 11:22:07,Affiliate Creation,Enter Payment Terms,PASS,
+2025-11-04 11:22:08,Affiliate Creation,Select Contract Start Date,PASS,
+2025-11-04 11:22:08,Affiliate Creation,Select Contract End Date,PASS,
+2025-11-04 11:22:08,Affiliate Creation,Note / Special Instruction,PASS,
+2025-11-04 11:22:08,Affiliate Creation,Submit Form,PASS,
+2025-11-04 11:22:11,Toast Message,PASS,Record Saved,
+2025-11-04 18:29:33,Affiliate Creation,Open Website,PASS,
+2025-11-04 18:29:35,Affiliate Creation,Login,PASS,
+2025-11-04 18:29:38,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-04 18:29:38,Affiliate Creation,Upload Profile Image,PASS,
+2025-11-04 18:29:39,Affiliate Creation,Upload Address,PASS,
+2025-11-04 18:29:39,Affiliate Creation,Upload Insurance Certificate,PASS,
+2025-11-04 18:29:39,Affiliate Creation,Upload Bank Verification,PASS,
+2025-11-04 18:29:39,Affiliate Creation,Enter First Name,PASS,
+2025-11-04 18:29:39,Affiliate Creation,Enter Last Name,PASS,
+2025-11-04 18:29:40,Affiliate Creation,Enter Phone Number,PASS,
+2025-11-04 18:29:40,Affiliate Creation,Enter Your Email,PASS,
+2025-11-04 18:29:47,Affiliate Creation,Select Country & City,PASS,
+2025-11-04 18:29:47,Affiliate Creation,Enter Driving License,PASS,
+2025-11-04 18:29:47,Affiliate Creation,Enter Driving License Expiry,PASS,
+2025-11-04 18:29:48,Affiliate Creation,Enter CNIC No.,PASS,
+2025-11-04 18:29:48,Affiliate Creation,Enter CNIC Expiry,PASS,
+2025-11-04 18:29:48,Affiliate Creation,Enter Business Address,PASS,
+2025-11-04 18:29:48,Affiliate Creation,Enter Mailing Address,PASS,
+2025-11-04 18:29:49,Affiliate Creation,Enter Type Of Affiliate,PASS,
+2025-11-04 18:29:49,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+2025-11-04 18:29:49,Affiliate Creation,Enter Comission Type,PASS,
+2025-11-04 18:29:50,Affiliate Creation,Select Currency,PASS,
+2025-11-04 18:29:50,Affiliate Creation,Enter Bank Name,PASS,
+2025-11-04 18:29:50,Affiliate Creation,Enter Account Title,PASS,
+2025-11-04 18:29:50,Affiliate Creation,Enter IBAN No.,PASS,
+2025-11-04 18:29:50,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+2025-11-04 18:29:50,Affiliate Creation,Enter Payment Method,PASS,
+2025-11-04 18:29:51,Affiliate Creation,Enter Payment Terms,PASS,
+2025-11-04 18:29:51,Affiliate Creation,Select Contract Start Date,PASS,
+2025-11-04 18:29:51,Affiliate Creation,Select Contract End Date,PASS,
+2025-11-04 18:29:52,Affiliate Creation,Note / Special Instruction,PASS,
+2025-11-04 18:29:52,Affiliate Creation,Submit Form,PASS,
+2025-11-04 18:29:55,Toast Message,PASS,,
+2025-11-04 19:17:42,Affiliate Creation,Open Website,PASS,
+2025-11-04 19:17:44,Affiliate Creation,Login,PASS,
+2025-11-04 19:17:48,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-04 19:17:49,Affiliate Creation,Upload Profile Image,PASS,
+2025-11-04 19:17:49,Affiliate Creation,Upload Address,PASS,
+2025-11-04 19:17:49,Affiliate Creation,Upload Insurance Certificate,PASS,
+2025-11-04 19:17:49,Affiliate Creation,Upload Bank Verification,PASS,
+2025-11-04 19:17:50,Affiliate Creation,Enter First Name,PASS,
+2025-11-04 19:17:50,Affiliate Creation,Enter Last Name,PASS,
+2025-11-04 19:17:51,Affiliate Creation,Enter Phone Number,PASS,
+2025-11-04 19:17:51,Affiliate Creation,Enter Your Email,PASS,
+2025-11-04 19:17:57,Affiliate Creation,Select Country & City,PASS,
+2025-11-04 19:17:58,Affiliate Creation,Enter Driving License,PASS,
+2025-11-04 19:17:58,Affiliate Creation,Enter Driving License Expiry,PASS,
+2025-11-04 19:17:58,Affiliate Creation,Enter CNIC No.,PASS,
+2025-11-04 19:17:59,Affiliate Creation,Enter CNIC Expiry,PASS,
+2025-11-04 19:17:59,Affiliate Creation,Enter Business Address,PASS,
+2025-11-04 19:18:00,Affiliate Creation,Enter Mailing Address,PASS,
+2025-11-04 19:18:00,Affiliate Creation,Enter Type Of Affiliate,PASS,
+2025-11-04 19:18:00,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+2025-11-04 19:18:00,Affiliate Creation,Enter Comission Type,PASS,
+2025-11-04 19:18:01,Affiliate Creation,Select Currency,PASS,
+2025-11-04 19:18:01,Affiliate Creation,Enter Bank Name,PASS,
+2025-11-04 19:18:01,Affiliate Creation,Enter Account Title,PASS,
+2025-11-04 19:18:02,Affiliate Creation,Enter IBAN No.,PASS,
+2025-11-04 19:18:02,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+2025-11-04 19:18:02,Affiliate Creation,Enter Payment Method,PASS,
+2025-11-04 19:18:02,Affiliate Creation,Enter Payment Terms,PASS,
+2025-11-04 19:18:03,Affiliate Creation,Select Contract Start Date,PASS,
+2025-11-04 19:18:03,Affiliate Creation,Select Contract End Date,PASS,
+2025-11-04 19:18:03,Affiliate Creation,Note / Special Instruction,PASS,
+2025-11-04 19:18:04,Affiliate Creation,Submit Form,PASS,
+2025-11-04 19:18:07,Toast Message,PASS,Record Saved,
+2025-11-12 17:24:38,Affiliate Creation,Open Website,PASS,
+2025-11-12 17:24:39,Affiliate Creation,Login,PASS,
+2025-11-12 17:24:43,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-12 17:24:43,Affiliate Creation,Upload Profile Image,PASS,
+2025-11-12 17:24:43,Affiliate Creation,Upload Address,PASS,
+2025-11-12 17:24:43,Affiliate Creation,Upload Insurance Certificate,PASS,
+2025-11-12 17:24:43,Affiliate Creation,Upload Bank Verification,PASS,
+2025-11-12 17:24:44,Affiliate Creation,Enter First Name,PASS,
+2025-11-12 17:24:44,Affiliate Creation,Enter Last Name,PASS,
+2025-11-12 17:24:44,Affiliate Creation,Enter Phone Number,PASS,
+2025-11-12 17:24:45,Affiliate Creation,Enter Your Email,PASS,
+2025-11-12 17:24:50,Affiliate Creation,Select Country & City,PASS,
+2025-11-12 17:24:50,Affiliate Creation,Enter Driving License,PASS,
+2025-11-12 17:24:51,Affiliate Creation,Enter Driving License Expiry,PASS,
+2025-11-12 17:24:51,Affiliate Creation,Enter CNIC No.,PASS,
+2025-11-12 17:24:51,Affiliate Creation,Enter CNIC Expiry,PASS,
+2025-11-12 17:24:52,Affiliate Creation,Enter Business Address,PASS,
+2025-11-12 17:24:52,Affiliate Creation,Enter Mailing Address,PASS,
+2025-11-12 17:24:52,Affiliate Creation,Enter Type Of Affiliate,PASS,
+2025-11-12 17:24:52,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+2025-11-12 17:24:53,Affiliate Creation,Enter Comission Type,PASS,
+2025-11-12 17:24:53,Affiliate Creation,Select Currency,PASS,
+2025-11-12 17:24:53,Affiliate Creation,Enter Bank Name,PASS,
+2025-11-12 17:24:53,Affiliate Creation,Enter Account Title,PASS,
+2025-11-12 17:24:53,Affiliate Creation,Enter IBAN No.,PASS,
+2025-11-12 17:24:54,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+2025-11-12 17:24:54,Affiliate Creation,Enter Payment Method,PASS,
+2025-11-12 17:24:54,Affiliate Creation,Enter Payment Terms,PASS,
+2025-11-12 17:24:54,Affiliate Creation,Select Contract Start Date,PASS,
+2025-11-12 17:24:55,Affiliate Creation,Select Contract End Date,PASS,
+2025-11-12 17:24:55,Affiliate Creation,Note / Special Instruction,PASS,
+2025-11-12 17:24:55,Affiliate Creation,Submit Form,PASS,
+2025-11-12 17:24:59,Toast Message,PASS,Record Saved,
+2025-11-12 17:26:25,Affiliate Creation,Open Website,PASS,
+2025-11-12 17:26:26,Affiliate Creation,Login,PASS,
+2025-11-12 17:26:31,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-12 17:26:31,Affiliate Creation,Upload Profile Image,PASS,
+2025-11-12 17:26:31,Affiliate Creation,Upload Address,PASS,
+2025-11-12 17:26:31,Affiliate Creation,Upload Insurance Certificate,PASS,
+2025-11-12 17:26:31,Affiliate Creation,Upload Bank Verification,PASS,
+2025-11-12 17:26:32,Affiliate Creation,Enter First Name,PASS,
+2025-11-12 17:26:32,Affiliate Creation,Enter Last Name,PASS,
+2025-11-12 17:26:32,Affiliate Creation,Enter Phone Number,PASS,
+2025-11-12 17:26:33,Affiliate Creation,Enter Your Email,PASS,
+2025-11-12 17:26:38,Affiliate Creation,Select Country & City,PASS,
+2025-11-12 17:26:38,Affiliate Creation,Enter Driving License,PASS,
+2025-11-12 17:26:39,Affiliate Creation,Enter Driving License Expiry,PASS,
+2025-11-12 17:26:39,Affiliate Creation,Enter CNIC No.,PASS,
+2025-11-12 17:26:39,Affiliate Creation,Enter CNIC Expiry,PASS,
+2025-11-12 17:26:40,Affiliate Creation,Enter Business Address,PASS,
+2025-11-12 17:26:40,Affiliate Creation,Enter Mailing Address,PASS,
+2025-11-12 17:26:40,Affiliate Creation,Enter Type Of Affiliate,PASS,
+2025-11-12 17:26:40,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+2025-11-12 17:26:41,Affiliate Creation,Enter Comission Type,PASS,
+2025-11-12 17:26:41,Affiliate Creation,Select Currency,PASS,
+2025-11-12 17:26:41,Affiliate Creation,Enter Bank Name,PASS,
+2025-11-12 17:26:41,Affiliate Creation,Enter Account Title,PASS,
+2025-11-12 17:26:41,Affiliate Creation,Enter IBAN No.,PASS,
+2025-11-12 17:26:42,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+2025-11-12 17:26:42,Affiliate Creation,Enter Payment Method,PASS,
+2025-11-12 17:26:42,Affiliate Creation,Enter Payment Terms,PASS,
+2025-11-12 17:26:42,Affiliate Creation,Select Contract Start Date,PASS,
+2025-11-12 17:26:43,Affiliate Creation,Select Contract End Date,PASS,
+2025-11-12 17:26:43,Affiliate Creation,Note / Special Instruction,PASS,
+2025-11-12 17:26:43,Affiliate Creation,Submit Form,PASS,
+2025-11-12 17:26:48,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64715e8e5+80021]
+	GetHandleVerifier [0x0x7ff64715e940+80112]
+	(No symbol) [0x0x7ff646ee060f]
+	(No symbol) [0x0x7ff646f38854]
+	(No symbol) [0x0x7ff646f38b1c]
+	(No symbol) [0x0x7ff646f8c927]
+	(No symbol) [0x0x7ff646f6126f]
+	(No symbol) [0x0x7ff646f8968a]
+	(No symbol) [0x0x7ff646f61003]
+	(No symbol) [0x0x7ff646f295d1]
+	(No symbol) [0x0x7ff646f2a3f3]
+	GetHandleVerifier [0x0x7ff64741dc7d+2960429]
+	GetHandleVerifier [0x0x7ff647417f3a+2936554]
+	GetHandleVerifier [0x0x7ff647438977+3070247]
+	GetHandleVerifier [0x0x7ff6471783ce+185214]
+	GetHandleVerifier [0x0x7ff64717fe1f+216527]
+	GetHandleVerifier [0x0x7ff647167b24+117460]
+	GetHandleVerifier [0x0x7ff647167cdf+117903]
+	GetHandleVerifier [0x0x7ff64714dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+",
+2025-11-12 17:28:17,Affiliate Creation,Open Website,PASS,
+2025-11-12 17:28:18,Affiliate Creation,Login,PASS,
+2025-11-12 17:28:22,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-12 17:28:23,Affiliate Creation,Upload Profile Image,PASS,
+2025-11-12 17:28:23,Affiliate Creation,Upload Address,PASS,
+2025-11-12 17:28:23,Affiliate Creation,Upload Insurance Certificate,PASS,
+2025-11-12 17:28:23,Affiliate Creation,Upload Bank Verification,PASS,
+2025-11-12 17:28:23,Affiliate Creation,Enter First Name,PASS,
+2025-11-12 17:28:24,Affiliate Creation,Enter Last Name,PASS,
+2025-11-12 17:28:24,Affiliate Creation,Enter Phone Number,PASS,
+2025-11-12 17:28:25,Affiliate Creation,Enter Your Email,PASS,
+2025-11-12 17:28:30,Affiliate Creation,Select Country & City,PASS,
+2025-11-12 17:28:31,Affiliate Creation,Enter Driving License,PASS,
+2025-11-12 17:28:31,Affiliate Creation,Enter Driving License Expiry,PASS,
+2025-11-12 17:28:31,Affiliate Creation,Enter CNIC No.,PASS,
+2025-11-12 17:28:32,Affiliate Creation,Enter CNIC Expiry,PASS,
+2025-11-12 17:28:32,Affiliate Creation,Enter Business Address,PASS,
+2025-11-12 17:28:32,Affiliate Creation,Enter Mailing Address,PASS,
+2025-11-12 17:28:32,Affiliate Creation,Enter Type Of Affiliate,PASS,
+2025-11-12 17:28:33,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+2025-11-12 17:28:33,Affiliate Creation,Enter Comission Type,PASS,
+2025-11-12 17:28:33,Affiliate Creation,Select Currency,PASS,
+2025-11-12 17:28:33,Affiliate Creation,Enter Bank Name,PASS,
+2025-11-12 17:28:34,Affiliate Creation,Enter Account Title,PASS,
+2025-11-12 17:28:34,Affiliate Creation,Enter IBAN No.,PASS,
+2025-11-12 17:28:34,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+2025-11-12 17:28:34,Affiliate Creation,Enter Payment Method,PASS,
+2025-11-12 17:28:34,Affiliate Creation,Enter Payment Terms,PASS,
+2025-11-12 17:28:35,Affiliate Creation,Select Contract Start Date,PASS,
+2025-11-12 17:28:35,Affiliate Creation,Select Contract End Date,PASS,
+2025-11-12 17:28:35,Affiliate Creation,Note / Special Instruction,PASS,
+2025-11-12 17:28:36,Affiliate Creation,Submit Form,PASS,
+2025-11-12 17:28:39,Toast Message,PASS,Record Saved,
+2025-11-13 13:26:24,Affiliate Creation,Open Website,PASS,
+2025-11-13 13:26:26,Affiliate Creation,Login,PASS,
+2025-11-13 13:26:30,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-13 13:27:18,Affiliate Creation,Open Website,PASS,
+2025-11-13 13:27:20,Affiliate Creation,Login,PASS,
+2025-11-13 13:27:24,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-13 13:27:25,Affiliate Creation,Upload Profile Image,PASS,
+2025-11-13 13:27:25,Affiliate Creation,Upload Address,PASS,
+2025-11-13 13:27:25,Affiliate Creation,Upload Insurance Certificate,PASS,
+2025-11-13 13:27:25,Affiliate Creation,Upload Bank Verification,PASS,
+2025-11-13 13:27:25,Affiliate Creation,Enter First Name,PASS,
+2025-11-13 13:27:26,Affiliate Creation,Enter Last Name,PASS,
+2025-11-13 13:27:26,Affiliate Creation,Enter Phone Number,PASS,
+2025-11-13 13:27:26,Affiliate Creation,Enter Your Email,PASS,
+2025-11-13 13:27:32,Affiliate Creation,Select Country & City,PASS,
+2025-11-13 13:27:32,Affiliate Creation,Enter Driving License,PASS,
+2025-11-13 13:27:33,Affiliate Creation,Enter Driving License Expiry,PASS,
+2025-11-13 13:27:33,Affiliate Creation,Enter CNIC No.,PASS,
+2025-11-13 13:27:33,Affiliate Creation,Enter CNIC Expiry,PASS,
+2025-11-13 13:27:34,Affiliate Creation,Enter Business Address,PASS,
+2025-11-13 13:27:34,Affiliate Creation,Enter Mailing Address,PASS,
+2025-11-13 13:27:34,Affiliate Creation,Enter Type Of Affiliate,PASS,
+2025-11-13 13:27:34,Affiliate Creation,Enter Affiliate Vehicles,PASS,
+2025-11-13 13:27:35,Affiliate Creation,Enter Comission Type,PASS,
+2025-11-13 13:27:35,Affiliate Creation,Select Currency,PASS,
+2025-11-13 13:27:35,Affiliate Creation,Enter Bank Name,PASS,
+2025-11-13 13:27:35,Affiliate Creation,Enter Account Title,PASS,
+2025-11-13 13:27:35,Affiliate Creation,Enter IBAN No.,PASS,
+2025-11-13 13:27:36,Affiliate Creation,Enter SWIFT/BIC Code,PASS,
+2025-11-13 13:27:36,Affiliate Creation,Enter Payment Method,PASS,
+2025-11-13 13:27:36,Affiliate Creation,Enter Payment Terms,PASS,
+2025-11-13 13:27:36,Affiliate Creation,Select Contract Start Date,PASS,
+2025-11-13 13:27:37,Affiliate Creation,Select Contract End Date,PASS,
+2025-11-13 13:27:37,Affiliate Creation,Note / Special Instruction,PASS,
+2025-11-13 13:27:37,Affiliate Creation,Submit Form,PASS,
+2025-11-13 13:27:40,Toast Message,PASS,Record Saved,

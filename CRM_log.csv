@@ -1,0 +1,36 @@
+Timestamp,Test Case,Step,Status,Message
+2025-11-12 17:23:59,Lead Creation,Open Website,PASS,
+2025-11-12 17:24:01,Lead Creation,Login,PASS,
+2025-11-12 17:24:16,Lead Creation,Navigate To Leads,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\python\automation\BMP\BMP_automation\lead.py"", line 82, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, constent.ADD_LEADS_BUTTON))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff64715e8e5+80021]
+	GetHandleVerifier [0x0x7ff64715e940+80112]
+	(No symbol) [0x0x7ff646ee060f]
+	(No symbol) [0x0x7ff646f38854]
+	(No symbol) [0x0x7ff646f38b1c]
+	(No symbol) [0x0x7ff646f8c927]
+	(No symbol) [0x0x7ff646f6126f]
+	(No symbol) [0x0x7ff646f8968a]
+	(No symbol) [0x0x7ff646f61003]
+	(No symbol) [0x0x7ff646f295d1]
+	(No symbol) [0x0x7ff646f2a3f3]
+	GetHandleVerifier [0x0x7ff64741dc7d+2960429]
+	GetHandleVerifier [0x0x7ff647417f3a+2936554]
+	GetHandleVerifier [0x0x7ff647438977+3070247]
+	GetHandleVerifier [0x0x7ff6471783ce+185214]
+	GetHandleVerifier [0x0x7ff64717fe1f+216527]
+	GetHandleVerifier [0x0x7ff647167b24+117460]
+	GetHandleVerifier [0x0x7ff647167cdf+117903]
+	GetHandleVerifier [0x0x7ff64714dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+
+"
