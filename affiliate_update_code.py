@@ -107,15 +107,16 @@ class LoginTest(unittest.TestCase):
         component.fill_field(wait,By.NAME,constent.DRVING_LIC,constent.DRVING_LIC_KEY,test_case, "Enter Driving License")
 
         # ========== STEP 11: Driving License Expiry ==========
-        try:
-            calendar_driv = wait.until(
-             EC.element_to_be_clickable((By.XPATH, "//label[text()='Driving License Expiry Date']/..//input")))
-            calendar_driv.click()
-            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='25']"))).click()
-            component.log_step(test_case, "Enter Driving License Expiry", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter Driving License Expiry", "FAIL", traceback.format_exc())
+        # try:
+        #     calendar_driv = wait.until(
+        #      EC.element_to_be_clickable((By.XPATH, "//label[text()='Driving License Expiry Date']/..//input")))
+        #     calendar_driv.click()
+        #     wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='25']"))).click()
+        #     component.log_step(test_case, "Enter Driving License Expiry", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter Driving License Expiry", "FAIL", traceback.format_exc())
 
+        component.drop_down(wait,By.XPATH,"//label[text()='Driving License Expiry Date']/..//input",By.XPATH,"//button[text()='25']",test_case,"Driving License Expire")
         
         # ========== STEP 12: CNIC No. ==========
         
