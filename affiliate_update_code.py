@@ -86,17 +86,21 @@ class LoginTest(unittest.TestCase):
         component.fill_field(wait,By.NAME,constent.EMAIL_NAME,unique_email,test_case, "Enter Your Email")
 
         # ========== STEP 9: Country & City ==========
-        try:
-            wait.until(EC.element_to_be_clickable((By.NAME, "country_id"))).click()
-            wait.until(EC.element_to_be_clickable(
-                (By.XPATH, "//div[text()='UAE']"))).click()
-            time.sleep(5)
-            wait.until(EC.element_to_be_clickable((By.NAME, "city_id"))).click()
-            wait.until(EC.presence_of_element_located(
-                (By.XPATH, "//div[text()='Abu Dhabi']"))).click()
-            component.log_step(test_case, "Select Country & City", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Select Country & City", "FAIL", traceback.format_exc())
+        # try:
+        #     wait.until(EC.element_to_be_clickable((By.NAME, "country_id"))).click()
+        #     wait.until(EC.element_to_be_clickable(
+        #         (By.XPATH, "//div[text()='UAE']"))).click()
+        #     time.sleep(5)
+        #     wait.until(EC.element_to_be_clickable((By.NAME, "city_id"))).click()
+        #     wait.until(EC.presence_of_element_located(
+        #         (By.XPATH, "//div[text()='Abu Dhabi']"))).click()
+        #     component.log_step(test_case, "Select Country & City", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Select Country & City", "FAIL", traceback.format_exc())
+
+        component.drop_down(wait,By.NAME,"country_id",By.XPATH,"//div[text()='UAE']",test_case,"country name")
+        component.drop_down(wait,By.NAME,"city_id",By.XPATH,"//div[text()='Abu Dhabi']",test_case,"City name")
+
 
         # ========== STEP 10: Driving License ==========
         
