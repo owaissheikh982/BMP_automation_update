@@ -9,40 +9,62 @@ import datetime
 import csv
 import traceback
 import random
+import time
 
+if constent.EMAIL == "kagodad145@wivstore.com":
 
-random_customer = [
+    random_customer = [
 
-    # "Ehsab haq (sitereview2024@gmail.com)",
-    # "Rashed Al Mansoori (rashed.mansoori@emiratesmail.ae)",
-    # "Adeel Khan (adeel.khan87@gmail.com)",
-    # "Sana Qureshi (sana.qureshi22@hotmail.com)",
-    "owais ss (sazn2000@gmail.co)",
-    "Muhammad Hassan Raza (mhassanrazas@gmail.com)"
-    
+        "Customer 38 owais (test_20251117155216@example.com)",
+        "Customer 79 owais (test_20251117161251@example.com)",
+        "Customer 22 owais (test_20251117161415@example.com)",
+       
+        ]
 
-]
+else:
+
+    random_customer = [
+
+        "Ehsab haq (sitereview2024@gmail.com)",
+        "Rashed Al Mansoori (rashed.mansoori@emiratesmail.ae)",
+        "Adeel Khan (adeel.khan87@gmail.com)",
+        "Sana Qureshi (sana.qureshi22@hotmail.com)",
+        "owais ss (sazn2000@gmail.co)",
+        "Muhammad Hassan Raza (mhassanrazas@gmail.com)"
+        
+
+        ]
 selected_customer = random.choice(random_customer)
+if constent.EMAIL == "kagodad145@wivstore.com":
+    random_cars = [
 
-random_cars = [
+        "Mercedes-Benz GLC 300 4MATIC AMG Line",
+        "Volkswagen Tiguan 2.0 TSI R-Line 4Motion",
+        "Dacia Duster 1.3 TCe Prestige",
+        "Subaru Forester 2.5i Premium AWD",
+        "Skoda Octavia 1.6 TDI Ambition"
+        ]
+else:
+    random_cars = [
 
-    "Skoda Octavia 1.6 TDI Ambition",
-    "Subaru Forester 2.5i Premium AWD",
-    "Dacia Duster 1.3 TCe Prestige",
-    "Honda Civic EX",
-    "Mercedes-Benz C",
-    "Mercedes-Benz E-Class E350",
-    "Dodge Charger R/T",
-    "Toyota Corolla Altis",
-    "Toyota RAV4 Adventure",
-    "Toyota Land Cruiser Prado",
-    "Hyundai Elantra Sport",
-    "Vauxhall Corsa SE",
-    "Mini Cooper S",
-    "Land Rover Defender P300",
-    "Suzuki Swift GLX",
-    "Suzuki Vitara GL+"
-]
+        "Skoda Octavia 1.6 TDI Ambition",
+        "Subaru Forester 2.5i Premium AWD",
+        "Dacia Duster 1.3 TCe Prestige",
+        "Honda Civic EX",
+        "Mercedes-Benz C",
+        "Mercedes-Benz E-Class E350",
+        "Dodge Charger R/T",
+        "Toyota Corolla Altis",
+        "Toyota RAV4 Adventure",
+        "Toyota Land Cruiser Prado",
+        "Hyundai Elantra Sport",
+        "Vauxhall Corsa SE",
+        "Mini Cooper S",
+        "Land Rover Defender P300",
+        "Suzuki Swift GLX",
+        "Suzuki Vitara GL+"
+    ]
+
 selected_cars = random.choice(random_cars)
 
 
@@ -240,7 +262,6 @@ class LoginTest(unittest.TestCase):
             return_time = wait.until(
              EC.element_to_be_clickable((By.XPATH, "//label[normalize-space(text())='Return Time']/preceding-sibling::div//input")))
             return_time.click()
-            # wait.until(EC.element_to_be_clickable((By.XPATH, "//label[normalize-space(text())='Return Time']/ancestor::div[contains(@class,'group')]//button[@aria-label='Thursday, November 27th, 2025']"))).click()
             wait.until(EC.element_to_be_clickable((By.XPATH, "(//button[text()='26'])[2]"))).click()
             wait.until(EC.element_to_be_clickable((By.XPATH, "//label[normalize-space(text())='Return Time']/ancestor::div[contains(@class,'group')]//button[normalize-space(text())='Apply']"))).click()
             log_step(test_case, "Return Time", "PASS")
@@ -284,7 +305,37 @@ class LoginTest(unittest.TestCase):
             self.fail(f"Failed at Submit Form: {e}")
 
     
+        time.sleep(4)
+        fill_field(wait,By.XPATH,constent.UPLOAD_PROFILE,r"C:\Users\Awais\Pictures\image\profile\profilegirl.jpg",test_case, "Upload Receipt Image")
+        fill_field(wait,By.NAME,constent.TRANSACTION_NAME,"1112345678",test_case, "Upload Transaction ID")
+        fill_field(wait,By.NAME,constent.TERMINAL_NAME,"123456",test_case, "Enter Terminal ID")
+        fill_field(wait,By.NAME,constent.RECEIPT_NAME,"12345678",test_case, "Enter Receipt No")
+        fill_field(wait,By.NAME,constent.PAYMENT_NOTE_NAME,"A well-maintained Honda Civic 2021",test_case, "Upload Payment Note")
+        fill_field(wait,By.NAME,constent.CUSTOMER_NOTE_NAME,"A well-maintained Honda Civic 2021",test_case, "Upload Customer Note")
+        time.sleep(4)
 
+        # ========== STEP 29: Submit Form ==========
+        try:
+            element = wait.until(EC.element_to_be_clickable((By.XPATH, constent.FORM_SUBMIT)))
+
+            driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", element)
+            time.sleep(1)
+
+            element.click()
+            log_step(test_case, "Submit Form", "PASS")
+
+            try:
+                toast_element = WebDriverWait(driver, 5).until(
+                    EC.presence_of_element_located((By.XPATH, "//*[@id='_rht_toaster']//div")))
+                toast_text = toast_element.text
+                print("Toast Message:", toast_text)
+                log_step("Toast Message", "PASS", toast_text.strip())
+            except Exception as e:
+                log_step("Toast Message", "FAIL", f"No toast captured: {str(e)}")
+
+        except Exception as e:
+            log_step(test_case, "Submit Form", "FAIL", traceback.format_exc())
+            self.fail(f"Failed at Submit Form: {e}")
         
         
         time.sleep(5)

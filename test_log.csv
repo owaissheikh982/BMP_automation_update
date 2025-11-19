@@ -3664,3 +3664,511 @@ Stacktrace:
 2025-11-13 13:27:37,Affiliate Creation,Note / Special Instruction,PASS,
 2025-11-13 13:27:37,Affiliate Creation,Submit Form,PASS,
 2025-11-13 13:27:40,Toast Message,PASS,Record Saved,
+2025-11-17 11:44:13,Affiliate Creation,Open Website,PASS,
+2025-11-17 11:44:15,Affiliate Creation,Login,PASS,
+2025-11-17 11:44:18,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-17 11:44:19,Affiliate Creation,Upload Profile Image,PASS,
+2025-11-17 11:44:19,Affiliate Creation,Upload Address,PASS,
+2025-11-17 11:44:19,Affiliate Creation,Upload Insurance Certificate,PASS,
+2025-11-17 11:44:19,Affiliate Creation,Upload Bank Verification,PASS,
+2025-11-17 11:44:19,Affiliate Creation,Enter First Name,PASS,
+2025-11-17 11:44:19,Affiliate Creation,Enter Last Name,PASS,
+2025-11-17 11:44:20,Affiliate Creation,Enter Phone Number,PASS,
+2025-11-17 11:44:20,Affiliate Creation,Enter Your Email,PASS,
+2025-11-17 11:44:21,Affiliate Creation,country name,PASS,
+2025-11-17 11:44:21,Affiliate Creation,City name,PASS,
+2025-11-17 11:44:21,Affiliate Creation,Enter Driving License,PASS,
+2025-11-17 11:44:22,Affiliate Creation,Driving License Expire,PASS,
+2025-11-17 11:44:22,Affiliate Creation,Enter CNIC No.,PASS,
+2025-11-17 11:44:22,Affiliate Creation,CNIC Expiry,PASS,
+2025-11-17 11:44:22,Affiliate Creation,Business Address,PASS,
+2025-11-17 11:44:23,Affiliate Creation,Mailing Address,PASS,
+2025-11-17 11:44:23,Affiliate Creation,Type Of Affiliate,PASS,
+2025-11-17 11:44:23,Affiliate Creation,Affiliate Vehicles,PASS,
+2025-11-17 11:44:23,Affiliate Creation,Comission Type,PASS,
+2025-11-17 11:44:24,Affiliate Creation,Select Currency,PASS,
+2025-11-17 11:44:24,Affiliate Creation,Enter Bank Name,PASS,
+2025-11-17 11:44:24,Affiliate Creation,Enter Account Title,PASS,
+2025-11-17 11:44:24,Affiliate Creation,Enter IBAN No.,PASS,
+2025-11-17 11:44:25,Affiliate Creation,EEnter SWIFT/BIC Code,PASS,
+2025-11-17 11:44:25,Affiliate Creation,Enter Payment Method,PASS,
+2025-11-17 11:44:25,Affiliate Creation,Enter Payment Terms,PASS,
+2025-11-17 11:44:36,Affiliate Creation,Select Contract Start Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\component.py"", line 35, in drop_down
+    wait.until(EC.element_to_be_clickable((locator_type2, locator2))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6cc45e8e5+80021]
+	GetHandleVerifier [0x0x7ff6cc45e940+80112]
+	(No symbol) [0x0x7ff6cc1e060f]
+	(No symbol) [0x0x7ff6cc238854]
+	(No symbol) [0x0x7ff6cc238b1c]
+	(No symbol) [0x0x7ff6cc28c927]
+	(No symbol) [0x0x7ff6cc26126f]
+	(No symbol) [0x0x7ff6cc28968a]
+	(No symbol) [0x0x7ff6cc261003]
+	(No symbol) [0x0x7ff6cc2295d1]
+	(No symbol) [0x0x7ff6cc22a3f3]
+	GetHandleVerifier [0x0x7ff6cc71dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6cc717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6cc738977+3070247]
+	GetHandleVerifier [0x0x7ff6cc4783ce+185214]
+	GetHandleVerifier [0x0x7ff6cc47fe1f+216527]
+	GetHandleVerifier [0x0x7ff6cc467b24+117460]
+	GetHandleVerifier [0x0x7ff6cc467cdf+117903]
+	GetHandleVerifier [0x0x7ff6cc44dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+
+"
+2025-11-17 11:44:46,Affiliate Creation,Select Contract Start Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\component.py"", line 35, in drop_down
+    wait.until(EC.element_to_be_clickable((locator_type2, locator2))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6cc45e8e5+80021]
+	GetHandleVerifier [0x0x7ff6cc45e940+80112]
+	(No symbol) [0x0x7ff6cc1e060f]
+	(No symbol) [0x0x7ff6cc238854]
+	(No symbol) [0x0x7ff6cc238b1c]
+	(No symbol) [0x0x7ff6cc28c927]
+	(No symbol) [0x0x7ff6cc26126f]
+	(No symbol) [0x0x7ff6cc28968a]
+	(No symbol) [0x0x7ff6cc261003]
+	(No symbol) [0x0x7ff6cc2295d1]
+	(No symbol) [0x0x7ff6cc22a3f3]
+	GetHandleVerifier [0x0x7ff6cc71dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6cc717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6cc738977+3070247]
+	GetHandleVerifier [0x0x7ff6cc4783ce+185214]
+	GetHandleVerifier [0x0x7ff6cc47fe1f+216527]
+	GetHandleVerifier [0x0x7ff6cc467b24+117460]
+	GetHandleVerifier [0x0x7ff6cc467cdf+117903]
+	GetHandleVerifier [0x0x7ff6cc44dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+
+"
+2025-11-17 11:44:47,Affiliate Creation,Enter Note / Special Instruction,PASS,
+2025-11-17 11:44:47,Affiliate Creation,Submit Form,PASS,
+2025-11-17 11:44:52,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6cc45e8e5+80021]
+	GetHandleVerifier [0x0x7ff6cc45e940+80112]
+	(No symbol) [0x0x7ff6cc1e060f]
+	(No symbol) [0x0x7ff6cc238854]
+	(No symbol) [0x0x7ff6cc238b1c]
+	(No symbol) [0x0x7ff6cc28c927]
+	(No symbol) [0x0x7ff6cc26126f]
+	(No symbol) [0x0x7ff6cc28968a]
+	(No symbol) [0x0x7ff6cc261003]
+	(No symbol) [0x0x7ff6cc2295d1]
+	(No symbol) [0x0x7ff6cc22a3f3]
+	GetHandleVerifier [0x0x7ff6cc71dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6cc717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6cc738977+3070247]
+	GetHandleVerifier [0x0x7ff6cc4783ce+185214]
+	GetHandleVerifier [0x0x7ff6cc47fe1f+216527]
+	GetHandleVerifier [0x0x7ff6cc467b24+117460]
+	GetHandleVerifier [0x0x7ff6cc467cdf+117903]
+	GetHandleVerifier [0x0x7ff6cc44dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+",
+2025-11-17 11:45:41,Affiliate Creation,Open Website,PASS,
+2025-11-17 11:45:42,Affiliate Creation,Login,PASS,
+2025-11-17 11:45:46,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-17 11:45:46,Affiliate Creation,Upload Profile Image,PASS,
+2025-11-17 11:45:46,Affiliate Creation,Upload Address,PASS,
+2025-11-17 11:45:46,Affiliate Creation,Upload Insurance Certificate,PASS,
+2025-11-17 11:45:47,Affiliate Creation,Upload Bank Verification,PASS,
+2025-11-17 11:45:47,Affiliate Creation,Enter First Name,PASS,
+2025-11-17 11:45:47,Affiliate Creation,Enter Last Name,PASS,
+2025-11-17 11:45:47,Affiliate Creation,Enter Phone Number,PASS,
+2025-11-17 11:45:48,Affiliate Creation,Enter Your Email,PASS,
+2025-11-17 11:45:49,Affiliate Creation,country name,PASS,
+2025-11-17 11:45:49,Affiliate Creation,City name,PASS,
+2025-11-17 11:45:49,Affiliate Creation,Enter Driving License,PASS,
+2025-11-17 11:45:49,Affiliate Creation,Driving License Expire,PASS,
+2025-11-17 11:45:50,Affiliate Creation,Enter CNIC No.,PASS,
+2025-11-17 11:45:50,Affiliate Creation,CNIC Expiry,PASS,
+2025-11-17 11:45:50,Affiliate Creation,Business Address,PASS,
+2025-11-17 11:45:50,Affiliate Creation,Mailing Address,PASS,
+2025-11-17 11:45:51,Affiliate Creation,Type Of Affiliate,PASS,
+2025-11-17 11:45:51,Affiliate Creation,Affiliate Vehicles,PASS,
+2025-11-17 11:45:51,Affiliate Creation,Comission Type,PASS,
+2025-11-17 11:45:51,Affiliate Creation,Select Currency,PASS,
+2025-11-17 11:45:51,Affiliate Creation,Enter Bank Name,PASS,
+2025-11-17 11:45:52,Affiliate Creation,Enter Account Title,PASS,
+2025-11-17 11:45:52,Affiliate Creation,Enter IBAN No.,PASS,
+2025-11-17 11:45:52,Affiliate Creation,EEnter SWIFT/BIC Code,PASS,
+2025-11-17 11:45:52,Affiliate Creation,Enter Payment Method,PASS,
+2025-11-17 11:45:53,Affiliate Creation,Enter Payment Terms,PASS,
+2025-11-17 11:46:03,Affiliate Creation,Select Contract Start Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\component.py"", line 35, in drop_down
+    wait.until(EC.element_to_be_clickable((locator_type2, locator2))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6cc45e8e5+80021]
+	GetHandleVerifier [0x0x7ff6cc45e940+80112]
+	(No symbol) [0x0x7ff6cc1e060f]
+	(No symbol) [0x0x7ff6cc238854]
+	(No symbol) [0x0x7ff6cc238b1c]
+	(No symbol) [0x0x7ff6cc28c927]
+	(No symbol) [0x0x7ff6cc26126f]
+	(No symbol) [0x0x7ff6cc28968a]
+	(No symbol) [0x0x7ff6cc261003]
+	(No symbol) [0x0x7ff6cc2295d1]
+	(No symbol) [0x0x7ff6cc22a3f3]
+	GetHandleVerifier [0x0x7ff6cc71dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6cc717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6cc738977+3070247]
+	GetHandleVerifier [0x0x7ff6cc4783ce+185214]
+	GetHandleVerifier [0x0x7ff6cc47fe1f+216527]
+	GetHandleVerifier [0x0x7ff6cc467b24+117460]
+	GetHandleVerifier [0x0x7ff6cc467cdf+117903]
+	GetHandleVerifier [0x0x7ff6cc44dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+
+"
+2025-11-17 11:46:13,Affiliate Creation,Select Contract Start Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\component.py"", line 35, in drop_down
+    wait.until(EC.element_to_be_clickable((locator_type2, locator2))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6cc45e8e5+80021]
+	GetHandleVerifier [0x0x7ff6cc45e940+80112]
+	(No symbol) [0x0x7ff6cc1e060f]
+	(No symbol) [0x0x7ff6cc238854]
+	(No symbol) [0x0x7ff6cc238b1c]
+	(No symbol) [0x0x7ff6cc28c927]
+	(No symbol) [0x0x7ff6cc26126f]
+	(No symbol) [0x0x7ff6cc28968a]
+	(No symbol) [0x0x7ff6cc261003]
+	(No symbol) [0x0x7ff6cc2295d1]
+	(No symbol) [0x0x7ff6cc22a3f3]
+	GetHandleVerifier [0x0x7ff6cc71dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6cc717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6cc738977+3070247]
+	GetHandleVerifier [0x0x7ff6cc4783ce+185214]
+	GetHandleVerifier [0x0x7ff6cc47fe1f+216527]
+	GetHandleVerifier [0x0x7ff6cc467b24+117460]
+	GetHandleVerifier [0x0x7ff6cc467cdf+117903]
+	GetHandleVerifier [0x0x7ff6cc44dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+
+"
+2025-11-17 11:46:14,Affiliate Creation,Enter Note / Special Instruction,PASS,
+2025-11-17 11:46:14,Affiliate Creation,Submit Form,PASS,
+2025-11-17 11:46:19,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6cc45e8e5+80021]
+	GetHandleVerifier [0x0x7ff6cc45e940+80112]
+	(No symbol) [0x0x7ff6cc1e060f]
+	(No symbol) [0x0x7ff6cc238854]
+	(No symbol) [0x0x7ff6cc238b1c]
+	(No symbol) [0x0x7ff6cc28c927]
+	(No symbol) [0x0x7ff6cc26126f]
+	(No symbol) [0x0x7ff6cc28968a]
+	(No symbol) [0x0x7ff6cc261003]
+	(No symbol) [0x0x7ff6cc2295d1]
+	(No symbol) [0x0x7ff6cc22a3f3]
+	GetHandleVerifier [0x0x7ff6cc71dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6cc717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6cc738977+3070247]
+	GetHandleVerifier [0x0x7ff6cc4783ce+185214]
+	GetHandleVerifier [0x0x7ff6cc47fe1f+216527]
+	GetHandleVerifier [0x0x7ff6cc467b24+117460]
+	GetHandleVerifier [0x0x7ff6cc467cdf+117903]
+	GetHandleVerifier [0x0x7ff6cc44dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+",
+2025-11-17 14:26:03,Affiliate Creation,Open Website,PASS,
+2025-11-17 14:26:05,Affiliate Creation,Login,PASS,
+2025-11-17 14:26:09,Affiliate Creation,Navigate to Affiliate,PASS,
+2025-11-17 14:26:09,Affiliate Creation,Upload Profile Image,PASS,
+2025-11-17 14:26:09,Affiliate Creation,Upload Address,PASS,
+2025-11-17 14:26:09,Affiliate Creation,Upload Insurance Certificate,PASS,
+2025-11-17 14:26:10,Affiliate Creation,Upload Bank Verification,PASS,
+2025-11-17 14:26:10,Affiliate Creation,Enter First Name,PASS,
+2025-11-17 14:26:10,Affiliate Creation,Enter Last Name,PASS,
+2025-11-17 14:26:11,Affiliate Creation,Enter Phone Number,PASS,
+2025-11-17 14:26:12,Affiliate Creation,Enter Your Email,PASS,
+2025-11-17 14:26:12,Affiliate Creation,country name,PASS,
+2025-11-17 14:26:13,Affiliate Creation,City name,PASS,
+2025-11-17 14:26:13,Affiliate Creation,Enter Driving License,PASS,
+2025-11-17 14:26:13,Affiliate Creation,Driving License Expire,PASS,
+2025-11-17 14:26:14,Affiliate Creation,Enter CNIC No.,PASS,
+2025-11-17 14:26:14,Affiliate Creation,CNIC Expiry,PASS,
+2025-11-17 14:26:14,Affiliate Creation,Business Address,PASS,
+2025-11-17 14:26:15,Affiliate Creation,Mailing Address,PASS,
+2025-11-17 14:26:15,Affiliate Creation,Type Of Affiliate,PASS,
+2025-11-17 14:26:15,Affiliate Creation,Affiliate Vehicles,PASS,
+2025-11-17 14:26:16,Affiliate Creation,Comission Type,PASS,
+2025-11-17 14:26:16,Affiliate Creation,Select Currency,PASS,
+2025-11-17 14:26:16,Affiliate Creation,Enter Bank Name,PASS,
+2025-11-17 14:26:17,Affiliate Creation,Enter Account Title,PASS,
+2025-11-17 14:26:17,Affiliate Creation,Enter IBAN No.,PASS,
+2025-11-17 14:26:17,Affiliate Creation,EEnter SWIFT/BIC Code,PASS,
+2025-11-17 14:26:17,Affiliate Creation,Enter Payment Method,PASS,
+2025-11-17 14:26:18,Affiliate Creation,Enter Payment Terms,PASS,
+2025-11-17 14:26:28,Affiliate Creation,Select Contract Start Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\component.py"", line 35, in drop_down
+    wait.until(EC.element_to_be_clickable((locator_type2, locator2))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff76555e8e5+80021]
+	GetHandleVerifier [0x0x7ff76555e940+80112]
+	(No symbol) [0x0x7ff7652e060f]
+	(No symbol) [0x0x7ff765338854]
+	(No symbol) [0x0x7ff765338b1c]
+	(No symbol) [0x0x7ff76538c927]
+	(No symbol) [0x0x7ff76536126f]
+	(No symbol) [0x0x7ff76538968a]
+	(No symbol) [0x0x7ff765361003]
+	(No symbol) [0x0x7ff7653295d1]
+	(No symbol) [0x0x7ff76532a3f3]
+	GetHandleVerifier [0x0x7ff76581dc7d+2960429]
+	GetHandleVerifier [0x0x7ff765817f3a+2936554]
+	GetHandleVerifier [0x0x7ff765838977+3070247]
+	GetHandleVerifier [0x0x7ff7655783ce+185214]
+	GetHandleVerifier [0x0x7ff76557fe1f+216527]
+	GetHandleVerifier [0x0x7ff765567b24+117460]
+	GetHandleVerifier [0x0x7ff765567cdf+117903]
+	GetHandleVerifier [0x0x7ff76554dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+
+"
+2025-11-17 14:26:34,Affiliate Creation,Select Contract Start Date,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py"", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py"", line 534, in _make_request
+    response = conn.getresponse()
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py"", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\http\client.py"", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\http\client.py"", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\http\client.py"", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), ""iso-8859-1"")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\socket.py"", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\component.py"", line 34, in drop_down
+    wait.until(EC.element_to_be_clickable((locator_type1, locator1))).click()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 445, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py"", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py"", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py"", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py"", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\poolmanager.py"", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py"", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\retry.py"", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\util.py"", line 38, in reraise
+    raise value.with_traceback(tb)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py"", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py"", line 534, in _make_request
+    response = conn.getresponse()
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py"", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\http\client.py"", line 1430, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\http\client.py"", line 331, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\http\client.py"", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), ""iso-8859-1"")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\socket.py"", line 719, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+"
+2025-11-17 14:26:50,Affiliate Creation,Enter Note / Special Instruction,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py"", line 198, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\connection.py"", line 85, in create_connection
+    raise err
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\connection.py"", line 73, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py"", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py"", line 493, in _make_request
+    conn.request(
+    ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<6 lines>...
+        enforce_content_length=enforce_content_length,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py"", line 445, in request
+    self.endheaders()
+    ~~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\http\client.py"", line 1333, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\http\client.py"", line 1093, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\http\client.py"", line 1037, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py"", line 276, in connect
+    self.sock = self._new_conn()
+                ~~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connection.py"", line 213, in _new_conn
+    raise NewConnectionError(
+        self, f""Failed to establish a new connection: {e}""
+    ) from e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000016F7DF29BA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\component.py"", line 25, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 445, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py"", line 404, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\remote_connection.py"", line 428, in _request
+    response = self._conn.request(method, url, body=body, headers=headers, timeout=self._client_config.timeout)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py"", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\_request_methods.py"", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\poolmanager.py"", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py"", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py"", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py"", line 871, in urlopen
+    return self.urlopen(
+           ~~~~~~~~~~~~^
+        method,
+        ^^^^^^^
+    ...<13 lines>...
+        **response_kw,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\connectionpool.py"", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\urllib3\util\retry.py"", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=56456): Max retries exceeded with url: /session/5efc69e203d286bf692b788467821e47/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000016F7DF29BA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+"

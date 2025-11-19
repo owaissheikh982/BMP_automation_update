@@ -2102,3 +2102,87 @@ Stacktrace:
 	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
 
 "
+2025-11-17 18:21:26,Vehicles Add,Open Website,PASS,
+2025-11-17 18:21:27,Vehicles Add,Login,PASS,
+2025-11-17 18:21:34,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-17 18:21:34,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-17 18:21:34,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-17 18:21:34,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-17 18:21:35,Vehicles Add,Upload Car Name,PASS,
+2025-11-17 18:21:35,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-17 18:21:35,Vehicles Add,Select Brand,PASS,
+2025-11-17 18:21:49,Vehicles Add,Select Model,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 120, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, f""//div[text()='Skoda Fabia']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff677d1e8e5+80021]
+	GetHandleVerifier [0x0x7ff677d1e940+80112]
+	(No symbol) [0x0x7ff677aa060f]
+	(No symbol) [0x0x7ff677af8854]
+	(No symbol) [0x0x7ff677af8b1c]
+	(No symbol) [0x0x7ff677b4c927]
+	(No symbol) [0x0x7ff677b2126f]
+	(No symbol) [0x0x7ff677b4968a]
+	(No symbol) [0x0x7ff677b21003]
+	(No symbol) [0x0x7ff677ae95d1]
+	(No symbol) [0x0x7ff677aea3f3]
+	GetHandleVerifier [0x0x7ff677fddc7d+2960429]
+	GetHandleVerifier [0x0x7ff677fd7f3a+2936554]
+	GetHandleVerifier [0x0x7ff677ff8977+3070247]
+	GetHandleVerifier [0x0x7ff677d383ce+185214]
+	GetHandleVerifier [0x0x7ff677d3fe1f+216527]
+	GetHandleVerifier [0x0x7ff677d27b24+117460]
+	GetHandleVerifier [0x0x7ff677d27cdf+117903]
+	GetHandleVerifier [0x0x7ff677d0dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+
+"
+2025-11-17 18:21:56,Vehicles Add,Open Website,PASS,
+2025-11-17 18:21:58,Vehicles Add,Login,PASS,
+2025-11-17 18:22:06,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-17 18:22:07,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-17 18:22:07,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-17 18:22:07,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-17 18:22:08,Vehicles Add,Upload Car Name,PASS,
+2025-11-17 18:22:08,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-17 18:22:09,Vehicles Add,Select Brand,PASS,
+2025-11-17 18:22:22,Vehicles Add,Select Model,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 120, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, f""//div[text()='Skoda Fabia']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff677d1e8e5+80021]
+	GetHandleVerifier [0x0x7ff677d1e940+80112]
+	(No symbol) [0x0x7ff677aa060f]
+	(No symbol) [0x0x7ff677af8854]
+	(No symbol) [0x0x7ff677af8b1c]
+	(No symbol) [0x0x7ff677b4c927]
+	(No symbol) [0x0x7ff677b2126f]
+	(No symbol) [0x0x7ff677b4968a]
+	(No symbol) [0x0x7ff677b21003]
+	(No symbol) [0x0x7ff677ae95d1]
+	(No symbol) [0x0x7ff677aea3f3]
+	GetHandleVerifier [0x0x7ff677fddc7d+2960429]
+	GetHandleVerifier [0x0x7ff677fd7f3a+2936554]
+	GetHandleVerifier [0x0x7ff677ff8977+3070247]
+	GetHandleVerifier [0x0x7ff677d383ce+185214]
+	GetHandleVerifier [0x0x7ff677d3fe1f+216527]
+	GetHandleVerifier [0x0x7ff677d27b24+117460]
+	GetHandleVerifier [0x0x7ff677d27cdf+117903]
+	GetHandleVerifier [0x0x7ff677d0dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffba64f7374+20]
+	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
+
+"

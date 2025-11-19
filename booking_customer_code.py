@@ -20,26 +20,35 @@ random_customer = [
 
 ]
 selected_customer = random.choice(random_customer)
+if constent.EMAIL == "kagodad145@wivstore.com":
+    random_cars = [
 
-random_cars = [
+        "Mercedes-Benz GLC 300 4MATIC AMG Line",
+        "Volkswagen Tiguan 2.0 TSI R-Line 4Motion",
+        "Dacia Duster 1.3 TCe Prestige",
+        "Subaru Forester 2.5i Premium AWD",
+        "Skoda Octavia 1.6 TDI Ambition"
+    ]
+else:
+    random_cars = [
 
-    "Skoda Octavia 1.6 TDI Ambition",
-    "Subaru Forester 2.5i Premium AWD",
-    "Dacia Duster 1.3 TCe Prestige",
-    "Honda Civic EX",
-    "Mercedes-Benz C",
-    "Mercedes-Benz E-Class E350",
-    "Dodge Charger R/T",
-    "Toyota Corolla Altis",
-    "Toyota RAV4 Adventure",
-    "Toyota Land Cruiser Prado",
-    "Hyundai Elantra Sport",
-    "Vauxhall Corsa SE",
-    "Mini Cooper S",
-    "Land Rover Defender P300",
-    "Suzuki Swift GLX",
-    "Suzuki Vitara GL+"
-]
+        "Skoda Octavia 1.6 TDI Ambition",
+        "Subaru Forester 2.5i Premium AWD",
+        "Dacia Duster 1.3 TCe Prestige",
+        "Honda Civic EX",
+        "Mercedes-Benz C",
+        "Mercedes-Benz E-Class E350",
+        "Dodge Charger R/T",
+        "Toyota Corolla Altis",
+        "Toyota RAV4 Adventure",
+        "Toyota Land Cruiser Prado",
+        "Hyundai Elantra Sport",
+        "Vauxhall Corsa SE",
+        "Mini Cooper S",
+        "Land Rover Defender P300",
+        "Suzuki Swift GLX",
+        "Suzuki Vitara GL+"
+    ]
 selected_cars = random.choice(random_cars)
 random_number = random.randint(1, 99)
 unique_email = f"test_{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}@example.com"
@@ -291,7 +300,7 @@ class LoginTest(unittest.TestCase):
             return_time = wait.until(
              EC.element_to_be_clickable((By.XPATH, "//label[normalize-space(text())='Return Time']/preceding-sibling::div//input")))
             return_time.click()
-            wait.until(EC.element_to_be_clickable((By.XPATH, "//label[normalize-space(text())='Return Time']/ancestor::div[contains(@class,'group')]//button[@aria-label='Thursday, October 30th, 2025']"))).click()
+            wait.until(EC.element_to_be_clickable((By.XPATH, "(//button[text()='26'])[2]"))).click()
             wait.until(EC.element_to_be_clickable((By.XPATH, "//label[normalize-space(text())='Return Time']/ancestor::div[contains(@class,'group')]//button[normalize-space(text())='Apply']"))).click()
             log_step(test_case, "Return Time", "PASS")
 

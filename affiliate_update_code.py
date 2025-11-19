@@ -123,152 +123,174 @@ class LoginTest(unittest.TestCase):
         component.fill_field(wait,By.NAME,constent.CNIC,constent.CNIC_KEY,test_case, "Enter CNIC No.")
 
         # ========== STEP 13: CNIC Expiry ==========
-        try:
-            calendar_cnic = wait.until(
-             EC.element_to_be_clickable((By.XPATH, "//label[text()='National ID / Passport Expiry Date']/..//input")))
-            calendar_cnic.click()
-            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='25']"))).click()
-            component.log_step(test_case, "Enter CNIC Expiry", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter CNIC Expiry", "FAIL", traceback.format_exc())
+        # try:
+        #     calendar_cnic = wait.until(
+        #      EC.element_to_be_clickable((By.XPATH, "//label[text()='National ID / Passport Expiry Date']/..//input")))
+        #     calendar_cnic.click()
+        #     wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='25']"))).click()
+        #     component.log_step(test_case, "Enter CNIC Expiry", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter CNIC Expiry", "FAIL", traceback.format_exc())
+       
+        component.drop_down(wait,By.XPATH,"//label[text()='National ID / Passport Expiry Date']/..//input",By.XPATH,"//button[text()='25']",test_case,"CNIC Expiry")
 
         # ========== STEP 14: Business Address ==========
-        try:
-            bus_add = wait.until(
-             EC.presence_of_element_located((By.NAME, constent.BUS_ADD)))
-            bus_add.send_keys(constent.BUS_ADD_KEY )
-            component.log_step(test_case, "Enter Business Address", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter Business Address", "FAIL", traceback.format_exc())
+        # try:
+        #     bus_add = wait.until(
+        #      EC.presence_of_element_located((By.NAME, constent.BUS_ADD)))
+        #     bus_add.send_keys(constent.BUS_ADD_KEY )
+        #     component.log_step(test_case, "Enter Business Address", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter Business Address", "FAIL", traceback.format_exc())
 
+        component.fill_field(wait,By.NAME,constent.BUS_ADD,constent.BUS_ADD_KEY,test_case, "Business Address")
+        
         # ========== STEP 15: Mailing Address ==========
-        try:
-            mail_add = wait.until(
-             EC.presence_of_element_located((By.NAME, constent.MAIL_ADD)))
-            mail_add.send_keys(constent.MAIL_ADD_KEY )
-            component.log_step(test_case, "Enter Mailing Address", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter Mailing Address", "FAIL", traceback.format_exc())
+        # try:
+        #     mail_add = wait.until(
+        #      EC.presence_of_element_located((By.NAME, constent.MAIL_ADD)))
+        #     mail_add.send_keys(constent.MAIL_ADD_KEY )
+        #     component.log_step(test_case, "Enter Mailing Address", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter Mailing Address", "FAIL", traceback.format_exc())
+        component.fill_field(wait,By.NAME,constent.MAIL_ADD,constent.MAIL_ADD_KEY,test_case, "Mailing Address")
 
         # ========== STEP 16: Type Of Affiliate ==========
-        try:
-            wait.until(EC.element_to_be_clickable((By.NAME, "type_id"))).click()
-            wait.until(EC.element_to_be_clickable((By.XPATH, "//div[text()='2-5 Cars']"))).click()
-            component.log_step(test_case, "Enter Type Of Affiliate", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter Type Of Affiliate", "FAIL", traceback.format_exc())
+        # try:
+        #     wait.until(EC.element_to_be_clickable((By.NAME, "type_id"))).click()
+        #     wait.until(EC.element_to_be_clickable((By.XPATH, "//div[text()='2-5 Cars']"))).click()
+        #     component.log_step(test_case, "Enter Type Of Affiliate", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter Type Of Affiliate", "FAIL", traceback.format_exc())
+        component.drop_down(wait,By.NAME,"type_id",By.XPATH,"//div[text()='2-5 Cars']",test_case,"Type Of Affiliate")
+
 
         # ========== STEP 17: Affiliate Vehicles ==========
-        try:
-            aff_veh = wait.until(
-             EC.presence_of_element_located((By.NAME, constent.AFF_VEH)))
-            aff_veh.send_keys(constent.AFF_VEH_KEY )
-            component.log_step(test_case, "Enter Affiliate Vehicles", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter Affiliate Vehicles", "FAIL", traceback.format_exc())
+        # try:
+        #     aff_veh = wait.until(
+        #      EC.presence_of_element_located((By.NAME, constent.AFF_VEH)))
+        #     aff_veh.send_keys(constent.AFF_VEH_KEY )
+        #     component.log_step(test_case, "Enter Affiliate Vehicles", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter Affiliate Vehicles", "FAIL", traceback.format_exc())
+        component.fill_field(wait,By.NAME,constent.AFF_VEH,constent.AFF_VEH_KEY,test_case, "Affiliate Vehicles")
 
         # ========== STEP 18: Comission Type ==========
-        try:
-            wait.until(EC.element_to_be_clickable((By.NAME, "comission_type_id"))).click()
-            wait.until(EC.presence_of_element_located((By.XPATH, "//div[text()='Percentage']"))).click()
-            component.log_step(test_case, "Enter Comission Type", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter Comission Type", "FAIL", traceback.format_exc())
+        # try:
+        #     wait.until(EC.element_to_be_clickable((By.NAME, "comission_type_id"))).click()
+        #     wait.until(EC.presence_of_element_located((By.XPATH, "//div[text()='Percentage']"))).click()
+        #     component.log_step(test_case, "Enter Comission Type", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter Comission Type", "FAIL", traceback.format_exc())
+        component.drop_down(wait,By.NAME,"comission_type_id",By.XPATH,"//div[text()='Percentage']",test_case,"Comission Type")
 
         # ========== STEP 19: Select Currency ==========
-        try:
-            wait.until(EC.element_to_be_clickable((By.NAME, "currency_id"))).click()
-            wait.until(EC.presence_of_element_located((By.XPATH, "//div[text()='AED']"))).click()
-            component.log_step(test_case, "Select Currency", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Select Currency", "FAIL", traceback.format_exc())
-        
+        # try:
+        #     wait.until(EC.element_to_be_clickable((By.NAME, "currency_id"))).click()
+        #     wait.until(EC.presence_of_element_located((By.XPATH, "//div[text()='AED']"))).click()
+        #     component.log_step(test_case, "Select Currency", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Select Currency", "FAIL", traceback.format_exc())
+        component.drop_down(wait,By.NAME,"currency_id",By.XPATH,"//div[text()='AED']",test_case,"Select Currency")
+
         # ========== STEP 20: Enter Bank Name ==========
-        try:
-            bank_name = wait.until(
-             EC.presence_of_element_located((By.NAME, constent.BANK_NAME)))
-            bank_name.send_keys(constent.BANK_NAME_KEY)
-            component.log_step(test_case, "Enter Bank Name", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter Bank Name", "FAIL", traceback.format_exc())
+        # try:
+        #     bank_name = wait.until(
+        #      EC.presence_of_element_located((By.NAME, constent.BANK_NAME)))
+        #     bank_name.send_keys(constent.BANK_NAME_KEY)
+        #     component.log_step(test_case, "Enter Bank Name", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter Bank Name", "FAIL", traceback.format_exc())
+        component.fill_field(wait,By.NAME,constent.BANK_NAME,constent.BANK_NAME_KEY,test_case, "Enter Bank Name")
 
         
         # ========== STEP 21: Enter Account Title ==========
-        try:
-            acc_title = wait.until(
-             EC.presence_of_element_located((By.NAME, constent.ACC_HOLDER)))
-            acc_title.send_keys(constent.ACC_HOLDER_KEY)
-            component.log_step(test_case, "Enter Account Title", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter Account Title", "FAIL", traceback.format_exc())
+        # try:
+        #     acc_title = wait.until(
+        #      EC.presence_of_element_located((By.NAME, constent.ACC_HOLDER)))
+        #     acc_title.send_keys(constent.ACC_HOLDER_KEY)
+        #     component.log_step(test_case, "Enter Account Title", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter Account Title", "FAIL", traceback.format_exc())
+        component.fill_field(wait,By.NAME,constent.ACC_HOLDER,constent.ACC_HOLDER_KEY,test_case, "Enter Account Title")
 
         
         # ========== STEP 22: Enter IBAN No. ==========
-        try:
-            acc_iban = wait.until(
-             EC.presence_of_element_located((By.NAME, constent.ACC_IBAN)))
-            acc_iban.send_keys(constent.ACC_IBAN_KEY)
-            component.log_step(test_case, "Enter IBAN No.", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter IBAN No.", "FAIL", traceback.format_exc())
-        
+        # try:
+        #     acc_iban = wait.until(
+        #      EC.presence_of_element_located((By.NAME, constent.ACC_IBAN)))
+        #     acc_iban.send_keys(constent.ACC_IBAN_KEY)
+        #     component.log_step(test_case, "Enter IBAN No.", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter IBAN No.", "FAIL", traceback.format_exc())
+        component.fill_field(wait,By.NAME,constent.ACC_IBAN,constent.ACC_IBAN_KEY,test_case, "Enter IBAN No.")
+
         # ========== STEP 23: Enter SWIFT/BIC Code ==========
-        try:
-            bic = wait.until(
-             EC.presence_of_element_located((By.NAME, constent.BIC)))
-            bic.send_keys(constent.BIC_KEY)
-            component.log_step(test_case, "Enter SWIFT/BIC Code", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter SWIFT/BIC Code", "FAIL", traceback.format_exc())
+        # try:
+        #     bic = wait.until(
+        #      EC.presence_of_element_located((By.NAME, constent.BIC)))
+        #     bic.send_keys(constent.BIC_KEY)
+        #     component.log_step(test_case, "Enter SWIFT/BIC Code", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter SWIFT/BIC Code", "FAIL", traceback.format_exc())
+        component.fill_field(wait,By.NAME,constent.BIC,constent.BIC_KEY,test_case, "EEnter SWIFT/BIC Code")
         
         # ========== STEP 24: Enter Payment Method ==========
-        try:
-            p_method = wait.until(
-                EC.presence_of_element_located((By.NAME, constent.P_METHOD)))
-            p_method.send_keys(constent.P_METHOD_KEY)
-            component.log_step(test_case, "Enter Payment Method", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter Payment Method", "FAIL", traceback.format_exc())
+        # try:
+        #     p_method = wait.until(
+        #         EC.presence_of_element_located((By.NAME, constent.P_METHOD)))
+        #     p_method.send_keys(constent.P_METHOD_KEY)
+        #     component.log_step(test_case, "Enter Payment Method", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter Payment Method", "FAIL", traceback.format_exc())
+        component.fill_field(wait,By.NAME,constent.P_METHOD,constent.P_METHOD_KEY,test_case, "Enter Payment Method")
+
         
         # ========== STEP 25: Enter Payment Terms ==========
-        try:
-            p_terms = wait.until(
-                 EC.presence_of_element_located((By.NAME, constent.P_TERMS)))
-            p_terms.send_keys(constent.P_TERMS_KEY)
-            component.log_step(test_case, "Enter Payment Terms", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Enter Payment Terms", "FAIL", traceback.format_exc())
+        # try:
+        #     p_terms = wait.until(
+        #          EC.presence_of_element_located((By.NAME, constent.P_TERMS)))
+        #     p_terms.send_keys(constent.P_TERMS_KEY)
+        #     component.log_step(test_case, "Enter Payment Terms", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Enter Payment Terms", "FAIL", traceback.format_exc())
+        component.fill_field(wait,By.NAME,constent.P_TERMS,constent.P_TERMS_KEY,test_case, "Enter Payment Terms")
 
         
         # ========== STEP 26: Select Contract Start Date ==========
-        try:
-            calendar_c_start = wait.until(
-             EC.element_to_be_clickable((By.XPATH, "//label[text()='Contract Start Date']/..//input")))
-            calendar_c_start.click()
-            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='25']"))).click()
-            component.log_step(test_case, "Select Contract Start Date", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Select Contract Start Date", "FAIL", traceback.format_exc())
+        # try:
+        #     calendar_c_start = wait.until(
+        #      EC.element_to_be_clickable((By.XPATH, "//label[text()='Contract Start Date']/..//input")))
+        #     calendar_c_start.click()
+        #     wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='25']"))).click()
+        #     component.log_step(test_case, "Select Contract Start Date", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Select Contract Start Date", "FAIL", traceback.format_exc())
+        component.drop_down(wait,By.XPATH,"//label[text()='Contract Start Date']/..//input",By.XPATH,"//div[text()='25']",test_case,"Select Contract Start Date")
+
         
+
         # ========== STEP 27: Select Contract End Date ==========
-        try:
-            calendar_c_end = wait.until(
-             EC.element_to_be_clickable((By.XPATH, "//label[text()='Contract End Date']/..//input")))
-            calendar_c_end.click()
-            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='25']"))).click()
-            component.log_step(test_case, "Select Contract End Date", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Select Contract End Date", "FAIL", traceback.format_exc())
+        # try:
+        #     calendar_c_end = wait.until(
+        #      EC.element_to_be_clickable((By.XPATH, "//label[text()='Contract End Date']/..//input")))
+        #     calendar_c_end.click()
+        #     wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='25']"))).click()
+        #     component.log_step(test_case, "Select Contract End Date", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Select Contract End Date", "FAIL", traceback.format_exc())
+        component.drop_down(wait,By.XPATH,"//label[text()='Contract Start Date']/..//input",By.XPATH,"//div[text()='25']",test_case,"Select Contract Start Date")
 
         
         # ========== STEP 28: Enter Note / Special Instruction ==========
-        try:
-            note = wait.until(
-             EC.presence_of_element_located((By.NAME, constent.NOTE)))
-            note.send_keys(constent.NOTE_KEY)
-            component.log_step(test_case, "Note / Special Instruction", "PASS")
-        except Exception as e:
-            component.log_step(test_case, "Note / Special Instruction", "FAIL", traceback.format_exc())
+        # try:
+        #     note = wait.until(
+            #  EC.presence_of_element_located((By.NAME, constent.NOTE)))
+        #     note.send_keys(constent.NOTE_KEY)
+        #     component.log_step(test_case, "Note / Special Instruction", "PASS")
+        # except Exception as e:
+        #     component.log_step(test_case, "Note / Special Instruction", "FAIL", traceback.format_exc())
+        component.fill_field(wait,By.NAME,constent.NOTE,constent.NOTE_KEY,test_case, "Enter Note / Special Instruction")
 
 
         # ========== STEP 29: Submit Form ==========
