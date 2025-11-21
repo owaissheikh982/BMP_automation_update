@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-import constent
+import cons.constent as constent
 import datetime
 import csv
 import traceback
@@ -161,7 +161,7 @@ class LoginTest(unittest.TestCase):
             pickup_time = wait.until(
              EC.element_to_be_clickable((By.XPATH, "//label[normalize-space(text())='Car Purcahase Date']/preceding-sibling::div//input")))
             pickup_time.click()
-            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='21']"))).click()
+            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='1']"))).click()
 
             log_step(test_case, "Purchase Date", "PASS")
 
@@ -183,14 +183,14 @@ class LoginTest(unittest.TestCase):
         
 
         # ========== STEP 4:Select Body Type ==========
-        # try:
-        #     wait.until(EC.element_to_be_clickable((By.NAME, constent.V_BODY_TYPE))).click()
-        #     wait.until(EC.element_to_be_clickable(
-        #         (By.XPATH, f"//div[text()='Automatic']"))).click()
-        #     log_step(test_case, "Select Body Type", "PASS")
-        # except Exception as e:
-        #     log_step(test_case, "Select Body Type", "FAIL", traceback.format_exc())
-        #     self.fail(f"Failed at Select Body Type: {e}")    
+        try:
+            wait.until(EC.element_to_be_clickable((By.NAME, constent.V_BODY_TYPE))).click()
+            wait.until(EC.element_to_be_clickable(
+                (By.XPATH, f"//div[text()='SUV']"))).click()
+            log_step(test_case, "Select Body Type", "PASS")
+        except Exception as e:
+            log_step(test_case, "Select Body Type", "FAIL", traceback.format_exc())
+            self.fail(f"Failed at Select Body Type: {e}")    
         
         fill_field(wait,By.NAME,constent.V_TOP_SPEED,"200",test_case, "Upload Top Speed")
         fill_field(wait,By.NAME,constent.V_ACCELERATION,"1.0",test_case, "Upload Acceleration")
@@ -293,7 +293,7 @@ class LoginTest(unittest.TestCase):
         # ========== STEP 4: Insurance Date ==========
         try:
             wait.until(EC.element_to_be_clickable((By.XPATH, "//label[contains(text(), 'Insurance issue date')]/preceding::input[1]"))).click()
-            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='21']"))).click()
+            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='4']"))).click()
 
             log_step(test_case, "Insurance Date", "PASS")
 
@@ -305,7 +305,7 @@ class LoginTest(unittest.TestCase):
             pickup_time = wait.until(
              EC.element_to_be_clickable((By.XPATH, "//label[contains(text(), 'Insurance expiry date')]/preceding::input[1]")))
             pickup_time.click()
-            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='25']"))).click()
+            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='4']"))).click()
 
             log_step(test_case, "Insurance Expiry Date", "PASS")
 

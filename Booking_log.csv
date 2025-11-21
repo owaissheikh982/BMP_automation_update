@@ -3637,3 +3637,984 @@ Stacktrace:
 	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
 
 "
+2025-11-19 11:48:13,Booking Creation,Open Website,PASS,
+2025-11-19 11:48:15,Booking Creation,Login,PASS,
+2025-11-19 11:48:19,Booking Creation,Navigate to Booking,PASS,
+2025-11-19 11:48:28,Booking Creation,Select Customer,PASS,
+2025-11-19 11:48:28,Booking Creation,Select Vehicle,PASS,
+2025-11-19 11:48:28,Booking Creation,Select Vehicle,PASS,
+2025-11-19 11:48:29,Booking Creation,Fuel Value,PASS,
+2025-11-19 11:48:29,Booking Creation,Exterior Condition,PASS,
+2025-11-19 11:48:29,Booking Creation,Interior Condition,PASS,
+2025-11-19 11:48:30,Booking Creation,Tyre Condition,PASS,
+2025-11-19 11:48:30,Booking Creation,Spare Tyre,PASS,
+2025-11-19 11:48:30,Booking Creation,ToolKit,PASS,
+2025-11-19 11:48:31,Booking Creation,Mileage At Pickup,PASS,
+2025-11-19 11:48:31,Booking Creation,Mileage limit,PASS,
+2025-11-19 11:48:31,Booking Creation,Pickup Time,PASS,
+2025-11-19 11:48:32,Booking Creation,Return Time,PASS,
+2025-11-19 11:48:33,Booking Creation,Enter PickUp Location,PASS,
+2025-11-19 11:48:33,Booking Creation,Enter dropOff Location,PASS,
+2025-11-19 11:48:33,Booking Creation,Confirm Booking,PASS,
+2025-11-19 11:48:33,Booking Creation,Submit Form,PASS,
+2025-11-19 11:48:34,Toast Message,PASS,Record Saved,
+2025-11-19 11:48:38,Booking Creation,Upload Receipt Image,PASS,
+2025-11-19 11:48:39,Booking Creation,Upload Transaction ID,PASS,
+2025-11-19 11:48:39,Booking Creation,Enter Terminal ID,PASS,
+2025-11-19 11:48:39,Booking Creation,Enter Receipt No,PASS,
+2025-11-19 11:48:40,Booking Creation,Upload Payment Note,PASS,
+2025-11-19 11:48:40,Booking Creation,Upload Customer Note,PASS,
+2025-11-19 11:48:47,Booking Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 324, in test_login_valid
+    element.click()
+    ~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-slot=""button"" class=""inline-flex items-center justify-center gap-2 whitespace-nowrap disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 px-6 has-[&gt;svg]:px-4 text-sm rounded-md transition font-normal cursor-pointer"" type=""submit"">...</button> is not clickable at point (1452, 649). Other element would receive the click: <div class=""flex-1 overflow-y-auto py-4 px-6"">...</div>
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd060f]
+	(No symbol) [0x0x7ff688030a39]
+	(No symbol) [0x0x7ff68802e3be]
+	(No symbol) [0x0x7ff68802b2e1]
+	(No symbol) [0x0x7ff68802a1a0]
+	(No symbol) [0x0x7ff68801b7c8]
+	(No symbol) [0x0x7ff68805122a]
+	(No symbol) [0x0x7ff68801b056]
+	(No symbol) [0x0x7ff688051440]
+	(No symbol) [0x0x7ff68807968a]
+	(No symbol) [0x0x7ff688051003]
+	(No symbol) [0x0x7ff6880195d1]
+	(No symbol) [0x0x7ff68801a3f3]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	GetHandleVerifier [0x0x7ff688257b24+117460]
+	GetHandleVerifier [0x0x7ff688257cdf+117903]
+	GetHandleVerifier [0x0x7ff68823dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:51:46,Payment Creation,Open Website,PASS,
+2025-11-19 11:51:48,Payment Creation,Login,PASS,
+2025-11-19 11:51:50,Payment Creation,Navigate to Company Booking,PASS,
+2025-11-19 11:51:54,Payment Creation,Action Button Clicked ,PASS,
+2025-11-19 11:51:55,Payment Creation,Upload Receipt Image,PASS,
+2025-11-19 11:51:55,Payment Creation,Upload Transaction ID,PASS,
+2025-11-19 11:51:55,Payment Creation,Enter Terminal ID,PASS,
+2025-11-19 11:51:55,Payment Creation,Enter Receipt No,PASS,
+2025-11-19 11:51:56,Payment Creation,Upload Payment Note,PASS,
+2025-11-19 11:51:56,Payment Creation,Upload Customer Note,PASS,
+2025-11-19 11:51:56,Payment Creation,Submit Form,PASS,
+2025-11-19 11:52:02,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd060f]
+	(No symbol) [0x0x7ff688028854]
+	(No symbol) [0x0x7ff688028b1c]
+	(No symbol) [0x0x7ff68807c927]
+	(No symbol) [0x0x7ff68805126f]
+	(No symbol) [0x0x7ff68807968a]
+	(No symbol) [0x0x7ff688051003]
+	(No symbol) [0x0x7ff6880195d1]
+	(No symbol) [0x0x7ff68801a3f3]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	GetHandleVerifier [0x0x7ff688257b24+117460]
+	GetHandleVerifier [0x0x7ff688257cdf+117903]
+	GetHandleVerifier [0x0x7ff68823dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+",
+2025-11-19 11:53:04,Payment Creation,Open Website,PASS,
+2025-11-19 11:53:08,Payment Creation,Login,PASS,
+2025-11-19 11:53:11,Payment Creation,Navigate to Company Booking,PASS,
+2025-11-19 11:53:14,Payment Creation,Action Button Clicked ,PASS,
+2025-11-19 11:53:14,Payment Creation,Upload Receipt Image,PASS,
+2025-11-19 11:53:15,Payment Creation,Upload Transaction ID,PASS,
+2025-11-19 11:53:15,Payment Creation,Enter Terminal ID,PASS,
+2025-11-19 11:53:15,Payment Creation,Enter Receipt No,PASS,
+2025-11-19 11:53:16,Payment Creation,Upload Payment Note,PASS,
+2025-11-19 11:53:16,Payment Creation,Upload Customer Note,PASS,
+2025-11-19 11:53:16,Payment Creation,Submit Form,PASS,
+2025-11-19 11:53:19,Toast Message,PASS,unsupported operand type(s) for |: 'type' and 'NoneType',
+2025-11-19 11:53:48,Payment Creation,Open Website,PASS,
+2025-11-19 11:53:50,Payment Creation,Login,PASS,
+2025-11-19 11:53:52,Payment Creation,Navigate to Company Booking,PASS,
+2025-11-19 11:53:56,Payment Creation,Action Button Clicked ,PASS,
+2025-11-19 11:53:56,Payment Creation,Upload Receipt Image,PASS,
+2025-11-19 11:53:56,Payment Creation,Upload Transaction ID,PASS,
+2025-11-19 11:53:56,Payment Creation,Enter Terminal ID,PASS,
+2025-11-19 11:53:56,Payment Creation,Enter Receipt No,PASS,
+2025-11-19 11:53:57,Payment Creation,Upload Payment Note,PASS,
+2025-11-19 11:53:57,Payment Creation,Upload Customer Note,PASS,
+2025-11-19 11:53:57,Payment Creation,Submit Form,PASS,
+2025-11-19 11:54:00,Toast Message,PASS,,
+2025-11-19 11:55:01,Booking Creation,Open Website,PASS,
+2025-11-19 11:55:03,Booking Creation,Login,PASS,
+2025-11-19 11:55:07,Booking Creation,Navigate to Booking,PASS,
+2025-11-19 11:55:16,Booking Creation,Select Customer,PASS,
+2025-11-19 11:55:17,Booking Creation,Select Vehicle,PASS,
+2025-11-19 11:55:17,Booking Creation,Select Vehicle,PASS,
+2025-11-19 11:55:17,Booking Creation,Fuel Value,PASS,
+2025-11-19 11:55:17,Booking Creation,Exterior Condition,PASS,
+2025-11-19 11:55:18,Booking Creation,Interior Condition,PASS,
+2025-11-19 11:55:18,Booking Creation,Tyre Condition,PASS,
+2025-11-19 11:55:19,Booking Creation,Spare Tyre,PASS,
+2025-11-19 11:55:19,Booking Creation,ToolKit,PASS,
+2025-11-19 11:55:19,Booking Creation,Mileage At Pickup,PASS,
+2025-11-19 11:55:19,Booking Creation,Mileage limit,PASS,
+2025-11-19 11:55:20,Booking Creation,Pickup Time,PASS,
+2025-11-19 11:55:21,Booking Creation,Return Time,PASS,
+2025-11-19 11:55:21,Booking Creation,Enter PickUp Location,PASS,
+2025-11-19 11:55:21,Booking Creation,Enter dropOff Location,PASS,
+2025-11-19 11:55:22,Booking Creation,Confirm Booking,PASS,
+2025-11-19 11:55:22,Booking Creation,Submit Form,PASS,
+2025-11-19 11:55:22,Toast Message,PASS,Duplicate booking: This customer already has a booking for this vehicle during the selected dates,
+2025-11-19 11:55:27,Booking Creation,Upload Receipt Image,PASS,
+2025-11-19 11:55:37,Booking Creation,Upload Transaction ID,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 83, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd060f]
+	(No symbol) [0x0x7ff688028854]
+	(No symbol) [0x0x7ff688028b1c]
+	(No symbol) [0x0x7ff68807c927]
+	(No symbol) [0x0x7ff68805126f]
+	(No symbol) [0x0x7ff68807968a]
+	(No symbol) [0x0x7ff688051003]
+	(No symbol) [0x0x7ff6880195d1]
+	(No symbol) [0x0x7ff68801a3f3]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	GetHandleVerifier [0x0x7ff688257b24+117460]
+	GetHandleVerifier [0x0x7ff688257cdf+117903]
+	GetHandleVerifier [0x0x7ff68823dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:55:47,Booking Creation,Enter Terminal ID,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 83, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd060f]
+	(No symbol) [0x0x7ff688028854]
+	(No symbol) [0x0x7ff688028b1c]
+	(No symbol) [0x0x7ff68807c927]
+	(No symbol) [0x0x7ff68805126f]
+	(No symbol) [0x0x7ff68807968a]
+	(No symbol) [0x0x7ff688051003]
+	(No symbol) [0x0x7ff6880195d1]
+	(No symbol) [0x0x7ff68801a3f3]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	GetHandleVerifier [0x0x7ff688257b24+117460]
+	GetHandleVerifier [0x0x7ff688257cdf+117903]
+	GetHandleVerifier [0x0x7ff68823dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:55:49,Booking Creation,Enter Receipt No,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 83, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd060f]
+	(No symbol) [0x0x7ff687fbc145]
+	(No symbol) [0x0x7ff687fe177a]
+	(No symbol) [0x0x7ff688058b06]
+	(No symbol) [0x0x7ff688078fa2]
+	(No symbol) [0x0x7ff688051003]
+	(No symbol) [0x0x7ff6880195d1]
+	(No symbol) [0x0x7ff68801a3f3]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	GetHandleVerifier [0x0x7ff688257b24+117460]
+	GetHandleVerifier [0x0x7ff688257cdf+117903]
+	GetHandleVerifier [0x0x7ff68823dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:55:49,Booking Creation,Upload Payment Note,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 83, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd0425]
+	(No symbol) [0x0x7ff68801864f]
+	(No symbol) [0x0x7ff6880510f2]
+	(No symbol) [0x0x7ff68804b89f]
+	(No symbol) [0x0x7ff68804a94a]
+	(No symbol) [0x0x7ff687f9a765]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	(No symbol) [0x0x7ff687f9970e]
+	GetHandleVerifier [0x0x7ff688646a68+4241944]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:55:49,Booking Creation,Upload Customer Note,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 83, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd0425]
+	(No symbol) [0x0x7ff68801864f]
+	(No symbol) [0x0x7ff6880510f2]
+	(No symbol) [0x0x7ff68804b89f]
+	(No symbol) [0x0x7ff68804a94a]
+	(No symbol) [0x0x7ff687f9a765]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	(No symbol) [0x0x7ff687f9970e]
+	GetHandleVerifier [0x0x7ff688646a68+4241944]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:55:53,Booking Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 321, in test_login_valid
+    element = wait.until(EC.element_to_be_clickable((By.XPATH, constent.FORM_SUBMIT)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 622, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd0425]
+	(No symbol) [0x0x7ff68801864f]
+	(No symbol) [0x0x7ff6880510f2]
+	(No symbol) [0x0x7ff68804b89f]
+	(No symbol) [0x0x7ff68804a94a]
+	(No symbol) [0x0x7ff687f9a765]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	(No symbol) [0x0x7ff687f9970e]
+	GetHandleVerifier [0x0x7ff688646a68+4241944]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:56:03,Booking Creation,Open Website,PASS,
+2025-11-19 11:56:05,Booking Creation,Login,PASS,
+2025-11-19 11:56:09,Booking Creation,Navigate to Booking,PASS,
+2025-11-19 11:56:18,Booking Creation,Select Customer,PASS,
+2025-11-19 11:56:18,Booking Creation,Select Vehicle,PASS,
+2025-11-19 11:56:18,Booking Creation,Select Vehicle,PASS,
+2025-11-19 11:56:19,Booking Creation,Fuel Value,PASS,
+2025-11-19 11:56:19,Booking Creation,Exterior Condition,PASS,
+2025-11-19 11:56:20,Booking Creation,Interior Condition,PASS,
+2025-11-19 11:56:20,Booking Creation,Tyre Condition,PASS,
+2025-11-19 11:56:20,Booking Creation,Spare Tyre,PASS,
+2025-11-19 11:56:21,Booking Creation,ToolKit,PASS,
+2025-11-19 11:56:21,Booking Creation,Mileage At Pickup,PASS,
+2025-11-19 11:56:21,Booking Creation,Mileage limit,PASS,
+2025-11-19 11:56:22,Booking Creation,Pickup Time,PASS,
+2025-11-19 11:56:22,Booking Creation,Return Time,PASS,
+2025-11-19 11:56:23,Booking Creation,Enter PickUp Location,PASS,
+2025-11-19 11:56:23,Booking Creation,Enter dropOff Location,PASS,
+2025-11-19 11:56:24,Booking Creation,Confirm Booking,PASS,
+2025-11-19 11:56:24,Booking Creation,Submit Form,PASS,
+2025-11-19 11:56:24,Toast Message,PASS,Duplicate booking: This customer already has a booking for this vehicle during the selected dates,
+2025-11-19 11:56:29,Booking Creation,Upload Receipt Image,PASS,
+2025-11-19 11:56:34,Booking Creation,Upload Transaction ID,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 83, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: target frame detached
+  (failed to check if window was closed: disconnected: unable to send message to renderer)
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd0425]
+	(No symbol) [0x0x7ff687fbd4aa]
+	(No symbol) [0x0x7ff687fbc34f]
+	(No symbol) [0x0x7ff687fe177a]
+	(No symbol) [0x0x7ff688058b06]
+	(No symbol) [0x0x7ff688078fa2]
+	(No symbol) [0x0x7ff688051003]
+	(No symbol) [0x0x7ff6880195d1]
+	(No symbol) [0x0x7ff68801a3f3]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	GetHandleVerifier [0x0x7ff688257b24+117460]
+	GetHandleVerifier [0x0x7ff688257cdf+117903]
+	GetHandleVerifier [0x0x7ff68823dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:56:35,Booking Creation,Enter Terminal ID,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 83, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd060f]
+	(No symbol) [0x0x7ff687fbc145]
+	(No symbol) [0x0x7ff687fe177a]
+	(No symbol) [0x0x7ff688058b06]
+	(No symbol) [0x0x7ff688078fa2]
+	(No symbol) [0x0x7ff688051003]
+	(No symbol) [0x0x7ff6880195d1]
+	(No symbol) [0x0x7ff68801a3f3]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	GetHandleVerifier [0x0x7ff688257b24+117460]
+	GetHandleVerifier [0x0x7ff688257cdf+117903]
+	GetHandleVerifier [0x0x7ff68823dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:56:35,Booking Creation,Enter Receipt No,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 83, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd0425]
+	(No symbol) [0x0x7ff68801864f]
+	(No symbol) [0x0x7ff6880510f2]
+	(No symbol) [0x0x7ff68804b89f]
+	(No symbol) [0x0x7ff68804a94a]
+	(No symbol) [0x0x7ff687f9a765]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	(No symbol) [0x0x7ff687f9970e]
+	GetHandleVerifier [0x0x7ff688646a68+4241944]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:56:35,Booking Creation,Upload Payment Note,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 83, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd0425]
+	(No symbol) [0x0x7ff68801864f]
+	(No symbol) [0x0x7ff6880510f2]
+	(No symbol) [0x0x7ff68804b89f]
+	(No symbol) [0x0x7ff68804a94a]
+	(No symbol) [0x0x7ff687f9a765]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	(No symbol) [0x0x7ff687f9970e]
+	GetHandleVerifier [0x0x7ff688646a68+4241944]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:56:35,Booking Creation,Upload Customer Note,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 83, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 104, in _predicate
+    return driver.find_element(*locator)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd0425]
+	(No symbol) [0x0x7ff68801864f]
+	(No symbol) [0x0x7ff6880510f2]
+	(No symbol) [0x0x7ff68804b89f]
+	(No symbol) [0x0x7ff68804a94a]
+	(No symbol) [0x0x7ff687f9a765]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	(No symbol) [0x0x7ff687f9970e]
+	GetHandleVerifier [0x0x7ff688646a68+4241944]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:56:39,Booking Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 321, in test_login_valid
+    element = wait.until(EC.element_to_be_clickable((By.XPATH, constent.FORM_SUBMIT)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 622, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd0425]
+	(No symbol) [0x0x7ff68801864f]
+	(No symbol) [0x0x7ff6880510f2]
+	(No symbol) [0x0x7ff68804b89f]
+	(No symbol) [0x0x7ff68804a94a]
+	(No symbol) [0x0x7ff687f9a765]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	(No symbol) [0x0x7ff687f9970e]
+	GetHandleVerifier [0x0x7ff688646a68+4241944]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 11:56:57,Booking Creation,Open Website,PASS,
+2025-11-19 11:56:58,Booking Creation,Login,PASS,
+2025-11-19 11:57:02,Booking Creation,Navigate to Booking,PASS,
+2025-11-19 11:57:03,Booking Creation,Upload Profile Image,PASS,
+2025-11-19 11:57:03,Booking Creation,Upload Register Document,PASS,
+2025-11-19 11:57:03,Booking Creation,Upload First Name,PASS,
+2025-11-19 11:57:04,Booking Creation,Upload Last Name,PASS,
+2025-11-19 11:57:04,Booking Creation,Upload Contact Number,PASS,
+2025-11-19 11:57:05,Booking Creation,Upload Email Address,PASS,
+2025-11-19 11:57:05,Booking Creation,Upload Driving License,PASS,
+2025-11-19 11:57:06,Booking Creation,Enter Driving Lic Expiry,PASS,
+2025-11-19 11:57:06,Booking Creation,Upload Passport ID,PASS,
+2025-11-19 11:57:07,Booking Creation,Enter Passport ID Expiry,PASS,
+2025-11-19 11:57:07,Booking Creation,Upload Visa Number,PASS,
+2025-11-19 11:57:08,Booking Creation,Enter Visa Expiry,PASS,
+2025-11-19 11:57:09,Booking Creation,Select Nationality,PASS,
+2025-11-19 11:57:09,Booking Creation,Upload Address line 1,PASS,
+2025-11-19 11:57:10,Booking Creation,Upload Address line 2,PASS,
+2025-11-19 11:57:10,Booking Creation,Upload Postal code,PASS,
+2025-11-19 11:57:12,Booking Creation,Select Vehicle,PASS,
+2025-11-19 11:57:12,Booking Creation,Select Vehicle,PASS,
+2025-11-19 11:57:13,Booking Creation,Fuel Value,PASS,
+2025-11-19 11:57:13,Booking Creation,Exterior Condition,PASS,
+2025-11-19 11:57:14,Booking Creation,Interior Condition,PASS,
+2025-11-19 11:57:14,Booking Creation,Tyre Condition,PASS,
+2025-11-19 11:57:14,Booking Creation,Spare Tyre,PASS,
+2025-11-19 11:57:15,Booking Creation,ToolKit,PASS,
+2025-11-19 11:57:15,Booking Creation,Mileage At Pickup,PASS,
+2025-11-19 11:57:15,Booking Creation,Mileage limit,PASS,
+2025-11-19 11:57:16,Booking Creation,Pickup Time,PASS,
+2025-11-19 11:57:17,Booking Creation,Return Time,PASS,
+2025-11-19 11:57:17,Booking Creation,Enter PickUp Location,PASS,
+2025-11-19 11:57:18,Booking Creation,Enter dropOff Location,PASS,
+2025-11-19 11:57:18,Booking Creation,Confirm Booking,PASS,
+2025-11-19 11:57:18,Booking Creation,Submit Form,PASS,
+2025-11-19 11:57:20,Toast Message,PASS,Record Saved,
+2025-11-19 11:58:48,Booking Creation,Open Website,PASS,
+2025-11-19 11:58:50,Booking Creation,Login,PASS,
+2025-11-19 11:58:53,Booking Creation,Navigate to Booking,PASS,
+2025-11-19 11:58:53,Booking Creation,Upload Profile Image,PASS,
+2025-11-19 11:58:54,Booking Creation,Upload Register Document,PASS,
+2025-11-19 11:58:54,Booking Creation,Upload First Name,PASS,
+2025-11-19 11:58:54,Booking Creation,Upload Last Name,PASS,
+2025-11-19 11:58:54,Booking Creation,Upload Contact Number,PASS,
+2025-11-19 11:58:55,Booking Creation,Upload Email Address,PASS,
+2025-11-19 11:58:55,Booking Creation,Upload Driving License,PASS,
+2025-11-19 11:58:56,Booking Creation,Enter Driving Lic Expiry,PASS,
+2025-11-19 11:58:56,Booking Creation,Upload Passport ID,PASS,
+2025-11-19 11:58:57,Booking Creation,Enter Passport ID Expiry,PASS,
+2025-11-19 11:58:57,Booking Creation,Upload Visa Number,PASS,
+2025-11-19 11:58:57,Booking Creation,Enter Visa Expiry,PASS,
+2025-11-19 11:58:58,Booking Creation,Select Nationality,PASS,
+2025-11-19 11:58:58,Booking Creation,Upload Address line 1,PASS,
+2025-11-19 11:58:58,Booking Creation,Upload Address line 2,PASS,
+2025-11-19 11:58:59,Booking Creation,Upload Postal code,PASS,
+2025-11-19 11:59:03,Booking Creation,Select Vehicle,PASS,
+2025-11-19 11:59:03,Booking Creation,Select Vehicle,PASS,
+2025-11-19 11:59:03,Booking Creation,Fuel Value,PASS,
+2025-11-19 11:59:04,Booking Creation,Exterior Condition,PASS,
+2025-11-19 11:59:04,Booking Creation,Interior Condition,PASS,
+2025-11-19 11:59:04,Booking Creation,Tyre Condition,PASS,
+2025-11-19 11:59:04,Booking Creation,Spare Tyre,PASS,
+2025-11-19 11:59:05,Booking Creation,ToolKit,PASS,
+2025-11-19 11:59:05,Booking Creation,Mileage At Pickup,PASS,
+2025-11-19 11:59:05,Booking Creation,Mileage limit,PASS,
+2025-11-19 11:59:05,Booking Creation,Pickup Time,PASS,
+2025-11-19 11:59:06,Booking Creation,Return Time,PASS,
+2025-11-19 11:59:06,Booking Creation,Enter PickUp Location,PASS,
+2025-11-19 11:59:07,Booking Creation,Enter dropOff Location,PASS,
+2025-11-19 11:59:07,Booking Creation,Confirm Booking,PASS,
+2025-11-19 11:59:07,Booking Creation,Submit Form,PASS,
+2025-11-19 11:59:09,Toast Message,PASS,Record Saved,
+2025-11-19 11:59:09,Booking Creation,Upload Receipt Image,PASS,
+2025-11-19 11:59:13,Booking Creation,Upload Transaction ID,PASS,
+2025-11-19 11:59:13,Booking Creation,Enter Terminal ID,PASS,
+2025-11-19 11:59:13,Booking Creation,Enter Receipt No,PASS,
+2025-11-19 11:59:13,Booking Creation,Upload Payment Note,PASS,
+2025-11-19 11:59:14,Booking Creation,Upload Customer Note,PASS,
+2025-11-19 11:59:15,Booking Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_customer_code.py"", line 357, in test_login_valid
+    (By.XPATH, constent.FORM_SUBMIT))).click()
+                                       ~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-slot=""button"" class=""inline-flex items-center justify-center gap-2 whitespace-nowrap disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 px-6 has-[&gt;svg]:px-4 text-sm rounded-md transition font-normal cursor-pointer"" type=""submit"">...</button> is not clickable at point (1452, 665). Other element would receive the click: <div class=""flex-1 overflow-y-auto py-4 px-6"">...</div>
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff68824e8e5+80021]
+	GetHandleVerifier [0x0x7ff68824e940+80112]
+	(No symbol) [0x0x7ff687fd060f]
+	(No symbol) [0x0x7ff688030a39]
+	(No symbol) [0x0x7ff68802e3be]
+	(No symbol) [0x0x7ff68802b2e1]
+	(No symbol) [0x0x7ff68802a1a0]
+	(No symbol) [0x0x7ff68801b7c8]
+	(No symbol) [0x0x7ff68805122a]
+	(No symbol) [0x0x7ff68801b056]
+	(No symbol) [0x0x7ff688051440]
+	(No symbol) [0x0x7ff68807968a]
+	(No symbol) [0x0x7ff688051003]
+	(No symbol) [0x0x7ff6880195d1]
+	(No symbol) [0x0x7ff68801a3f3]
+	GetHandleVerifier [0x0x7ff68850dc7d+2960429]
+	GetHandleVerifier [0x0x7ff688507f3a+2936554]
+	GetHandleVerifier [0x0x7ff688528977+3070247]
+	GetHandleVerifier [0x0x7ff6882683ce+185214]
+	GetHandleVerifier [0x0x7ff68826fe1f+216527]
+	GetHandleVerifier [0x0x7ff688257b24+117460]
+	GetHandleVerifier [0x0x7ff688257cdf+117903]
+	GetHandleVerifier [0x0x7ff68823dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:04:16,Booking Creation,Open Website,PASS,
+2025-11-19 12:04:18,Booking Creation,Login,PASS,
+2025-11-19 12:04:21,Booking Creation,Navigate to Booking,PASS,
+2025-11-19 12:04:22,Booking Creation,Upload Profile Image,PASS,
+2025-11-19 12:04:22,Booking Creation,Upload Register Document,PASS,
+2025-11-19 12:04:22,Booking Creation,Upload First Name,PASS,
+2025-11-19 12:04:22,Booking Creation,Upload Last Name,PASS,
+2025-11-19 12:04:23,Booking Creation,Upload Contact Number,PASS,
+2025-11-19 12:04:23,Booking Creation,Upload Email Address,PASS,
+2025-11-19 12:04:24,Booking Creation,Upload Driving License,PASS,
+2025-11-19 12:04:24,Booking Creation,Enter Driving Lic Expiry,PASS,
+2025-11-19 12:04:24,Booking Creation,Upload Passport ID,PASS,
+2025-11-19 12:04:25,Booking Creation,Enter Passport ID Expiry,PASS,
+2025-11-19 12:04:25,Booking Creation,Upload Visa Number,PASS,
+2025-11-19 12:04:25,Booking Creation,Enter Visa Expiry,PASS,
+2025-11-19 12:04:26,Booking Creation,Select Nationality,PASS,
+2025-11-19 12:04:26,Booking Creation,Upload Address line 1,PASS,
+2025-11-19 12:04:27,Booking Creation,Upload Address line 2,PASS,
+2025-11-19 12:04:27,Booking Creation,Upload Postal code,PASS,
+2025-11-19 12:04:31,Booking Creation,Select Vehicle,PASS,
+2025-11-19 12:04:31,Booking Creation,Select Vehicle,PASS,
+2025-11-19 12:04:32,Booking Creation,Fuel Value,PASS,
+2025-11-19 12:04:32,Booking Creation,Exterior Condition,PASS,
+2025-11-19 12:04:32,Booking Creation,Interior Condition,PASS,
+2025-11-19 12:04:33,Booking Creation,Tyre Condition,PASS,
+2025-11-19 12:04:33,Booking Creation,Spare Tyre,PASS,
+2025-11-19 12:04:33,Booking Creation,ToolKit,PASS,
+2025-11-19 12:04:33,Booking Creation,Mileage At Pickup,PASS,
+2025-11-19 12:04:33,Booking Creation,Mileage limit,PASS,
+2025-11-19 12:04:34,Booking Creation,Pickup Time,PASS,
+2025-11-19 12:04:34,Booking Creation,Return Time,PASS,
+2025-11-19 12:04:35,Booking Creation,Enter PickUp Location,PASS,
+2025-11-19 12:04:35,Booking Creation,Enter dropOff Location,PASS,
+2025-11-19 12:04:35,Booking Creation,Confirm Booking,PASS,
+2025-11-19 12:04:35,Booking Creation,Submit Form,PASS,
+2025-11-19 12:04:37,Toast Message,PASS,,
+2025-11-19 12:04:41,Booking Creation,Upload Receipt Image,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_customer_code.py"", line 71, in fill_field
+    element.send_keys(value)
+    ~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b1500425]
+	(No symbol) [0x0x7ff7b1551e23]
+	(No symbol) [0x0x7ff7b154fcf1]
+	(No symbol) [0x0x7ff7b158122a]
+	(No symbol) [0x0x7ff7b154b056]
+	(No symbol) [0x0x7ff7b1581440]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:04:41,Booking Creation,Upload Transaction ID,PASS,
+2025-11-19 12:04:42,Booking Creation,Enter Terminal ID,PASS,
+2025-11-19 12:04:42,Booking Creation,Enter Receipt No,PASS,
+2025-11-19 12:04:42,Booking Creation,Upload Payment Note,PASS,
+2025-11-19 12:04:42,Booking Creation,Upload Customer Note,PASS,
+2025-11-19 12:04:44,Booking Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_customer_code.py"", line 357, in test_login_valid
+    (By.XPATH,""//button[normalize-space()='Save']"" ))).click()
+                                                       ~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-slot=""button"" class=""inline-flex items-center justify-center gap-2 whitespace-nowrap disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 px-6 has-[&gt;svg]:px-4 text-sm rounded-md transition font-normal cursor-pointer"" type=""submit"">...</button> is not clickable at point (1452, 665). Other element would receive the click: <div class=""flex-1 overflow-y-auto py-4 px-6"">...</div>
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1560a39]
+	(No symbol) [0x0x7ff7b155e3be]
+	(No symbol) [0x0x7ff7b155b2e1]
+	(No symbol) [0x0x7ff7b155a1a0]
+	(No symbol) [0x0x7ff7b154b7c8]
+	(No symbol) [0x0x7ff7b158122a]
+	(No symbol) [0x0x7ff7b154b056]
+	(No symbol) [0x0x7ff7b1581440]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:12:15,Booking Creation,Open Website,PASS,
+2025-11-19 12:12:17,Booking Creation,Login,PASS,
+2025-11-19 12:12:20,Booking Creation,Navigate to Booking,PASS,
+2025-11-19 12:12:30,Booking Creation,Select Customer,PASS,
+2025-11-19 12:12:31,Booking Creation,Select Vehicle,PASS,
+2025-11-19 12:12:31,Booking Creation,Select Vehicle,PASS,
+2025-11-19 12:12:31,Booking Creation,Fuel Value,PASS,
+2025-11-19 12:12:31,Booking Creation,Exterior Condition,PASS,
+2025-11-19 12:12:31,Booking Creation,Interior Condition,PASS,
+2025-11-19 12:12:32,Booking Creation,Tyre Condition,PASS,
+2025-11-19 12:12:32,Booking Creation,Spare Tyre,PASS,
+2025-11-19 12:12:32,Booking Creation,ToolKit,PASS,
+2025-11-19 12:12:32,Booking Creation,Mileage At Pickup,PASS,
+2025-11-19 12:12:32,Booking Creation,Mileage limit,PASS,
+2025-11-19 12:12:33,Booking Creation,Pickup Time,PASS,
+2025-11-19 12:12:34,Booking Creation,Return Time,PASS,
+2025-11-19 12:12:34,Booking Creation,Enter PickUp Location,PASS,
+2025-11-19 12:12:34,Booking Creation,Enter dropOff Location,PASS,
+2025-11-19 12:12:34,Booking Creation,Confirm Booking,PASS,
+2025-11-19 12:12:34,Booking Creation,Submit Form,PASS,
+2025-11-19 12:12:35,Toast Message,PASS,Record Saved,
+2025-11-19 12:12:39,Booking Creation,Upload Receipt Image,PASS,
+2025-11-19 12:12:39,Booking Creation,Upload Transaction ID,PASS,
+2025-11-19 12:12:40,Booking Creation,Enter Terminal ID,PASS,
+2025-11-19 12:12:40,Booking Creation,Enter Receipt No,PASS,
+2025-11-19 12:12:40,Booking Creation,Upload Payment Note,PASS,
+2025-11-19 12:12:40,Booking Creation,Upload Customer Note,PASS,
+2025-11-19 12:12:47,Booking Creation,Submit Form,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 329, in test_login_valid
+    element.click()
+    ~~~~~~~~~~~~~^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 121, in click
+    self._execute(Command.CLICK_ELEMENT)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button data-slot=""button"" class=""inline-flex items-center justify-center gap-2 whitespace-nowrap disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([class*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 px-6 has-[&gt;svg]:px-4 text-sm rounded-md transition font-normal cursor-pointer"" type=""submit"">...</button> is not clickable at point (1452, 649). Other element would receive the click: <div class=""flex-1 overflow-y-auto py-4 px-6"">...</div>
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1560a39]
+	(No symbol) [0x0x7ff7b155e3be]
+	(No symbol) [0x0x7ff7b155b2e1]
+	(No symbol) [0x0x7ff7b155a1a0]
+	(No symbol) [0x0x7ff7b154b7c8]
+	(No symbol) [0x0x7ff7b158122a]
+	(No symbol) [0x0x7ff7b154b056]
+	(No symbol) [0x0x7ff7b1581440]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-21 18:45:58,Booking Creation,Open Website,PASS,
+2025-11-21 18:46:01,Booking Creation,Login,PASS,
+2025-11-21 18:46:12,Booking Creation,Navigate to booking,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_update_code.py"", line 128, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, constent.BOOKING_BUTT0N))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6d85fe8e5+80021]
+	GetHandleVerifier [0x0x7ff6d85fe940+80112]
+	(No symbol) [0x0x7ff6d838060f]
+	(No symbol) [0x0x7ff6d83d8854]
+	(No symbol) [0x0x7ff6d83d8b1c]
+	(No symbol) [0x0x7ff6d842c927]
+	(No symbol) [0x0x7ff6d840126f]
+	(No symbol) [0x0x7ff6d842968a]
+	(No symbol) [0x0x7ff6d8401003]
+	(No symbol) [0x0x7ff6d83c95d1]
+	(No symbol) [0x0x7ff6d83ca3f3]
+	GetHandleVerifier [0x0x7ff6d88bdc7d+2960429]
+	GetHandleVerifier [0x0x7ff6d88b7f3a+2936554]
+	GetHandleVerifier [0x0x7ff6d88d8977+3070247]
+	GetHandleVerifier [0x0x7ff6d86183ce+185214]
+	GetHandleVerifier [0x0x7ff6d861fe1f+216527]
+	GetHandleVerifier [0x0x7ff6d8607b24+117460]
+	GetHandleVerifier [0x0x7ff6d8607cdf+117903]
+	GetHandleVerifier [0x0x7ff6d85edbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"

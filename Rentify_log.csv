@@ -2186,3 +2186,982 @@ Stacktrace:
 	RtlUserThreadStart [0x0x7ffba7ebcc91+33]
 
 "
+2025-11-19 12:13:17,Vehicles Add,Open Website,PASS,
+2025-11-19 12:13:18,Vehicles Add,Login,PASS,
+2025-11-19 12:13:25,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-19 12:13:25,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-19 12:13:25,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-19 12:13:26,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-19 12:13:26,Vehicles Add,Upload Car Name,PASS,
+2025-11-19 12:13:26,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-19 12:13:27,Vehicles Add,Select Brand,PASS,
+2025-11-19 12:13:30,Vehicles Add,Select Model,PASS,
+2025-11-19 12:13:30,Vehicles Add,Select Variant,PASS,
+2025-11-19 12:13:31,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-19 12:13:31,Vehicles Add,Select Year,PASS,
+2025-11-19 12:13:41,Vehicles Add,Purchase Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 164, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.XPATH, ""//button[text()='21']""))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+"
+2025-11-19 12:13:42,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-19 12:13:42,Vehicles Add,Upload Rent Price,PASS,
+2025-11-19 12:13:42,Vehicles Add,Select Transmission,PASS,
+2025-11-19 12:13:42,Vehicles Add,Upload Top Speed,PASS,
+2025-11-19 12:13:43,Vehicles Add,Upload Acceleration,PASS,
+2025-11-19 12:13:43,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-19 12:13:43,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-19 12:13:43,Vehicles Add,Fuel Type,PASS,
+2025-11-19 12:13:43,Vehicles Add,ADD Mileage,PASS,
+2025-11-19 12:13:44,Vehicles Add,Exterior Color,PASS,
+2025-11-19 12:13:44,Vehicles Add,Interior Color,PASS,
+2025-11-19 12:13:44,Vehicles Add,Add Number Plate,PASS,
+2025-11-19 12:13:45,Vehicles Add,Fitness Date,PASS,
+2025-11-19 12:13:45,Vehicles Add,ADD Horse Power,PASS,
+2025-11-19 12:13:45,Vehicles Add,Features,PASS,
+2025-11-19 12:13:46,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-19 12:13:56,Vehicles Add,Insurance Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 296, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.XPATH, ""//button[text()='21']""))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+"
+2025-11-19 12:13:56,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-19 12:13:56,Vehicles Add,Pre-Payment,PASS,
+2025-11-19 12:13:56,Vehicles Add,Description,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 46, in fill_field
+    element.send_keys(value)
+    ~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b1500425]
+	(No symbol) [0x0x7ff7b1551e23]
+	(No symbol) [0x0x7ff7b154fcf1]
+	(No symbol) [0x0x7ff7b158122a]
+	(No symbol) [0x0x7ff7b154b056]
+	(No symbol) [0x0x7ff7b1581440]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:14:06,Vehicles Add,Description_AR,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 45, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:14:07,Vehicles Add,Submit Form,PASS,
+2025-11-19 12:14:12,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+",
+2025-11-19 12:19:27,Vehicles Add,Open Website,PASS,
+2025-11-19 12:19:28,Vehicles Add,Login,PASS,
+2025-11-19 12:19:35,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-19 12:19:35,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-19 12:19:35,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-19 12:19:35,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-19 12:19:36,Vehicles Add,Upload Car Name,PASS,
+2025-11-19 12:19:36,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-19 12:19:36,Vehicles Add,Select Brand,PASS,
+2025-11-19 12:19:40,Vehicles Add,Select Model,PASS,
+2025-11-19 12:19:40,Vehicles Add,Select Variant,PASS,
+2025-11-19 12:19:40,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-19 12:19:41,Vehicles Add,Select Year,PASS,
+2025-11-19 12:19:51,Vehicles Add,Purchase Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 164, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.XPATH, ""//button[text()='21']""))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+"
+2025-11-19 12:19:51,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-19 12:19:51,Vehicles Add,Upload Rent Price,PASS,
+2025-11-19 12:19:52,Vehicles Add,Select Transmission,PASS,
+2025-11-19 12:19:52,Vehicles Add,Upload Top Speed,PASS,
+2025-11-19 12:19:52,Vehicles Add,Upload Acceleration,PASS,
+2025-11-19 12:19:52,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-19 12:19:53,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-19 12:19:53,Vehicles Add,Fuel Type,PASS,
+2025-11-19 12:19:53,Vehicles Add,ADD Mileage,PASS,
+2025-11-19 12:19:53,Vehicles Add,Exterior Color,PASS,
+2025-11-19 12:19:54,Vehicles Add,Interior Color,PASS,
+2025-11-19 12:19:54,Vehicles Add,Add Number Plate,PASS,
+2025-11-19 12:19:54,Vehicles Add,Fitness Date,PASS,
+2025-11-19 12:19:54,Vehicles Add,ADD Horse Power,PASS,
+2025-11-19 12:19:55,Vehicles Add,Features,PASS,
+2025-11-19 12:19:55,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-19 12:20:05,Vehicles Add,Insurance Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 296, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.XPATH, ""//button[text()='21']""))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+"
+2025-11-19 12:20:06,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-19 12:20:06,Vehicles Add,Pre-Payment,PASS,
+2025-11-19 12:20:06,Vehicles Add,Description,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 46, in fill_field
+    element.send_keys(value)
+    ~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b1500425]
+	(No symbol) [0x0x7ff7b1551e23]
+	(No symbol) [0x0x7ff7b154fcf1]
+	(No symbol) [0x0x7ff7b158122a]
+	(No symbol) [0x0x7ff7b154b056]
+	(No symbol) [0x0x7ff7b1581440]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:20:16,Vehicles Add,Description_AR,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 45, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:20:16,Vehicles Add,Submit Form,PASS,
+2025-11-19 12:20:22,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+",
+2025-11-19 12:21:32,Vehicles Add,Open Website,PASS,
+2025-11-19 12:21:33,Vehicles Add,Login,PASS,
+2025-11-19 12:21:40,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-19 12:21:40,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-19 12:21:40,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-19 12:21:40,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-19 12:21:41,Vehicles Add,Upload Car Name,PASS,
+2025-11-19 12:21:41,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-19 12:21:42,Vehicles Add,Select Brand,PASS,
+2025-11-19 12:21:45,Vehicles Add,Select Model,PASS,
+2025-11-19 12:21:45,Vehicles Add,Select Variant,PASS,
+2025-11-19 12:21:46,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-19 12:21:46,Vehicles Add,Select Year,PASS,
+2025-11-19 12:21:46,Vehicles Add,Purchase Date,PASS,
+2025-11-19 12:21:47,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-19 12:21:47,Vehicles Add,Upload Rent Price,PASS,
+2025-11-19 12:21:47,Vehicles Add,Select Transmission,PASS,
+2025-11-19 12:21:47,Vehicles Add,Upload Top Speed,PASS,
+2025-11-19 12:21:47,Vehicles Add,Upload Acceleration,PASS,
+2025-11-19 12:21:48,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-19 12:21:48,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-19 12:21:48,Vehicles Add,Fuel Type,PASS,
+2025-11-19 12:21:48,Vehicles Add,ADD Mileage,PASS,
+2025-11-19 12:21:49,Vehicles Add,Exterior Color,PASS,
+2025-11-19 12:21:49,Vehicles Add,Interior Color,PASS,
+2025-11-19 12:21:49,Vehicles Add,Add Number Plate,PASS,
+2025-11-19 12:21:49,Vehicles Add,Fitness Date,PASS,
+2025-11-19 12:21:50,Vehicles Add,ADD Horse Power,PASS,
+2025-11-19 12:21:50,Vehicles Add,Features,PASS,
+2025-11-19 12:21:50,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-19 12:22:01,Vehicles Add,Insurance Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 296, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.XPATH, ""//button[text()='21']""))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+"
+2025-11-19 12:22:01,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-19 12:22:01,Vehicles Add,Pre-Payment,PASS,
+2025-11-19 12:22:01,Vehicles Add,Description,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 46, in fill_field
+    element.send_keys(value)
+    ~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b1500425]
+	(No symbol) [0x0x7ff7b1551e23]
+	(No symbol) [0x0x7ff7b154fcf1]
+	(No symbol) [0x0x7ff7b158122a]
+	(No symbol) [0x0x7ff7b154b056]
+	(No symbol) [0x0x7ff7b1581440]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:23:30,Vehicles Add,Open Website,PASS,
+2025-11-19 12:23:31,Vehicles Add,Login,PASS,
+2025-11-19 12:23:38,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-19 12:23:38,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-19 12:23:38,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-19 12:23:38,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-19 12:23:39,Vehicles Add,Upload Car Name,PASS,
+2025-11-19 12:23:39,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-19 12:23:39,Vehicles Add,Select Brand,PASS,
+2025-11-19 12:23:43,Vehicles Add,Select Model,PASS,
+2025-11-19 12:23:43,Vehicles Add,Select Variant,PASS,
+2025-11-19 12:23:43,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-19 12:23:44,Vehicles Add,Select Year,PASS,
+2025-11-19 12:23:44,Vehicles Add,Purchase Date,PASS,
+2025-11-19 12:23:44,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-19 12:23:44,Vehicles Add,Upload Rent Price,PASS,
+2025-11-19 12:23:45,Vehicles Add,Select Transmission,PASS,
+2025-11-19 12:23:45,Vehicles Add,Upload Top Speed,PASS,
+2025-11-19 12:23:45,Vehicles Add,Upload Acceleration,PASS,
+2025-11-19 12:23:45,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-19 12:23:45,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-19 12:23:46,Vehicles Add,Fuel Type,PASS,
+2025-11-19 12:23:46,Vehicles Add,ADD Mileage,PASS,
+2025-11-19 12:23:46,Vehicles Add,Exterior Color,PASS,
+2025-11-19 12:23:46,Vehicles Add,Interior Color,PASS,
+2025-11-19 12:23:47,Vehicles Add,Add Number Plate,PASS,
+2025-11-19 12:23:47,Vehicles Add,Fitness Date,PASS,
+2025-11-19 12:23:47,Vehicles Add,ADD Horse Power,PASS,
+2025-11-19 12:23:48,Vehicles Add,Features,PASS,
+2025-11-19 12:23:48,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-19 12:23:48,Vehicles Add,Insurance Date,PASS,
+2025-11-19 12:23:59,Vehicles Add,Insurance Expiry Date,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 308, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.XPATH, ""//button[text()='25']""))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+"
+2025-11-19 12:23:59,Vehicles Add,Pre-Payment,PASS,
+2025-11-19 12:23:59,Vehicles Add,Description,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 46, in fill_field
+    element.send_keys(value)
+    ~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b1500425]
+	(No symbol) [0x0x7ff7b1551e23]
+	(No symbol) [0x0x7ff7b154fcf1]
+	(No symbol) [0x0x7ff7b158122a]
+	(No symbol) [0x0x7ff7b154b056]
+	(No symbol) [0x0x7ff7b1581440]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:24:09,Vehicles Add,Description_AR,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 45, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:24:09,Vehicles Add,Submit Form,PASS,
+2025-11-19 12:24:15,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+",
+2025-11-19 12:26:06,Vehicles Add,Open Website,PASS,
+2025-11-19 12:26:08,Vehicles Add,Login,PASS,
+2025-11-19 12:26:14,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-19 12:26:15,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-19 12:26:15,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-19 12:26:15,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-19 12:26:15,Vehicles Add,Upload Car Name,PASS,
+2025-11-19 12:26:16,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-19 12:26:16,Vehicles Add,Select Brand,PASS,
+2025-11-19 12:26:29,Vehicles Add,Select Model,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 120, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, f""//div[text()='Skoda Fabia']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:26:39,Vehicles Add,Open Website,PASS,
+2025-11-19 12:26:41,Vehicles Add,Login,PASS,
+2025-11-19 12:26:48,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-19 12:26:48,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-19 12:26:48,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-19 12:26:48,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-19 12:26:49,Vehicles Add,Upload Car Name,PASS,
+2025-11-19 12:26:49,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-19 12:26:49,Vehicles Add,Select Brand,PASS,
+2025-11-19 12:26:53,Vehicles Add,Select Model,PASS,
+2025-11-19 12:26:53,Vehicles Add,Select Variant,PASS,
+2025-11-19 12:26:53,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-19 12:26:54,Vehicles Add,Select Year,PASS,
+2025-11-19 12:26:54,Vehicles Add,Purchase Date,PASS,
+2025-11-19 12:26:54,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-19 12:26:54,Vehicles Add,Upload Rent Price,PASS,
+2025-11-19 12:26:55,Vehicles Add,Select Transmission,PASS,
+2025-11-19 12:26:55,Vehicles Add,Upload Top Speed,PASS,
+2025-11-19 12:26:55,Vehicles Add,Upload Acceleration,PASS,
+2025-11-19 12:26:55,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-19 12:26:55,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-19 12:26:56,Vehicles Add,Fuel Type,PASS,
+2025-11-19 12:26:56,Vehicles Add,ADD Mileage,PASS,
+2025-11-19 12:26:56,Vehicles Add,Exterior Color,PASS,
+2025-11-19 12:26:57,Vehicles Add,Interior Color,PASS,
+2025-11-19 12:26:57,Vehicles Add,Add Number Plate,PASS,
+2025-11-19 12:26:57,Vehicles Add,Fitness Date,PASS,
+2025-11-19 12:26:57,Vehicles Add,ADD Horse Power,PASS,
+2025-11-19 12:26:58,Vehicles Add,Features,PASS,
+2025-11-19 12:26:58,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-19 12:26:58,Vehicles Add,Insurance Date,PASS,
+2025-11-19 12:26:59,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-19 12:26:59,Vehicles Add,Pre-Payment,PASS,
+2025-11-19 12:26:59,Vehicles Add,Description,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 46, in fill_field
+    element.send_keys(value)
+    ~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b1500425]
+	(No symbol) [0x0x7ff7b1551e23]
+	(No symbol) [0x0x7ff7b154fcf1]
+	(No symbol) [0x0x7ff7b158122a]
+	(No symbol) [0x0x7ff7b154b056]
+	(No symbol) [0x0x7ff7b1581440]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:27:09,Vehicles Add,Description_AR,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 45, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:27:09,Vehicles Add,Submit Form,PASS,
+2025-11-19 12:27:14,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+",
+2025-11-19 12:28:48,Vehicles Add,Open Website,PASS,
+2025-11-19 12:28:50,Vehicles Add,Login,PASS,
+2025-11-19 12:28:57,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-19 12:28:57,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-19 12:28:57,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-19 12:28:57,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-19 12:28:57,Vehicles Add,Upload Car Name,PASS,
+2025-11-19 12:28:58,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-19 12:28:58,Vehicles Add,Select Brand,PASS,
+2025-11-19 12:29:02,Vehicles Add,Select Model,PASS,
+2025-11-19 12:29:02,Vehicles Add,Select Variant,PASS,
+2025-11-19 12:29:02,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-19 12:29:02,Vehicles Add,Select Year,PASS,
+2025-11-19 12:29:03,Vehicles Add,Purchase Date,PASS,
+2025-11-19 12:29:03,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-19 12:29:03,Vehicles Add,Upload Rent Price,PASS,
+2025-11-19 12:29:03,Vehicles Add,Select Transmission,PASS,
+2025-11-19 12:29:14,Vehicles Add,Select Body Type,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 188, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, f""//div[text()='Automatic']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:30:29,Vehicles Add,Open Website,PASS,
+2025-11-19 12:30:30,Vehicles Add,Login,PASS,
+2025-11-19 12:30:37,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-19 12:30:37,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-19 12:30:38,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-19 12:30:38,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-19 12:30:38,Vehicles Add,Upload Car Name,PASS,
+2025-11-19 12:30:38,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-19 12:30:39,Vehicles Add,Select Brand,PASS,
+2025-11-19 12:30:42,Vehicles Add,Select Model,PASS,
+2025-11-19 12:30:43,Vehicles Add,Select Variant,PASS,
+2025-11-19 12:30:43,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-19 12:30:43,Vehicles Add,Select Year,PASS,
+2025-11-19 12:30:44,Vehicles Add,Purchase Date,PASS,
+2025-11-19 12:30:44,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-19 12:30:44,Vehicles Add,Upload Rent Price,PASS,
+2025-11-19 12:30:44,Vehicles Add,Select Transmission,PASS,
+2025-11-19 12:30:46,Vehicles Add,Select Body Type,PASS,
+2025-11-19 12:30:47,Vehicles Add,Upload Top Speed,PASS,
+2025-11-19 12:30:47,Vehicles Add,Upload Acceleration,PASS,
+2025-11-19 12:30:47,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-19 12:30:47,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-19 12:30:47,Vehicles Add,Fuel Type,PASS,
+2025-11-19 12:30:47,Vehicles Add,ADD Mileage,PASS,
+2025-11-19 12:30:48,Vehicles Add,Exterior Color,PASS,
+2025-11-19 12:30:48,Vehicles Add,Interior Color,PASS,
+2025-11-19 12:30:48,Vehicles Add,Add Number Plate,PASS,
+2025-11-19 12:30:49,Vehicles Add,Fitness Date,PASS,
+2025-11-19 12:30:49,Vehicles Add,ADD Horse Power,PASS,
+2025-11-19 12:30:49,Vehicles Add,Features,PASS,
+2025-11-19 12:30:50,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-19 12:30:50,Vehicles Add,Insurance Date,PASS,
+2025-11-19 12:30:51,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-19 12:30:51,Vehicles Add,Pre-Payment,PASS,
+2025-11-19 12:30:51,Vehicles Add,Description,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 46, in fill_field
+    element.send_keys(value)
+    ~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b1500425]
+	(No symbol) [0x0x7ff7b1551e23]
+	(No symbol) [0x0x7ff7b154fcf1]
+	(No symbol) [0x0x7ff7b158122a]
+	(No symbol) [0x0x7ff7b154b056]
+	(No symbol) [0x0x7ff7b1581440]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:31:01,Vehicles Add,Description_AR,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 45, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:31:01,Vehicles Add,Submit Form,PASS,
+2025-11-19 12:31:07,Toast Message,PASS,Vehicle with this title already exists,
+2025-11-19 12:32:21,Vehicles Add,Open Website,PASS,
+2025-11-19 12:32:24,Vehicles Add,Login,PASS,
+2025-11-19 12:32:30,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-19 12:32:30,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-19 12:32:31,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-19 12:32:31,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-19 12:32:31,Vehicles Add,Upload Car Name,PASS,
+2025-11-19 12:32:32,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-19 12:32:32,Vehicles Add,Select Brand,PASS,
+2025-11-19 12:32:35,Vehicles Add,Select Model,PASS,
+2025-11-19 12:32:36,Vehicles Add,Select Variant,PASS,
+2025-11-19 12:32:36,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-19 12:32:36,Vehicles Add,Select Year,PASS,
+2025-11-19 12:32:36,Vehicles Add,Purchase Date,PASS,
+2025-11-19 12:32:37,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-19 12:32:37,Vehicles Add,Upload Rent Price,PASS,
+2025-11-19 12:32:37,Vehicles Add,Select Transmission,PASS,
+2025-11-19 12:32:39,Vehicles Add,Select Body Type,PASS,
+2025-11-19 12:32:39,Vehicles Add,Upload Top Speed,PASS,
+2025-11-19 12:32:39,Vehicles Add,Upload Acceleration,PASS,
+2025-11-19 12:32:39,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-19 12:32:40,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-19 12:32:40,Vehicles Add,Fuel Type,PASS,
+2025-11-19 12:32:40,Vehicles Add,ADD Mileage,PASS,
+2025-11-19 12:32:41,Vehicles Add,Exterior Color,PASS,
+2025-11-19 12:32:41,Vehicles Add,Interior Color,PASS,
+2025-11-19 12:32:41,Vehicles Add,Add Number Plate,PASS,
+2025-11-19 12:32:42,Vehicles Add,Fitness Date,PASS,
+2025-11-19 12:32:42,Vehicles Add,ADD Horse Power,PASS,
+2025-11-19 12:32:42,Vehicles Add,Features,PASS,
+2025-11-19 12:32:43,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-19 12:32:43,Vehicles Add,Insurance Date,PASS,
+2025-11-19 12:32:43,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-19 12:32:43,Vehicles Add,Pre-Payment,PASS,
+2025-11-19 12:32:43,Vehicles Add,Description,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 46, in fill_field
+    element.send_keys(value)
+    ~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b1500425]
+	(No symbol) [0x0x7ff7b1551e23]
+	(No symbol) [0x0x7ff7b154fcf1]
+	(No symbol) [0x0x7ff7b158122a]
+	(No symbol) [0x0x7ff7b154b056]
+	(No symbol) [0x0x7ff7b1581440]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:32:53,Vehicles Add,Description_AR,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 45, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7b177e8e5+80021]
+	GetHandleVerifier [0x0x7ff7b177e940+80112]
+	(No symbol) [0x0x7ff7b150060f]
+	(No symbol) [0x0x7ff7b1558854]
+	(No symbol) [0x0x7ff7b1558b1c]
+	(No symbol) [0x0x7ff7b15ac927]
+	(No symbol) [0x0x7ff7b158126f]
+	(No symbol) [0x0x7ff7b15a968a]
+	(No symbol) [0x0x7ff7b1581003]
+	(No symbol) [0x0x7ff7b15495d1]
+	(No symbol) [0x0x7ff7b154a3f3]
+	GetHandleVerifier [0x0x7ff7b1a3dc7d+2960429]
+	GetHandleVerifier [0x0x7ff7b1a37f3a+2936554]
+	GetHandleVerifier [0x0x7ff7b1a58977+3070247]
+	GetHandleVerifier [0x0x7ff7b17983ce+185214]
+	GetHandleVerifier [0x0x7ff7b179fe1f+216527]
+	GetHandleVerifier [0x0x7ff7b1787b24+117460]
+	GetHandleVerifier [0x0x7ff7b1787cdf+117903]
+	GetHandleVerifier [0x0x7ff7b176dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-19 12:32:54,Vehicles Add,Submit Form,PASS,
+2025-11-19 12:32:57,Toast Message,PASS,Vehicle with this title already exists,

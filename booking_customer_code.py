@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-import constent
+import cons.constent as constent
 import datetime
 import csv
 import traceback
@@ -341,6 +341,34 @@ class LoginTest(unittest.TestCase):
         except Exception as e:
             log_step(test_case, "Submit Form", "FAIL", traceback.format_exc())
             self.fail(f"Failed at Submit Form: {e}")
+
+        # ========== STEP 29: Security deposit Form ==========
+
+        # fill_field(wait,By.XPATH,"(//div[.//span[contains(text(),'Drop here to attach')]])[6]",r"C:\Users\Awais\Pictures\image\profile\profilegirl.jpg",test_case, "Upload Receipt Image")
+        # fill_field(wait,By.NAME,constent.TRANSACTION_NAME,"1112345678",test_case, "Upload Transaction ID")
+        # fill_field(wait,By.NAME,constent.TERMINAL_NAME,"123456",test_case, "Enter Terminal ID")
+        # fill_field(wait,By.NAME,constent.RECEIPT_NAME,"12345678",test_case, "Enter Receipt No")
+        # fill_field(wait,By.NAME,constent.PAYMENT_NOTE_NAME,"A well-maintained Honda Civic 2021",test_case, "Upload Payment Note")
+        # fill_field(wait,By.NAME,constent.CUSTOMER_NOTE_NAME,"A well-maintained Honda Civic 2021",test_case, "Upload Customer Note")
+
+        # # ========== STEP 29: Submit Form ==========
+        # try:
+        #     wait.until(EC.element_to_be_clickable(
+        #         (By.XPATH,"//button[normalize-space()='Save']" ))).click()
+        #     log_step(test_case, "Submit Form", "PASS")
+
+        #     try:
+        #         toast_element = WebDriverWait(driver, 5).until(
+        #             EC.presence_of_element_located((By.XPATH, "//*[@id='_rht_toaster']//div")))
+        #         toast_text = toast_element.text
+        #         print("Toast Message:", toast_text)
+        #         log_step("Toast Message", "PASS", toast_text.strip())
+        #     except Exception as e:
+        #         log_step("Toast Message", "FAIL", f"No toast captured: {str(e)}")
+
+        # except Exception as e:
+        #     log_step(test_case, "Submit Form", "FAIL", traceback.format_exc())
+        #     self.fail(f"Failed at Submit Form: {e}")
 
     
 

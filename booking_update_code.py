@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
-import constent
+import cons.constent as constent
 import datetime
 import csv
 import traceback
@@ -18,6 +18,9 @@ if constent.EMAIL == "kagodad145@wivstore.com":
         "Customer 38 owais (test_20251117155216@example.com)",
         "Customer 79 owais (test_20251117161251@example.com)",
         "Customer 22 owais (test_20251117161415@example.com)",
+        "Customer 48 owais (test_20251119120412@example.com)",
+        "Customer 76 owais (test_20251119115844@example.com)",
+        "Customer 88 owais (test_20251119115652@example.com)"
        
         ]
 
@@ -307,6 +310,8 @@ class LoginTest(unittest.TestCase):
     
         time.sleep(4)
         fill_field(wait,By.XPATH,constent.UPLOAD_PROFILE,r"C:\Users\Awais\Pictures\image\profile\profilegirl.jpg",test_case, "Upload Receipt Image")
+
+        # fill_field(wait,By.XPATH,constent.UPLOAD_PROFILE,r"C:\Users\Awais\Pictures\image\profile\profilegirl.jpg",test_case, "Upload Receipt Image")
         fill_field(wait,By.NAME,constent.TRANSACTION_NAME,"1112345678",test_case, "Upload Transaction ID")
         fill_field(wait,By.NAME,constent.TERMINAL_NAME,"123456",test_case, "Enter Terminal ID")
         fill_field(wait,By.NAME,constent.RECEIPT_NAME,"12345678",test_case, "Enter Receipt No")
