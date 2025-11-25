@@ -19,7 +19,7 @@ random_cars = [
     "Dodge Charger R/T",
     "Toyota Corolla Altis",
     "Toyota RAV4 Adventure",
-    "Toyota Land Cruiser Prado",
+    # "Toyota Land Cruiser Prado",
     "Hyundai Elantra Sport",
     "Vauxhall Corsa SE",
     "Mini Cooper S",
@@ -313,16 +313,16 @@ class LoginTest(unittest.TestCase):
             log_step(test_case, "Insurance Expiry Date", "FAIL", traceback.format_exc())
 
         fill_field(wait,By.NAME,constent.V_PRE_PAYMENT,"123",test_case, "Pre-Payment")
-        fill_field(wait,By.XPATH,"//div[contains(@class,'ql-container')][1]","123",test_case, "Description")
-        fill_field(wait,By.XPATH,"//div[contains(@class,'ql-container')][2]","123",test_case, "Description_AR")
+        # fill_field(wait,By.XPATH,"//div[contains(@class,'ql-container')][1]","123",test_case, "Description")
+        # fill_field(wait,By.XPATH,"//div[contains(@class,'ql-container')][2]","123",test_case, "Description_AR")
         
-            
       
         # ========== STEP 29: Submit Form ==========
         try:
             wait.until(EC.element_to_be_clickable(
                 (By.XPATH, constent.FORM_SUBMIT))).click()
             log_step(test_case, "Submit Form", "PASS")
+            time.sleep(10)    
 
             try:
                 toast_element = WebDriverWait(driver, 5).until(

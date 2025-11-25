@@ -32,22 +32,24 @@ if constent.EMAIL == "kagodad145@wivstore.com":
 else:
     random_cars = [
 
-        "Skoda Octavia 1.6 TDI Ambition",
-        "Subaru Forester 2.5i Premium AWD",
-        "Dacia Duster 1.3 TCe Prestige",
-        "Honda Civic EX",
+        # "Skoda Octavia 1.6 TDI Ambition",
+        # "Subaru Forester 2.5i Premium AWD",
+        # "Dacia Duster 1.3 TCe Prestige",
+        # "Honda Civic EX",
+        # "Mercedes-Benz C",
+        # "Mercedes-Benz E-Class E350",
+        # "Dodge Charger R/T",
+        # "Toyota Corolla Altis",
+        # "Toyota RAV4 Adventure",
+        # "Toyota Land Cruiser Prado",
+        # "Hyundai Elantra Sport",
+        # "Vauxhall Corsa SE",
+        # "Mini Cooper S",
+        # "Land Rover Defender P300",
+        # "Suzuki Swift GLX",
+        # "Suzuki Vitara GL+"
         "Mercedes-Benz C",
-        "Mercedes-Benz E-Class E350",
-        "Dodge Charger R/T",
-        "Toyota Corolla Altis",
-        "Toyota RAV4 Adventure",
-        "Toyota Land Cruiser Prado",
-        "Hyundai Elantra Sport",
-        "Vauxhall Corsa SE",
-        "Mini Cooper S",
-        "Land Rover Defender P300",
-        "Suzuki Swift GLX",
-        "Suzuki Vitara GL+"
+        "Vauxhall Corsa SE"
     ]
 selected_cars = random.choice(random_cars)
 random_number = random.randint(1, 99)
@@ -285,7 +287,7 @@ class LoginTest(unittest.TestCase):
             pickup_time = wait.until(
              EC.element_to_be_clickable((By.XPATH, "//label[normalize-space(text())='Pickup Time']/preceding-sibling::div//input")))
             pickup_time.click()
-            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='25']"))).click()
+            wait.until(EC.element_to_be_clickable((By.XPATH, "//button[text()='27']"))).click()
             wait.until(EC.element_to_be_clickable((By.XPATH, "//label[normalize-space(text())='Pickup Time']/ancestor::div[contains(@class,'group')]//button[normalize-space(text())='Apply']"))).click()
 
             log_step(test_case, "Pickup Time", "PASS")
@@ -300,7 +302,7 @@ class LoginTest(unittest.TestCase):
             return_time = wait.until(
              EC.element_to_be_clickable((By.XPATH, "//label[normalize-space(text())='Return Time']/preceding-sibling::div//input")))
             return_time.click()
-            wait.until(EC.element_to_be_clickable((By.XPATH, "(//button[text()='26'])[2]"))).click()
+            wait.until(EC.element_to_be_clickable((By.XPATH, "(//button[text()='29'])[2]"))).click()
             wait.until(EC.element_to_be_clickable((By.XPATH, "//label[normalize-space(text())='Return Time']/ancestor::div[contains(@class,'group')]//button[normalize-space(text())='Apply']"))).click()
             log_step(test_case, "Return Time", "PASS")
 

@@ -6,8 +6,12 @@ WEB_URL = "https://admin.businessesify.com"
 # PASSWORD = "Polo@1234"
 # EMAIL = "tapanew768@bitfami.com"
 # PASSWORD = "Awais1234@"
-EMAIL = "kagodad145@wivstore.com"
+EMAIL = "rehar76818@aikunkun.com"
 PASSWORD = "Awais1234@"
+# EMAIL = "tihepi7584@bablace.com"
+# PASSWORD = "Awais1234@"
+# EMAIL = "kagodad145@wivstore.com"
+# PASSWORD = "Awais1234@"
 
 
 # FIELDS KEY

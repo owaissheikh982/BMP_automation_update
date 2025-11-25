@@ -50,22 +50,25 @@ if constent.EMAIL == "kagodad145@wivstore.com":
 else:
     random_cars = [
 
-        "Skoda Octavia 1.6 TDI Ambition",
-        "Subaru Forester 2.5i Premium AWD",
-        "Dacia Duster 1.3 TCe Prestige",
-        "Honda Civic EX",
+        # "Skoda Octavia 1.6 TDI Ambition",
+        # "Subaru Forester 2.5i Premium AWD",
+        # "Dacia Duster 1.3 TCe Prestige",
+        # "Honda Civic EX",
+        # "Mercedes-Benz C",
+        # "Mercedes-Benz E-Class E350",
+        # "Dodge Charger R/T",
+        # "Toyota Corolla Altis",
+        # "Toyota RAV4 Adventure",
+        # "Toyota Land Cruiser Prado",
+        # "Hyundai Elantra Sport",
+        # "Vauxhall Corsa SE",
+        # "Mini Cooper S",
+        # "Land Rover Defender P300",
+        # "Suzuki Swift GLX",
+        # "Suzuki Vitara GL+"
         "Mercedes-Benz C",
-        "Mercedes-Benz E-Class E350",
-        "Dodge Charger R/T",
-        "Toyota Corolla Altis",
-        "Toyota RAV4 Adventure",
-        "Toyota Land Cruiser Prado",
-        "Hyundai Elantra Sport",
-        "Vauxhall Corsa SE",
-        "Mini Cooper S",
-        "Land Rover Defender P300",
-        "Suzuki Swift GLX",
-        "Suzuki Vitara GL+"
+        "Vauxhall Corsa SE"
+
     ]
 
 selected_cars = random.choice(random_cars)

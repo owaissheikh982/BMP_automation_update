@@ -3165,3 +3165,1061 @@ Stacktrace:
 "
 2025-11-19 12:32:54,Vehicles Add,Submit Form,PASS,
 2025-11-19 12:32:57,Toast Message,PASS,Vehicle with this title already exists,
+2025-11-24 12:37:10,Vehicles Add,Open Website,PASS,
+2025-11-24 12:37:12,Vehicles Add,Login,PASS,
+2025-11-24 12:37:19,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-24 12:37:19,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-24 12:37:19,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-24 12:37:19,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-24 12:37:20,Vehicles Add,Upload Car Name,PASS,
+2025-11-24 12:37:20,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-24 12:37:20,Vehicles Add,Select Brand,PASS,
+2025-11-24 12:37:34,Vehicles Add,Select Model,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 120, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, f""//div[text()='Skoda Fabia']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a845e8e5+80021]
+	GetHandleVerifier [0x0x7ff6a845e940+80112]
+	(No symbol) [0x0x7ff6a81e060f]
+	(No symbol) [0x0x7ff6a8238854]
+	(No symbol) [0x0x7ff6a8238b1c]
+	(No symbol) [0x0x7ff6a828c927]
+	(No symbol) [0x0x7ff6a826126f]
+	(No symbol) [0x0x7ff6a828968a]
+	(No symbol) [0x0x7ff6a8261003]
+	(No symbol) [0x0x7ff6a82295d1]
+	(No symbol) [0x0x7ff6a822a3f3]
+	GetHandleVerifier [0x0x7ff6a871dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6a8717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6a8738977+3070247]
+	GetHandleVerifier [0x0x7ff6a84783ce+185214]
+	GetHandleVerifier [0x0x7ff6a847fe1f+216527]
+	GetHandleVerifier [0x0x7ff6a8467b24+117460]
+	GetHandleVerifier [0x0x7ff6a8467cdf+117903]
+	GetHandleVerifier [0x0x7ff6a844dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-24 12:38:15,Vehicles Add,Open Website,PASS,
+2025-11-24 12:38:17,Vehicles Add,Login,PASS,
+2025-11-24 12:38:24,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-24 12:38:25,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-24 12:38:25,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-24 12:38:25,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-24 12:38:25,Vehicles Add,Upload Car Name,PASS,
+2025-11-24 12:38:26,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-24 12:38:27,Vehicles Add,Select Brand,PASS,
+2025-11-24 12:38:30,Vehicles Add,Select Model,PASS,
+2025-11-24 12:38:30,Vehicles Add,Select Variant,PASS,
+2025-11-24 12:38:31,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-24 12:38:31,Vehicles Add,Select Year,PASS,
+2025-11-24 12:38:31,Vehicles Add,Purchase Date,PASS,
+2025-11-24 12:38:31,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-24 12:38:32,Vehicles Add,Upload Rent Price,PASS,
+2025-11-24 12:38:32,Vehicles Add,Select Transmission,PASS,
+2025-11-24 12:38:33,Vehicles Add,Select Body Type,PASS,
+2025-11-24 12:38:33,Vehicles Add,Upload Top Speed,PASS,
+2025-11-24 12:38:34,Vehicles Add,Upload Acceleration,PASS,
+2025-11-24 12:38:34,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-24 12:38:34,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-24 12:38:34,Vehicles Add,Fuel Type,PASS,
+2025-11-24 12:38:34,Vehicles Add,ADD Mileage,PASS,
+2025-11-24 12:38:35,Vehicles Add,Exterior Color,PASS,
+2025-11-24 12:38:35,Vehicles Add,Interior Color,PASS,
+2025-11-24 12:38:35,Vehicles Add,Add Number Plate,PASS,
+2025-11-24 12:38:35,Vehicles Add,Fitness Date,PASS,
+2025-11-24 12:38:36,Vehicles Add,ADD Horse Power,PASS,
+2025-11-24 12:38:36,Vehicles Add,Features,PASS,
+2025-11-24 12:38:36,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-24 12:38:37,Vehicles Add,Insurance Date,PASS,
+2025-11-24 12:38:37,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-24 12:38:37,Vehicles Add,Pre-Payment,PASS,
+2025-11-24 12:38:37,Vehicles Add,Description,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 46, in fill_field
+    element.send_keys(value)
+    ~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a845e8e5+80021]
+	GetHandleVerifier [0x0x7ff6a845e940+80112]
+	(No symbol) [0x0x7ff6a81e0425]
+	(No symbol) [0x0x7ff6a8231e23]
+	(No symbol) [0x0x7ff6a822fcf1]
+	(No symbol) [0x0x7ff6a826122a]
+	(No symbol) [0x0x7ff6a822b056]
+	(No symbol) [0x0x7ff6a8261440]
+	(No symbol) [0x0x7ff6a828968a]
+	(No symbol) [0x0x7ff6a8261003]
+	(No symbol) [0x0x7ff6a82295d1]
+	(No symbol) [0x0x7ff6a822a3f3]
+	GetHandleVerifier [0x0x7ff6a871dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6a8717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6a8738977+3070247]
+	GetHandleVerifier [0x0x7ff6a84783ce+185214]
+	GetHandleVerifier [0x0x7ff6a847fe1f+216527]
+	GetHandleVerifier [0x0x7ff6a8467b24+117460]
+	GetHandleVerifier [0x0x7ff6a8467cdf+117903]
+	GetHandleVerifier [0x0x7ff6a844dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-24 12:38:47,Vehicles Add,Description_AR,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 45, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a845e8e5+80021]
+	GetHandleVerifier [0x0x7ff6a845e940+80112]
+	(No symbol) [0x0x7ff6a81e060f]
+	(No symbol) [0x0x7ff6a8238854]
+	(No symbol) [0x0x7ff6a8238b1c]
+	(No symbol) [0x0x7ff6a828c927]
+	(No symbol) [0x0x7ff6a826126f]
+	(No symbol) [0x0x7ff6a828968a]
+	(No symbol) [0x0x7ff6a8261003]
+	(No symbol) [0x0x7ff6a82295d1]
+	(No symbol) [0x0x7ff6a822a3f3]
+	GetHandleVerifier [0x0x7ff6a871dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6a8717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6a8738977+3070247]
+	GetHandleVerifier [0x0x7ff6a84783ce+185214]
+	GetHandleVerifier [0x0x7ff6a847fe1f+216527]
+	GetHandleVerifier [0x0x7ff6a8467b24+117460]
+	GetHandleVerifier [0x0x7ff6a8467cdf+117903]
+	GetHandleVerifier [0x0x7ff6a844dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-24 12:38:47,Vehicles Add,Submit Form,PASS,
+2025-11-24 12:38:53,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a845e8e5+80021]
+	GetHandleVerifier [0x0x7ff6a845e940+80112]
+	(No symbol) [0x0x7ff6a81e060f]
+	(No symbol) [0x0x7ff6a8238854]
+	(No symbol) [0x0x7ff6a8238b1c]
+	(No symbol) [0x0x7ff6a828c927]
+	(No symbol) [0x0x7ff6a826126f]
+	(No symbol) [0x0x7ff6a828968a]
+	(No symbol) [0x0x7ff6a8261003]
+	(No symbol) [0x0x7ff6a82295d1]
+	(No symbol) [0x0x7ff6a822a3f3]
+	GetHandleVerifier [0x0x7ff6a871dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6a8717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6a8738977+3070247]
+	GetHandleVerifier [0x0x7ff6a84783ce+185214]
+	GetHandleVerifier [0x0x7ff6a847fe1f+216527]
+	GetHandleVerifier [0x0x7ff6a8467b24+117460]
+	GetHandleVerifier [0x0x7ff6a8467cdf+117903]
+	GetHandleVerifier [0x0x7ff6a844dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+",
+2025-11-24 13:08:58,Vehicles Add,Open Website,PASS,
+2025-11-24 13:09:01,Vehicles Add,Login,PASS,
+2025-11-24 13:09:08,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-24 13:09:08,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-24 13:09:08,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-24 13:09:08,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-24 13:09:09,Vehicles Add,Upload Car Name,PASS,
+2025-11-24 13:09:10,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-24 13:09:10,Vehicles Add,Select Brand,PASS,
+2025-11-24 13:09:13,Vehicles Add,Select Model,PASS,
+2025-11-24 13:09:14,Vehicles Add,Select Variant,PASS,
+2025-11-24 13:09:14,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-24 13:09:14,Vehicles Add,Select Year,PASS,
+2025-11-24 13:09:15,Vehicles Add,Purchase Date,PASS,
+2025-11-24 13:09:15,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-24 13:09:15,Vehicles Add,Upload Rent Price,PASS,
+2025-11-24 13:09:15,Vehicles Add,Select Transmission,PASS,
+2025-11-24 13:09:17,Vehicles Add,Select Body Type,PASS,
+2025-11-24 13:09:17,Vehicles Add,Upload Top Speed,PASS,
+2025-11-24 13:09:17,Vehicles Add,Upload Acceleration,PASS,
+2025-11-24 13:09:18,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-24 13:09:18,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-24 13:09:18,Vehicles Add,Fuel Type,PASS,
+2025-11-24 13:09:18,Vehicles Add,ADD Mileage,PASS,
+2025-11-24 13:09:18,Vehicles Add,Exterior Color,PASS,
+2025-11-24 13:09:19,Vehicles Add,Interior Color,PASS,
+2025-11-24 13:09:19,Vehicles Add,Add Number Plate,PASS,
+2025-11-24 13:09:19,Vehicles Add,Fitness Date,PASS,
+2025-11-24 13:09:19,Vehicles Add,ADD Horse Power,PASS,
+2025-11-24 13:09:20,Vehicles Add,Features,PASS,
+2025-11-24 13:09:20,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-24 13:09:21,Vehicles Add,Insurance Date,PASS,
+2025-11-24 13:09:21,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-24 13:09:21,Vehicles Add,Pre-Payment,PASS,
+2025-11-24 13:09:21,Vehicles Add,Description,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 46, in fill_field
+    element.send_keys(value)
+    ~~~~~~~~~~~~~~~~~^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 305, in send_keys
+    self._execute(
+    ~~~~~~~~~~~~~^
+        Command.SEND_KEYS_TO_ELEMENT, {""text"": """".join(keys_to_typing(value)), ""value"": keys_to_typing(value)}
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webelement.py"", line 574, in _execute
+    return self._parent.execute(command, params)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a845e8e5+80021]
+	GetHandleVerifier [0x0x7ff6a845e940+80112]
+	(No symbol) [0x0x7ff6a81e0425]
+	(No symbol) [0x0x7ff6a8231e23]
+	(No symbol) [0x0x7ff6a822fcf1]
+	(No symbol) [0x0x7ff6a826122a]
+	(No symbol) [0x0x7ff6a822b056]
+	(No symbol) [0x0x7ff6a8261440]
+	(No symbol) [0x0x7ff6a828968a]
+	(No symbol) [0x0x7ff6a8261003]
+	(No symbol) [0x0x7ff6a82295d1]
+	(No symbol) [0x0x7ff6a822a3f3]
+	GetHandleVerifier [0x0x7ff6a871dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6a8717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6a8738977+3070247]
+	GetHandleVerifier [0x0x7ff6a84783ce+185214]
+	GetHandleVerifier [0x0x7ff6a847fe1f+216527]
+	GetHandleVerifier [0x0x7ff6a8467b24+117460]
+	GetHandleVerifier [0x0x7ff6a8467cdf+117903]
+	GetHandleVerifier [0x0x7ff6a844dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-24 13:09:31,Vehicles Add,Description_AR,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 45, in fill_field
+    element = wait.until(EC.presence_of_element_located((locator_type, locator)))
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a845e8e5+80021]
+	GetHandleVerifier [0x0x7ff6a845e940+80112]
+	(No symbol) [0x0x7ff6a81e060f]
+	(No symbol) [0x0x7ff6a8238854]
+	(No symbol) [0x0x7ff6a8238b1c]
+	(No symbol) [0x0x7ff6a828c927]
+	(No symbol) [0x0x7ff6a826126f]
+	(No symbol) [0x0x7ff6a828968a]
+	(No symbol) [0x0x7ff6a8261003]
+	(No symbol) [0x0x7ff6a82295d1]
+	(No symbol) [0x0x7ff6a822a3f3]
+	GetHandleVerifier [0x0x7ff6a871dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6a8717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6a8738977+3070247]
+	GetHandleVerifier [0x0x7ff6a84783ce+185214]
+	GetHandleVerifier [0x0x7ff6a847fe1f+216527]
+	GetHandleVerifier [0x0x7ff6a8467b24+117460]
+	GetHandleVerifier [0x0x7ff6a8467cdf+117903]
+	GetHandleVerifier [0x0x7ff6a844dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+
+"
+2025-11-24 13:09:32,Vehicles Add,Submit Form,PASS,
+2025-11-24 13:09:37,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a845e8e5+80021]
+	GetHandleVerifier [0x0x7ff6a845e940+80112]
+	(No symbol) [0x0x7ff6a81e060f]
+	(No symbol) [0x0x7ff6a8238854]
+	(No symbol) [0x0x7ff6a8238b1c]
+	(No symbol) [0x0x7ff6a828c927]
+	(No symbol) [0x0x7ff6a826126f]
+	(No symbol) [0x0x7ff6a828968a]
+	(No symbol) [0x0x7ff6a8261003]
+	(No symbol) [0x0x7ff6a82295d1]
+	(No symbol) [0x0x7ff6a822a3f3]
+	GetHandleVerifier [0x0x7ff6a871dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6a8717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6a8738977+3070247]
+	GetHandleVerifier [0x0x7ff6a84783ce+185214]
+	GetHandleVerifier [0x0x7ff6a847fe1f+216527]
+	GetHandleVerifier [0x0x7ff6a8467b24+117460]
+	GetHandleVerifier [0x0x7ff6a8467cdf+117903]
+	GetHandleVerifier [0x0x7ff6a844dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+",
+2025-11-24 13:09:50,Vehicles Add,Open Website,PASS,
+2025-11-24 13:09:52,Vehicles Add,Login,PASS,
+2025-11-24 13:09:59,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-24 13:10:00,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-24 13:10:00,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-24 13:10:00,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-24 13:10:01,Vehicles Add,Upload Car Name,PASS,
+2025-11-24 13:10:01,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-24 13:10:02,Vehicles Add,Select Brand,PASS,
+2025-11-24 13:10:05,Vehicles Add,Select Model,PASS,
+2025-11-24 13:10:06,Vehicles Add,Select Variant,PASS,
+2025-11-24 13:10:07,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-24 13:10:07,Vehicles Add,Select Year,PASS,
+2025-11-24 13:10:07,Vehicles Add,Purchase Date,PASS,
+2025-11-24 13:10:07,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-24 13:10:08,Vehicles Add,Upload Rent Price,PASS,
+2025-11-24 13:10:08,Vehicles Add,Select Transmission,PASS,
+2025-11-24 13:10:11,Vehicles Add,Select Body Type,PASS,
+2025-11-24 13:10:11,Vehicles Add,Upload Top Speed,PASS,
+2025-11-24 13:10:11,Vehicles Add,Upload Acceleration,PASS,
+2025-11-24 13:10:11,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-24 13:10:12,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-24 13:10:12,Vehicles Add,Fuel Type,PASS,
+2025-11-24 13:10:12,Vehicles Add,ADD Mileage,PASS,
+2025-11-24 13:10:12,Vehicles Add,Exterior Color,PASS,
+2025-11-24 13:10:13,Vehicles Add,Interior Color,PASS,
+2025-11-24 13:10:13,Vehicles Add,Add Number Plate,PASS,
+2025-11-24 13:10:13,Vehicles Add,Fitness Date,PASS,
+2025-11-24 13:10:13,Vehicles Add,ADD Horse Power,PASS,
+2025-11-24 13:10:14,Vehicles Add,Features,PASS,
+2025-11-24 13:10:14,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-24 13:10:14,Vehicles Add,Insurance Date,PASS,
+2025-11-24 13:10:15,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-24 13:10:15,Vehicles Add,Pre-Payment,PASS,
+2025-11-24 13:10:15,Vehicles Add,Submit Form,PASS,
+2025-11-24 13:10:20,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a845e8e5+80021]
+	GetHandleVerifier [0x0x7ff6a845e940+80112]
+	(No symbol) [0x0x7ff6a81e060f]
+	(No symbol) [0x0x7ff6a8238854]
+	(No symbol) [0x0x7ff6a8238b1c]
+	(No symbol) [0x0x7ff6a828c927]
+	(No symbol) [0x0x7ff6a826126f]
+	(No symbol) [0x0x7ff6a828968a]
+	(No symbol) [0x0x7ff6a8261003]
+	(No symbol) [0x0x7ff6a82295d1]
+	(No symbol) [0x0x7ff6a822a3f3]
+	GetHandleVerifier [0x0x7ff6a871dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6a8717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6a8738977+3070247]
+	GetHandleVerifier [0x0x7ff6a84783ce+185214]
+	GetHandleVerifier [0x0x7ff6a847fe1f+216527]
+	GetHandleVerifier [0x0x7ff6a8467b24+117460]
+	GetHandleVerifier [0x0x7ff6a8467cdf+117903]
+	GetHandleVerifier [0x0x7ff6a844dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+",
+2025-11-24 13:37:04,Vehicles Add,Open Website,PASS,
+2025-11-24 13:37:06,Vehicles Add,Login,PASS,
+2025-11-24 13:37:13,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-24 13:37:13,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-24 13:37:13,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-24 13:37:13,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-24 13:37:14,Vehicles Add,Upload Car Name,PASS,
+2025-11-24 13:37:14,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-24 13:37:15,Vehicles Add,Select Brand,PASS,
+2025-11-24 13:37:18,Vehicles Add,Select Model,PASS,
+2025-11-24 13:37:18,Vehicles Add,Select Variant,PASS,
+2025-11-24 13:37:18,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-24 13:37:19,Vehicles Add,Select Year,PASS,
+2025-11-24 13:37:19,Vehicles Add,Purchase Date,PASS,
+2025-11-24 13:37:19,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-24 13:37:20,Vehicles Add,Upload Rent Price,PASS,
+2025-11-24 13:37:20,Vehicles Add,Select Transmission,PASS,
+2025-11-24 13:37:22,Vehicles Add,Select Body Type,PASS,
+2025-11-24 13:37:22,Vehicles Add,Upload Top Speed,PASS,
+2025-11-24 13:37:22,Vehicles Add,Upload Acceleration,PASS,
+2025-11-24 13:37:23,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-24 13:37:23,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-24 13:37:23,Vehicles Add,Fuel Type,PASS,
+2025-11-24 13:37:23,Vehicles Add,ADD Mileage,PASS,
+2025-11-24 13:37:23,Vehicles Add,Exterior Color,PASS,
+2025-11-24 13:37:24,Vehicles Add,Interior Color,PASS,
+2025-11-24 13:37:24,Vehicles Add,Add Number Plate,PASS,
+2025-11-24 13:37:24,Vehicles Add,Fitness Date,PASS,
+2025-11-24 13:37:24,Vehicles Add,ADD Horse Power,PASS,
+2025-11-24 13:37:25,Vehicles Add,Features,PASS,
+2025-11-24 13:37:25,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-24 13:37:26,Vehicles Add,Insurance Date,PASS,
+2025-11-24 13:37:26,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-24 13:37:26,Vehicles Add,Pre-Payment,PASS,
+2025-11-24 13:37:31,Vehicles Add,Submit Form,PASS,
+2025-11-24 13:37:37,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a845e8e5+80021]
+	GetHandleVerifier [0x0x7ff6a845e940+80112]
+	(No symbol) [0x0x7ff6a81e060f]
+	(No symbol) [0x0x7ff6a8238854]
+	(No symbol) [0x0x7ff6a8238b1c]
+	(No symbol) [0x0x7ff6a828c927]
+	(No symbol) [0x0x7ff6a826126f]
+	(No symbol) [0x0x7ff6a828968a]
+	(No symbol) [0x0x7ff6a8261003]
+	(No symbol) [0x0x7ff6a82295d1]
+	(No symbol) [0x0x7ff6a822a3f3]
+	GetHandleVerifier [0x0x7ff6a871dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6a8717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6a8738977+3070247]
+	GetHandleVerifier [0x0x7ff6a84783ce+185214]
+	GetHandleVerifier [0x0x7ff6a847fe1f+216527]
+	GetHandleVerifier [0x0x7ff6a8467b24+117460]
+	GetHandleVerifier [0x0x7ff6a8467cdf+117903]
+	GetHandleVerifier [0x0x7ff6a844dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+",
+2025-11-24 13:38:33,Vehicles Add,Open Website,PASS,
+2025-11-24 13:38:35,Vehicles Add,Login,PASS,
+2025-11-24 13:38:42,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-24 13:38:42,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-24 13:38:42,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-24 13:38:42,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-24 13:38:43,Vehicles Add,Upload Car Name,PASS,
+2025-11-24 13:38:43,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-24 13:38:44,Vehicles Add,Select Brand,PASS,
+2025-11-24 13:38:47,Vehicles Add,Select Model,PASS,
+2025-11-24 13:38:47,Vehicles Add,Select Variant,PASS,
+2025-11-24 13:38:48,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-24 13:38:48,Vehicles Add,Select Year,PASS,
+2025-11-24 13:38:48,Vehicles Add,Purchase Date,PASS,
+2025-11-24 13:38:48,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-24 13:38:49,Vehicles Add,Upload Rent Price,PASS,
+2025-11-24 13:38:49,Vehicles Add,Select Transmission,PASS,
+2025-11-24 13:38:50,Vehicles Add,Select Body Type,PASS,
+2025-11-24 13:38:50,Vehicles Add,Upload Top Speed,PASS,
+2025-11-24 13:38:50,Vehicles Add,Upload Acceleration,PASS,
+2025-11-24 13:38:51,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-24 13:38:51,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-24 13:38:51,Vehicles Add,Fuel Type,PASS,
+2025-11-24 13:38:51,Vehicles Add,ADD Mileage,PASS,
+2025-11-24 13:38:51,Vehicles Add,Exterior Color,PASS,
+2025-11-24 13:38:52,Vehicles Add,Interior Color,PASS,
+2025-11-24 13:38:52,Vehicles Add,Add Number Plate,PASS,
+2025-11-24 13:38:52,Vehicles Add,Fitness Date,PASS,
+2025-11-24 13:38:52,Vehicles Add,ADD Horse Power,PASS,
+2025-11-24 13:38:53,Vehicles Add,Features,PASS,
+2025-11-24 13:38:53,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-24 13:38:54,Vehicles Add,Insurance Date,PASS,
+2025-11-24 13:38:54,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-24 13:38:54,Vehicles Add,Pre-Payment,PASS,
+2025-11-24 13:38:54,Vehicles Add,Submit Form,PASS,
+2025-11-24 13:38:59,Toast Message,PASS,Vehicle with this title already exists,
+2025-11-24 13:39:24,Vehicles Add,Open Website,PASS,
+2025-11-24 13:39:26,Vehicles Add,Login,PASS,
+2025-11-24 13:39:34,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-24 13:39:34,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-24 13:39:34,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-24 13:39:34,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-24 13:39:35,Vehicles Add,Upload Car Name,PASS,
+2025-11-24 13:39:35,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-24 13:39:36,Vehicles Add,Select Brand,PASS,
+2025-11-24 13:39:39,Vehicles Add,Select Model,PASS,
+2025-11-24 13:39:39,Vehicles Add,Select Variant,PASS,
+2025-11-24 13:39:40,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-24 13:39:40,Vehicles Add,Select Year,PASS,
+2025-11-24 13:39:40,Vehicles Add,Purchase Date,PASS,
+2025-11-24 13:39:41,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-24 13:39:41,Vehicles Add,Upload Rent Price,PASS,
+2025-11-24 13:39:41,Vehicles Add,Select Transmission,PASS,
+2025-11-24 13:39:42,Vehicles Add,Select Body Type,PASS,
+2025-11-24 13:39:42,Vehicles Add,Upload Top Speed,PASS,
+2025-11-24 13:39:43,Vehicles Add,Upload Acceleration,PASS,
+2025-11-24 13:39:43,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-24 13:39:43,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-24 13:39:43,Vehicles Add,Fuel Type,PASS,
+2025-11-24 13:39:43,Vehicles Add,ADD Mileage,PASS,
+2025-11-24 13:39:44,Vehicles Add,Exterior Color,PASS,
+2025-11-24 13:39:44,Vehicles Add,Interior Color,PASS,
+2025-11-24 13:39:44,Vehicles Add,Add Number Plate,PASS,
+2025-11-24 13:39:45,Vehicles Add,Fitness Date,PASS,
+2025-11-24 13:39:45,Vehicles Add,ADD Horse Power,PASS,
+2025-11-24 13:39:45,Vehicles Add,Features,PASS,
+2025-11-24 13:39:46,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-24 13:39:46,Vehicles Add,Insurance Date,PASS,
+2025-11-24 13:39:46,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-24 13:39:46,Vehicles Add,Pre-Payment,PASS,
+2025-11-24 13:39:47,Vehicles Add,Submit Form,PASS,
+2025-11-24 13:39:57,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff6a845e8e5+80021]
+	GetHandleVerifier [0x0x7ff6a845e940+80112]
+	(No symbol) [0x0x7ff6a81e060f]
+	(No symbol) [0x0x7ff6a8238854]
+	(No symbol) [0x0x7ff6a8238b1c]
+	(No symbol) [0x0x7ff6a828c927]
+	(No symbol) [0x0x7ff6a826126f]
+	(No symbol) [0x0x7ff6a828968a]
+	(No symbol) [0x0x7ff6a8261003]
+	(No symbol) [0x0x7ff6a82295d1]
+	(No symbol) [0x0x7ff6a822a3f3]
+	GetHandleVerifier [0x0x7ff6a871dc7d+2960429]
+	GetHandleVerifier [0x0x7ff6a8717f3a+2936554]
+	GetHandleVerifier [0x0x7ff6a8738977+3070247]
+	GetHandleVerifier [0x0x7ff6a84783ce+185214]
+	GetHandleVerifier [0x0x7ff6a847fe1f+216527]
+	GetHandleVerifier [0x0x7ff6a8467b24+117460]
+	GetHandleVerifier [0x0x7ff6a8467cdf+117903]
+	GetHandleVerifier [0x0x7ff6a844dbb8+11112]
+	BaseThreadInitThunk [0x0x7ff9f27f7374+20]
+	RtlUserThreadStart [0x0x7ff9f413cc91+33]
+",
+2025-11-24 13:51:05,Vehicles Add,Open Website,PASS,
+2025-11-24 13:51:08,Vehicles Add,Login,PASS,
+2025-11-24 13:51:15,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-24 13:51:15,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-24 13:51:15,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-24 13:51:15,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-24 13:51:16,Vehicles Add,Upload Car Name,PASS,
+2025-11-24 13:51:16,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-24 13:51:16,Vehicles Add,Select Brand,PASS,
+2025-11-24 13:51:20,Vehicles Add,Select Model,PASS,
+2025-11-24 13:51:20,Vehicles Add,Select Variant,PASS,
+2025-11-24 13:51:21,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-24 13:51:21,Vehicles Add,Select Year,PASS,
+2025-11-24 13:51:21,Vehicles Add,Purchase Date,PASS,
+2025-11-24 13:51:21,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-24 13:51:22,Vehicles Add,Upload Rent Price,PASS,
+2025-11-24 13:51:22,Vehicles Add,Select Transmission,PASS,
+2025-11-24 13:51:24,Vehicles Add,Select Body Type,PASS,
+2025-11-24 13:51:24,Vehicles Add,Upload Top Speed,PASS,
+2025-11-24 13:51:24,Vehicles Add,Upload Acceleration,PASS,
+2025-11-24 13:51:24,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-24 13:51:24,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-24 13:51:25,Vehicles Add,Fuel Type,PASS,
+2025-11-24 13:51:25,Vehicles Add,ADD Mileage,PASS,
+2025-11-24 13:51:25,Vehicles Add,Exterior Color,PASS,
+2025-11-24 13:51:25,Vehicles Add,Interior Color,PASS,
+2025-11-24 13:51:26,Vehicles Add,Add Number Plate,PASS,
+2025-11-24 13:51:26,Vehicles Add,Fitness Date,PASS,
+2025-11-24 13:51:26,Vehicles Add,ADD Horse Power,PASS,
+2025-11-24 13:51:27,Vehicles Add,Features,PASS,
+2025-11-24 13:51:27,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-24 13:51:27,Vehicles Add,Insurance Date,PASS,
+2025-11-24 13:51:27,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-24 13:51:28,Vehicles Add,Pre-Payment,PASS,
+2025-11-24 13:51:28,Vehicles Add,Submit Form,PASS,
+2025-11-24 13:51:33,Toast Message,PASS,Vehicle with this title already exists,
+2025-11-25 11:29:58,Vehicles Add,Open Website,PASS,
+2025-11-25 11:29:59,Vehicles Add,Login,PASS,
+2025-11-25 11:30:06,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-25 11:30:07,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-25 11:30:07,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-25 11:30:07,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-25 11:30:07,Vehicles Add,Upload Car Name,PASS,
+2025-11-25 11:30:08,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-25 11:30:08,Vehicles Add,Select Brand,PASS,
+2025-11-25 11:30:12,Vehicles Add,Select Model,PASS,
+2025-11-25 11:30:12,Vehicles Add,Select Variant,PASS,
+2025-11-25 11:30:13,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-25 11:30:13,Vehicles Add,Select Year,PASS,
+2025-11-25 11:30:14,Vehicles Add,Purchase Date,PASS,
+2025-11-25 11:30:14,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-25 11:30:14,Vehicles Add,Upload Rent Price,PASS,
+2025-11-25 11:30:14,Vehicles Add,Select Transmission,PASS,
+2025-11-25 11:30:15,Vehicles Add,Select Body Type,PASS,
+2025-11-25 11:30:15,Vehicles Add,Upload Top Speed,PASS,
+2025-11-25 11:30:16,Vehicles Add,Upload Acceleration,PASS,
+2025-11-25 11:30:16,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-25 11:30:16,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-25 11:30:16,Vehicles Add,Fuel Type,PASS,
+2025-11-25 11:30:16,Vehicles Add,ADD Mileage,PASS,
+2025-11-25 11:30:17,Vehicles Add,Exterior Color,PASS,
+2025-11-25 11:30:17,Vehicles Add,Interior Color,PASS,
+2025-11-25 11:30:17,Vehicles Add,Add Number Plate,PASS,
+2025-11-25 11:30:18,Vehicles Add,Fitness Date,PASS,
+2025-11-25 11:30:18,Vehicles Add,ADD Horse Power,PASS,
+2025-11-25 11:30:19,Vehicles Add,Features,PASS,
+2025-11-25 11:30:19,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-25 11:30:20,Vehicles Add,Insurance Date,PASS,
+2025-11-25 11:30:20,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-25 11:30:20,Vehicles Add,Pre-Payment,PASS,
+2025-11-25 11:30:21,Vehicles Add,Submit Form,PASS,
+2025-11-25 11:30:26,Toast Message,PASS,Vehicle with this title already exists,
+2025-11-25 11:30:38,Vehicles Add,Open Website,PASS,
+2025-11-25 11:30:40,Vehicles Add,Login,PASS,
+2025-11-25 11:30:47,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-25 11:30:47,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-25 11:30:47,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-25 11:30:47,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-25 11:30:48,Vehicles Add,Upload Car Name,PASS,
+2025-11-25 11:30:48,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-25 11:30:49,Vehicles Add,Select Brand,PASS,
+2025-11-25 11:30:52,Vehicles Add,Select Model,PASS,
+2025-11-25 11:30:52,Vehicles Add,Select Variant,PASS,
+2025-11-25 11:30:53,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-25 11:30:53,Vehicles Add,Select Year,PASS,
+2025-11-25 11:30:53,Vehicles Add,Purchase Date,PASS,
+2025-11-25 11:30:53,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-25 11:30:54,Vehicles Add,Upload Rent Price,PASS,
+2025-11-25 11:30:54,Vehicles Add,Select Transmission,PASS,
+2025-11-25 11:30:54,Vehicles Add,Select Body Type,PASS,
+2025-11-25 11:30:55,Vehicles Add,Upload Top Speed,PASS,
+2025-11-25 11:30:55,Vehicles Add,Upload Acceleration,PASS,
+2025-11-25 11:30:55,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-25 11:30:55,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-25 11:30:56,Vehicles Add,Fuel Type,PASS,
+2025-11-25 11:30:56,Vehicles Add,ADD Mileage,PASS,
+2025-11-25 11:30:56,Vehicles Add,Exterior Color,PASS,
+2025-11-25 11:30:56,Vehicles Add,Interior Color,PASS,
+2025-11-25 11:30:57,Vehicles Add,Add Number Plate,PASS,
+2025-11-25 11:30:57,Vehicles Add,Fitness Date,PASS,
+2025-11-25 11:30:57,Vehicles Add,ADD Horse Power,PASS,
+2025-11-25 11:30:58,Vehicles Add,Features,PASS,
+2025-11-25 11:30:58,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-25 11:30:58,Vehicles Add,Insurance Date,PASS,
+2025-11-25 11:30:59,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-25 11:30:59,Vehicles Add,Pre-Payment,PASS,
+2025-11-25 11:30:59,Vehicles Add,Submit Form,PASS,
+2025-11-25 11:31:04,Toast Message,PASS,Vehicle with this title already exists,
+2025-11-25 11:31:50,Vehicles Add,Open Website,PASS,
+2025-11-25 11:31:52,Vehicles Add,Login,PASS,
+2025-11-25 11:31:58,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-25 11:31:59,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-25 11:31:59,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-25 11:31:59,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-25 11:31:59,Vehicles Add,Upload Car Name,PASS,
+2025-11-25 11:32:00,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-25 11:32:00,Vehicles Add,Select Brand,PASS,
+2025-11-25 11:32:03,Vehicles Add,Select Model,PASS,
+2025-11-25 11:32:04,Vehicles Add,Select Variant,PASS,
+2025-11-25 11:32:04,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-25 11:32:04,Vehicles Add,Select Year,PASS,
+2025-11-25 11:32:05,Vehicles Add,Purchase Date,PASS,
+2025-11-25 11:32:05,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-25 11:32:05,Vehicles Add,Upload Rent Price,PASS,
+2025-11-25 11:32:05,Vehicles Add,Select Transmission,PASS,
+2025-11-25 11:32:06,Vehicles Add,Select Body Type,PASS,
+2025-11-25 11:32:07,Vehicles Add,Upload Top Speed,PASS,
+2025-11-25 11:32:07,Vehicles Add,Upload Acceleration,PASS,
+2025-11-25 11:32:07,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-25 11:32:07,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-25 11:32:07,Vehicles Add,Fuel Type,PASS,
+2025-11-25 11:32:08,Vehicles Add,ADD Mileage,PASS,
+2025-11-25 11:32:08,Vehicles Add,Exterior Color,PASS,
+2025-11-25 11:32:08,Vehicles Add,Interior Color,PASS,
+2025-11-25 11:32:08,Vehicles Add,Add Number Plate,PASS,
+2025-11-25 11:32:09,Vehicles Add,Fitness Date,PASS,
+2025-11-25 11:32:09,Vehicles Add,ADD Horse Power,PASS,
+2025-11-25 11:32:09,Vehicles Add,Features,PASS,
+2025-11-25 11:32:09,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-25 11:32:10,Vehicles Add,Insurance Date,PASS,
+2025-11-25 11:32:10,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-25 11:32:10,Vehicles Add,Pre-Payment,PASS,
+2025-11-25 11:32:10,Vehicles Add,Submit Form,PASS,
+2025-11-25 11:32:15,Toast Message,PASS,Vehicle with this title already exists,
+2025-11-25 11:46:13,Vehicles Add,Open Website,PASS,
+2025-11-25 11:46:14,Vehicles Add,Login,PASS,
+2025-11-25 11:46:21,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-25 11:46:21,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-25 11:46:21,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-25 11:46:21,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-25 11:46:22,Vehicles Add,Upload Car Name,PASS,
+2025-11-25 11:46:22,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-25 11:46:23,Vehicles Add,Select Brand,PASS,
+2025-11-25 11:46:36,Vehicles Add,Select Model,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 120, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, f""//div[text()='Skoda Fabia']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61852e8e5+80021]
+	GetHandleVerifier [0x0x7ff61852e940+80112]
+	(No symbol) [0x0x7ff6182b060f]
+	(No symbol) [0x0x7ff618308854]
+	(No symbol) [0x0x7ff618308b1c]
+	(No symbol) [0x0x7ff61835c927]
+	(No symbol) [0x0x7ff61833126f]
+	(No symbol) [0x0x7ff61835968a]
+	(No symbol) [0x0x7ff618331003]
+	(No symbol) [0x0x7ff6182f95d1]
+	(No symbol) [0x0x7ff6182fa3f3]
+	GetHandleVerifier [0x0x7ff6187edc7d+2960429]
+	GetHandleVerifier [0x0x7ff6187e7f3a+2936554]
+	GetHandleVerifier [0x0x7ff618808977+3070247]
+	GetHandleVerifier [0x0x7ff6185483ce+185214]
+	GetHandleVerifier [0x0x7ff61854fe1f+216527]
+	GetHandleVerifier [0x0x7ff618537b24+117460]
+	GetHandleVerifier [0x0x7ff618537cdf+117903]
+	GetHandleVerifier [0x0x7ff61851dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffb5f8a7374+20]
+	RtlUserThreadStart [0x0x7ffb60f9cc91+33]
+
+"
+2025-11-25 11:46:51,Vehicles Add,Open Website,PASS,
+2025-11-25 11:46:52,Vehicles Add,Login,PASS,
+2025-11-25 11:46:59,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-25 11:46:59,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-25 11:47:00,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-25 11:47:00,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-25 11:47:00,Vehicles Add,Upload Car Name,PASS,
+2025-11-25 11:47:01,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-25 11:47:07,Vehicles Add,Select Brand,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\Rentify_vehicle.py"", line 109, in test_login_valid
+    wait.until(EC.element_to_be_clickable(
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        (By.XPATH, f""//div[text()='Skoda']""))).click()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 129, in until
+    value = method(self._driver)
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\expected_conditions.py"", line 622, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 914, in find_element
+    return self.execute(Command.FIND_ELEMENT, {""using"": by, ""value"": value})[""value""]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\webdriver.py"", line 447, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\remote\errorhandler.py"", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61852e8e5+80021]
+	GetHandleVerifier [0x0x7ff61852e940+80112]
+	(No symbol) [0x0x7ff6182b060f]
+	(No symbol) [0x0x7ff61829c145]
+	(No symbol) [0x0x7ff6182c177a]
+	(No symbol) [0x0x7ff618338b06]
+	(No symbol) [0x0x7ff618358fa2]
+	(No symbol) [0x0x7ff618331003]
+	(No symbol) [0x0x7ff6182f95d1]
+	(No symbol) [0x0x7ff6182fa3f3]
+	GetHandleVerifier [0x0x7ff6187edc7d+2960429]
+	GetHandleVerifier [0x0x7ff6187e7f3a+2936554]
+	GetHandleVerifier [0x0x7ff618808977+3070247]
+	GetHandleVerifier [0x0x7ff6185483ce+185214]
+	GetHandleVerifier [0x0x7ff61854fe1f+216527]
+	GetHandleVerifier [0x0x7ff618537b24+117460]
+	GetHandleVerifier [0x0x7ff618537cdf+117903]
+	GetHandleVerifier [0x0x7ff61851dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffb5f8a7374+20]
+	RtlUserThreadStart [0x0x7ffb60f9cc91+33]
+
+"
+2025-11-25 11:48:00,Vehicles Add,Open Website,PASS,
+2025-11-25 11:48:02,Vehicles Add,Login,PASS,
+2025-11-25 11:48:08,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-25 11:48:09,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-25 11:48:09,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-25 11:48:09,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-25 11:48:10,Vehicles Add,Upload Car Name,PASS,
+2025-11-25 11:48:10,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-25 11:48:10,Vehicles Add,Select Brand,PASS,
+2025-11-25 11:48:14,Vehicles Add,Select Model,PASS,
+2025-11-25 11:48:14,Vehicles Add,Select Variant,PASS,
+2025-11-25 11:48:14,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-25 11:48:15,Vehicles Add,Select Year,PASS,
+2025-11-25 11:48:15,Vehicles Add,Purchase Date,PASS,
+2025-11-25 11:48:15,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-25 11:48:15,Vehicles Add,Upload Rent Price,PASS,
+2025-11-25 11:48:15,Vehicles Add,Select Transmission,PASS,
+2025-11-25 11:48:17,Vehicles Add,Select Body Type,PASS,
+2025-11-25 11:48:17,Vehicles Add,Upload Top Speed,PASS,
+2025-11-25 11:48:17,Vehicles Add,Upload Acceleration,PASS,
+2025-11-25 11:48:18,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-25 11:48:18,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-25 11:48:18,Vehicles Add,Fuel Type,PASS,
+2025-11-25 11:48:18,Vehicles Add,ADD Mileage,PASS,
+2025-11-25 11:48:18,Vehicles Add,Exterior Color,PASS,
+2025-11-25 11:48:19,Vehicles Add,Interior Color,PASS,
+2025-11-25 11:48:19,Vehicles Add,Add Number Plate,PASS,
+2025-11-25 11:48:19,Vehicles Add,Fitness Date,PASS,
+2025-11-25 11:48:19,Vehicles Add,ADD Horse Power,PASS,
+2025-11-25 11:48:20,Vehicles Add,Features,PASS,
+2025-11-25 11:48:20,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-25 11:48:20,Vehicles Add,Insurance Date,PASS,
+2025-11-25 11:48:21,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-25 11:48:21,Vehicles Add,Pre-Payment,PASS,
+2025-11-25 11:48:21,Vehicles Add,Submit Form,PASS,
+2025-11-25 11:48:31,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61852e8e5+80021]
+	GetHandleVerifier [0x0x7ff61852e940+80112]
+	(No symbol) [0x0x7ff6182b060f]
+	(No symbol) [0x0x7ff618308854]
+	(No symbol) [0x0x7ff618308b1c]
+	(No symbol) [0x0x7ff61835c927]
+	(No symbol) [0x0x7ff61833126f]
+	(No symbol) [0x0x7ff61835968a]
+	(No symbol) [0x0x7ff618331003]
+	(No symbol) [0x0x7ff6182f95d1]
+	(No symbol) [0x0x7ff6182fa3f3]
+	GetHandleVerifier [0x0x7ff6187edc7d+2960429]
+	GetHandleVerifier [0x0x7ff6187e7f3a+2936554]
+	GetHandleVerifier [0x0x7ff618808977+3070247]
+	GetHandleVerifier [0x0x7ff6185483ce+185214]
+	GetHandleVerifier [0x0x7ff61854fe1f+216527]
+	GetHandleVerifier [0x0x7ff618537b24+117460]
+	GetHandleVerifier [0x0x7ff618537cdf+117903]
+	GetHandleVerifier [0x0x7ff61851dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffb5f8a7374+20]
+	RtlUserThreadStart [0x0x7ffb60f9cc91+33]
+",
+2025-11-25 11:49:17,Vehicles Add,Open Website,PASS,
+2025-11-25 11:49:19,Vehicles Add,Login,PASS,
+2025-11-25 11:49:26,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-25 11:49:26,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-25 11:49:26,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-25 11:49:26,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-25 11:49:27,Vehicles Add,Upload Car Name,PASS,
+2025-11-25 11:49:27,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-25 11:49:28,Vehicles Add,Select Brand,PASS,
+2025-11-25 11:49:31,Vehicles Add,Select Model,PASS,
+2025-11-25 11:49:31,Vehicles Add,Select Variant,PASS,
+2025-11-25 11:49:31,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-25 11:49:32,Vehicles Add,Select Year,PASS,
+2025-11-25 11:49:32,Vehicles Add,Purchase Date,PASS,
+2025-11-25 11:49:32,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-25 11:49:32,Vehicles Add,Upload Rent Price,PASS,
+2025-11-25 11:49:33,Vehicles Add,Select Transmission,PASS,
+2025-11-25 11:49:34,Vehicles Add,Select Body Type,PASS,
+2025-11-25 11:49:34,Vehicles Add,Upload Top Speed,PASS,
+2025-11-25 11:49:34,Vehicles Add,Upload Acceleration,PASS,
+2025-11-25 11:49:34,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-25 11:49:35,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-25 11:49:35,Vehicles Add,Fuel Type,PASS,
+2025-11-25 11:49:35,Vehicles Add,ADD Mileage,PASS,
+2025-11-25 11:49:36,Vehicles Add,Exterior Color,PASS,
+2025-11-25 11:49:36,Vehicles Add,Interior Color,PASS,
+2025-11-25 11:49:36,Vehicles Add,Add Number Plate,PASS,
+2025-11-25 11:49:37,Vehicles Add,Fitness Date,PASS,
+2025-11-25 11:49:37,Vehicles Add,ADD Horse Power,PASS,
+2025-11-25 11:49:38,Vehicles Add,Features,PASS,
+2025-11-25 11:49:38,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-25 11:49:38,Vehicles Add,Insurance Date,PASS,
+2025-11-25 11:49:38,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-25 11:49:38,Vehicles Add,Pre-Payment,PASS,
+2025-11-25 11:49:39,Vehicles Add,Submit Form,PASS,
+2025-11-25 11:49:54,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61852e8e5+80021]
+	GetHandleVerifier [0x0x7ff61852e940+80112]
+	(No symbol) [0x0x7ff6182b060f]
+	(No symbol) [0x0x7ff618308854]
+	(No symbol) [0x0x7ff618308b1c]
+	(No symbol) [0x0x7ff61835c927]
+	(No symbol) [0x0x7ff61833126f]
+	(No symbol) [0x0x7ff61835968a]
+	(No symbol) [0x0x7ff618331003]
+	(No symbol) [0x0x7ff6182f95d1]
+	(No symbol) [0x0x7ff6182fa3f3]
+	GetHandleVerifier [0x0x7ff6187edc7d+2960429]
+	GetHandleVerifier [0x0x7ff6187e7f3a+2936554]
+	GetHandleVerifier [0x0x7ff618808977+3070247]
+	GetHandleVerifier [0x0x7ff6185483ce+185214]
+	GetHandleVerifier [0x0x7ff61854fe1f+216527]
+	GetHandleVerifier [0x0x7ff618537b24+117460]
+	GetHandleVerifier [0x0x7ff618537cdf+117903]
+	GetHandleVerifier [0x0x7ff61851dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffb5f8a7374+20]
+	RtlUserThreadStart [0x0x7ffb60f9cc91+33]
+",
+2025-11-25 11:52:44,Vehicles Add,Open Website,PASS,
+2025-11-25 11:52:45,Vehicles Add,Login,PASS,
+2025-11-25 11:52:53,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-25 11:52:53,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-25 11:52:53,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-25 11:52:53,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-25 11:52:54,Vehicles Add,Upload Car Name,PASS,
+2025-11-25 11:52:54,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-25 11:52:55,Vehicles Add,Select Brand,PASS,
+2025-11-25 11:52:58,Vehicles Add,Select Model,PASS,
+2025-11-25 11:52:59,Vehicles Add,Select Variant,PASS,
+2025-11-25 11:52:59,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-25 11:52:59,Vehicles Add,Select Year,PASS,
+2025-11-25 11:53:00,Vehicles Add,Purchase Date,PASS,
+2025-11-25 11:53:00,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-25 11:53:00,Vehicles Add,Upload Rent Price,PASS,
+2025-11-25 11:53:00,Vehicles Add,Select Transmission,PASS,
+2025-11-25 11:53:01,Vehicles Add,Select Body Type,PASS,
+2025-11-25 11:53:01,Vehicles Add,Upload Top Speed,PASS,
+2025-11-25 11:53:01,Vehicles Add,Upload Acceleration,PASS,
+2025-11-25 11:53:01,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-25 11:53:01,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-25 11:53:02,Vehicles Add,Fuel Type,PASS,
+2025-11-25 11:53:02,Vehicles Add,ADD Mileage,PASS,
+2025-11-25 11:53:02,Vehicles Add,Exterior Color,PASS,
+2025-11-25 11:53:02,Vehicles Add,Interior Color,PASS,
+2025-11-25 11:53:03,Vehicles Add,Add Number Plate,PASS,
+2025-11-25 11:53:03,Vehicles Add,Fitness Date,PASS,
+2025-11-25 11:53:03,Vehicles Add,ADD Horse Power,PASS,
+2025-11-25 11:53:03,Vehicles Add,Features,PASS,
+2025-11-25 11:53:04,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-25 11:53:04,Vehicles Add,Insurance Date,PASS,
+2025-11-25 11:53:04,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-25 11:53:04,Vehicles Add,Pre-Payment,PASS,
+2025-11-25 11:53:05,Vehicles Add,Submit Form,PASS,
+2025-11-25 11:53:20,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61852e8e5+80021]
+	GetHandleVerifier [0x0x7ff61852e940+80112]
+	(No symbol) [0x0x7ff6182b060f]
+	(No symbol) [0x0x7ff618308854]
+	(No symbol) [0x0x7ff618308b1c]
+	(No symbol) [0x0x7ff61835c927]
+	(No symbol) [0x0x7ff61833126f]
+	(No symbol) [0x0x7ff61835968a]
+	(No symbol) [0x0x7ff618331003]
+	(No symbol) [0x0x7ff6182f95d1]
+	(No symbol) [0x0x7ff6182fa3f3]
+	GetHandleVerifier [0x0x7ff6187edc7d+2960429]
+	GetHandleVerifier [0x0x7ff6187e7f3a+2936554]
+	GetHandleVerifier [0x0x7ff618808977+3070247]
+	GetHandleVerifier [0x0x7ff6185483ce+185214]
+	GetHandleVerifier [0x0x7ff61854fe1f+216527]
+	GetHandleVerifier [0x0x7ff618537b24+117460]
+	GetHandleVerifier [0x0x7ff618537cdf+117903]
+	GetHandleVerifier [0x0x7ff61851dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffb5f8a7374+20]
+	RtlUserThreadStart [0x0x7ffb60f9cc91+33]
+",
+2025-11-25 11:54:13,Vehicles Add,Open Website,PASS,
+2025-11-25 11:54:14,Vehicles Add,Login,PASS,
+2025-11-25 11:54:21,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-25 11:54:21,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-25 11:54:21,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-25 11:54:21,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-25 11:54:22,Vehicles Add,Upload Car Name,PASS,
+2025-11-25 11:54:22,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-25 11:54:22,Vehicles Add,Select Brand,PASS,
+2025-11-25 11:54:26,Vehicles Add,Select Model,PASS,
+2025-11-25 11:54:26,Vehicles Add,Select Variant,PASS,
+2025-11-25 11:54:26,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-25 11:54:27,Vehicles Add,Select Year,PASS,
+2025-11-25 11:54:27,Vehicles Add,Purchase Date,PASS,
+2025-11-25 11:54:27,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-25 11:54:27,Vehicles Add,Upload Rent Price,PASS,
+2025-11-25 11:54:28,Vehicles Add,Select Transmission,PASS,
+2025-11-25 11:54:29,Vehicles Add,Select Body Type,PASS,
+2025-11-25 11:54:29,Vehicles Add,Upload Top Speed,PASS,
+2025-11-25 11:54:29,Vehicles Add,Upload Acceleration,PASS,
+2025-11-25 11:54:29,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-25 11:54:29,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-25 11:54:30,Vehicles Add,Fuel Type,PASS,
+2025-11-25 11:54:30,Vehicles Add,ADD Mileage,PASS,
+2025-11-25 11:54:30,Vehicles Add,Exterior Color,PASS,
+2025-11-25 11:54:30,Vehicles Add,Interior Color,PASS,
+2025-11-25 11:54:31,Vehicles Add,Add Number Plate,PASS,
+2025-11-25 11:54:31,Vehicles Add,Fitness Date,PASS,
+2025-11-25 11:54:31,Vehicles Add,ADD Horse Power,PASS,
+2025-11-25 11:54:32,Vehicles Add,Features,PASS,
+2025-11-25 11:54:32,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-25 11:54:32,Vehicles Add,Insurance Date,PASS,
+2025-11-25 11:54:32,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-25 11:54:33,Vehicles Add,Pre-Payment,PASS,
+2025-11-25 11:54:33,Vehicles Add,Submit Form,PASS,
+2025-11-25 11:54:48,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61852e8e5+80021]
+	GetHandleVerifier [0x0x7ff61852e940+80112]
+	(No symbol) [0x0x7ff6182b060f]
+	(No symbol) [0x0x7ff618308854]
+	(No symbol) [0x0x7ff618308b1c]
+	(No symbol) [0x0x7ff61835c927]
+	(No symbol) [0x0x7ff61833126f]
+	(No symbol) [0x0x7ff61835968a]
+	(No symbol) [0x0x7ff618331003]
+	(No symbol) [0x0x7ff6182f95d1]
+	(No symbol) [0x0x7ff6182fa3f3]
+	GetHandleVerifier [0x0x7ff6187edc7d+2960429]
+	GetHandleVerifier [0x0x7ff6187e7f3a+2936554]
+	GetHandleVerifier [0x0x7ff618808977+3070247]
+	GetHandleVerifier [0x0x7ff6185483ce+185214]
+	GetHandleVerifier [0x0x7ff61854fe1f+216527]
+	GetHandleVerifier [0x0x7ff618537b24+117460]
+	GetHandleVerifier [0x0x7ff618537cdf+117903]
+	GetHandleVerifier [0x0x7ff61851dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffb5f8a7374+20]
+	RtlUserThreadStart [0x0x7ffb60f9cc91+33]
+",
+2025-11-25 12:04:33,Vehicles Add,Open Website,PASS,
+2025-11-25 12:04:34,Vehicles Add,Login,PASS,
+2025-11-25 12:04:41,Vehicles Add,Navigate to Vehicles,PASS,
+2025-11-25 12:04:41,Vehicles Add,Upload Vehicles Image,PASS,
+2025-11-25 12:04:42,Vehicles Add,Upload Vehicles Thumb Image,PASS,
+2025-11-25 12:04:42,Vehicles Add,Upload Reg_Doc,PASS,
+2025-11-25 12:04:42,Vehicles Add,Upload Car Name,PASS,
+2025-11-25 12:04:43,Vehicles Add,Upload Car Name_AR,PASS,
+2025-11-25 12:04:43,Vehicles Add,Select Brand,PASS,
+2025-11-25 12:04:46,Vehicles Add,Select Model,PASS,
+2025-11-25 12:04:47,Vehicles Add,Select Variant,PASS,
+2025-11-25 12:04:47,Vehicles Add,Select Vehicle Condition,PASS,
+2025-11-25 12:04:47,Vehicles Add,Select Year,PASS,
+2025-11-25 12:04:48,Vehicles Add,Purchase Date,PASS,
+2025-11-25 12:04:48,Vehicles Add,Upload Purchase Price,PASS,
+2025-11-25 12:04:48,Vehicles Add,Upload Rent Price,PASS,
+2025-11-25 12:04:49,Vehicles Add,Select Transmission,PASS,
+2025-11-25 12:04:49,Vehicles Add,Select Body Type,PASS,
+2025-11-25 12:04:49,Vehicles Add,Upload Top Speed,PASS,
+2025-11-25 12:04:49,Vehicles Add,Upload Acceleration,PASS,
+2025-11-25 12:04:49,Vehicles Add,Select Number OF Seats,PASS,
+2025-11-25 12:04:50,Vehicles Add,Fuel Tank Range,PASS,
+2025-11-25 12:04:50,Vehicles Add,Fuel Type,PASS,
+2025-11-25 12:04:50,Vehicles Add,ADD Mileage,PASS,
+2025-11-25 12:04:50,Vehicles Add,Exterior Color,PASS,
+2025-11-25 12:04:50,Vehicles Add,Interior Color,PASS,
+2025-11-25 12:04:51,Vehicles Add,Add Number Plate,PASS,
+2025-11-25 12:04:51,Vehicles Add,Fitness Date,PASS,
+2025-11-25 12:04:51,Vehicles Add,ADD Horse Power,PASS,
+2025-11-25 12:04:52,Vehicles Add,Features,PASS,
+2025-11-25 12:04:52,Vehicles Add,ADD Insurer Name,PASS,
+2025-11-25 12:04:52,Vehicles Add,Insurance Date,PASS,
+2025-11-25 12:04:53,Vehicles Add,Insurance Expiry Date,PASS,
+2025-11-25 12:04:53,Vehicles Add,Pre-Payment,PASS,
+2025-11-25 12:04:53,Vehicles Add,Submit Form,PASS,
+2025-11-25 12:05:08,Toast Message,FAIL,"No toast captured: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff61852e8e5+80021]
+	GetHandleVerifier [0x0x7ff61852e940+80112]
+	(No symbol) [0x0x7ff6182b060f]
+	(No symbol) [0x0x7ff618308854]
+	(No symbol) [0x0x7ff618308b1c]
+	(No symbol) [0x0x7ff61835c927]
+	(No symbol) [0x0x7ff61833126f]
+	(No symbol) [0x0x7ff61835968a]
+	(No symbol) [0x0x7ff618331003]
+	(No symbol) [0x0x7ff6182f95d1]
+	(No symbol) [0x0x7ff6182fa3f3]
+	GetHandleVerifier [0x0x7ff6187edc7d+2960429]
+	GetHandleVerifier [0x0x7ff6187e7f3a+2936554]
+	GetHandleVerifier [0x0x7ff618808977+3070247]
+	GetHandleVerifier [0x0x7ff6185483ce+185214]
+	GetHandleVerifier [0x0x7ff61854fe1f+216527]
+	GetHandleVerifier [0x0x7ff618537b24+117460]
+	GetHandleVerifier [0x0x7ff618537cdf+117903]
+	GetHandleVerifier [0x0x7ff61851dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffb5f8a7374+20]
+	RtlUserThreadStart [0x0x7ffb60f9cc91+33]
+",
