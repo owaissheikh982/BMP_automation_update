@@ -48,7 +48,7 @@ else:
         # "Land Rover Defender P300",
         # "Suzuki Swift GLX",
         # "Suzuki Vitara GL+"
-        "Mercedes-Benz C",
+        # "Mercedes-Benz C",
         "Vauxhall Corsa SE"
     ]
 selected_cars = random.choice(random_cars)

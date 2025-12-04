@@ -322,7 +322,7 @@ class LoginTest(unittest.TestCase):
             wait.until(EC.element_to_be_clickable(
                 (By.XPATH, constent.FORM_SUBMIT))).click()
             log_step(test_case, "Submit Form", "PASS")
-            time.sleep(10)    
+            time.sleep(10   )    
 
             try:
                 toast_element = WebDriverWait(driver, 5).until(

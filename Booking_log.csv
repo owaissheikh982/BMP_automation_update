@@ -5199,3 +5199,69 @@ Stacktrace:
 2025-11-25 14:12:44,Booking Creation,Confirm Booking,PASS,
 2025-11-25 14:12:44,Booking Creation,Submit Form,PASS,
 2025-11-25 14:12:46,Toast Message,PASS,Record Saved,
+2025-11-25 18:46:01,Booking Creation,Open Website,PASS,
+2025-11-25 18:46:03,Booking Creation,Login,PASS,
+2025-11-25 18:46:08,Booking Creation,Navigate to Booking,PASS,
+2025-11-25 18:46:09,Booking Creation,Upload Profile Image,PASS,
+2025-11-25 18:46:10,Booking Creation,Upload Register Document,PASS,
+2025-11-25 18:46:10,Booking Creation,Upload First Name,PASS,
+2025-11-25 18:46:11,Booking Creation,Upload Last Name,PASS,
+2025-11-25 18:46:12,Booking Creation,Upload Contact Number,PASS,
+2025-11-25 18:46:12,Booking Creation,Upload Email Address,PASS,
+2025-11-25 18:46:13,Booking Creation,Upload Driving License,PASS,
+2025-11-25 18:46:15,Booking Creation,Enter Driving Lic Expiry,PASS,
+2025-11-25 18:46:16,Booking Creation,Upload Passport ID,PASS,
+2025-11-25 18:46:18,Booking Creation,Enter Passport ID Expiry,PASS,
+2025-11-25 18:46:19,Booking Creation,Upload Visa Number,PASS,
+2025-11-25 18:46:19,Booking Creation,Enter Visa Expiry,PASS,
+2025-11-25 18:46:20,Booking Creation,Select Nationality,PASS,
+2025-11-25 18:46:21,Booking Creation,Upload Address line 1,PASS,
+2025-11-25 18:46:22,Booking Creation,Upload Address line 2,PASS,
+2025-11-25 18:46:22,Booking Creation,Upload Postal code,PASS,
+2025-11-25 18:46:22,Booking Creation,Select Vehicle,PASS,
+2025-11-25 18:46:22,Booking Creation,Select Vehicle,PASS,
+2025-11-25 18:46:23,Booking Creation,Fuel Value,PASS,
+2025-11-25 18:46:23,Booking Creation,Exterior Condition,PASS,
+2025-11-25 18:46:24,Booking Creation,Interior Condition,PASS,
+2025-11-25 18:46:24,Booking Creation,Tyre Condition,PASS,
+2025-11-25 18:46:25,Booking Creation,Spare Tyre,PASS,
+2025-11-25 18:46:25,Booking Creation,ToolKit,PASS,
+2025-11-25 18:46:26,Booking Creation,Mileage At Pickup,PASS,
+2025-11-25 18:46:26,Booking Creation,Mileage limit,PASS,
+2025-11-25 18:46:36,Booking Creation,Pickup Time,FAIL,"Traceback (most recent call last):
+  File ""d:\OWAIS\Project_automation\BMP_automation_update\booking_customer_code.py"", line 290, in test_login_valid
+    wait.until(EC.element_to_be_clickable((By.XPATH, ""//button[text()='27']""))).click()
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\Awais\AppData\Local\Programs\Python\Python313\Lib\site-packages\selenium\webdriver\support\wait.py"", line 138, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7ff7203ae8e5+80021]
+	GetHandleVerifier [0x0x7ff7203ae940+80112]
+	(No symbol) [0x0x7ff72013060f]
+	(No symbol) [0x0x7ff720188854]
+	(No symbol) [0x0x7ff720188b1c]
+	(No symbol) [0x0x7ff7201dc927]
+	(No symbol) [0x0x7ff7201b126f]
+	(No symbol) [0x0x7ff7201d968a]
+	(No symbol) [0x0x7ff7201b1003]
+	(No symbol) [0x0x7ff7201795d1]
+	(No symbol) [0x0x7ff72017a3f3]
+	GetHandleVerifier [0x0x7ff72066dc7d+2960429]
+	GetHandleVerifier [0x0x7ff720667f3a+2936554]
+	GetHandleVerifier [0x0x7ff720688977+3070247]
+	GetHandleVerifier [0x0x7ff7203c83ce+185214]
+	GetHandleVerifier [0x0x7ff7203cfe1f+216527]
+	GetHandleVerifier [0x0x7ff7203b7b24+117460]
+	GetHandleVerifier [0x0x7ff7203b7cdf+117903]
+	GetHandleVerifier [0x0x7ff72039dbb8+11112]
+	BaseThreadInitThunk [0x0x7ffb5f8a7374+20]
+	RtlUserThreadStart [0x0x7ffb60f9cc91+33]
+
+"
+2025-11-25 18:46:39,Booking Creation,Return Time,PASS,
+2025-11-25 18:46:40,Booking Creation,Enter PickUp Location,PASS,
+2025-11-25 18:46:40,Booking Creation,Enter dropOff Location,PASS,
+2025-11-25 18:46:40,Booking Creation,Confirm Booking,PASS,
+2025-11-25 18:46:41,Booking Creation,Submit Form,PASS,
+2025-11-25 18:46:42,Toast Message,PASS,,
